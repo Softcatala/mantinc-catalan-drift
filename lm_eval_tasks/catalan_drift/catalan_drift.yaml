@@ -5,9 +5,6 @@ tag:
   - catalan_drift
 dataset_path: json
 dataset_name: null
-dataset_kwargs:
-  data_files:
-    test: data/lm_eval/catalan_drift.jsonl
 output_type: generate_until
 test_split: test
 num_fewshot: 0

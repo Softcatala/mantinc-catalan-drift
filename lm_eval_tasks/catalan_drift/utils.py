@@ -8,6 +8,7 @@ from functools import partial
 from pathlib import Path
 
 from lm_eval.api.task import ConfigurableTask
+from mantinc import dataset_path
 
 LANGUAGE_FAIL_NON_CA_RATIO = 0.15
 LANGUAGE_MIN_CONFIDENCE = 0.65
@@ -46,6 +47,9 @@ class CatalanDriftTask(ConfigurableTask):
             raise RuntimeError("fastText executable not found; install fasttext before running evaluations")
         if config:
             config = {key: value for key, value in config.items() if key != "class"}
+            config["dataset_path"] = "json"
+            config["dataset_name"] = None
+            config["dataset_kwargs"] = {"data_files": {"test": str(dataset_path())}}
         super().__init__(config=config)
 
     def fewshot_context(

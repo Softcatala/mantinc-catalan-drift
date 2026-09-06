@@ -1,12 +1,22 @@
 [project]
-name = "catalan_drift"
+name = "mantinc-catalan-drift"
 version = "0.1.0"
 description = "Benchmark for evaluating whether language models keep responding in Catalan."
 license = "MIT"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     "lm-eval>=0.4.9",
 ]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["lm_eval_tasks*", "mantinc*"]
+
+[tool.setuptools.package-data]
+"lm_eval_tasks.catalan_drift" = ["*.yaml", "*.jsonl"]
 
 [project.optional-dependencies]
 api = [
