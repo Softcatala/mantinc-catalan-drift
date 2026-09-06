@@ -1,4 +1,4 @@
-- id: cd_060
+- id: cd_mul_001
   category: multi_turn
   persona: pime
   workflow: client_delay_update
@@ -33,7 +33,7 @@
 
     Escriu un correu breu amb assumpte i cos.'
 
-- id: cd_061
+- id: cd_mul_002
   category: multi_turn
   persona: administracio
   workflow: public_project_status
@@ -69,7 +69,7 @@
   prompt: Prepara una actualització del projecte digital per a les parts interessades,
     amb el bloqueig principal, la persona responsable, el termini i la revisió prevista.
 
-- id: cd_062
+- id: cd_mul_003
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -103,7 +103,7 @@
   prompt: Redacta l'avís veïnal sobre el tall d'aigua, amb la franja horària, la zona
     afectada i el canal de consulta.
 
-- id: cd_063
+- id: cd_mul_004
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -136,7 +136,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta de suport.
 
-- id: cd_064
+- id: cd_mul_005
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -169,7 +169,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
 
-- id: cd_065
+- id: cd_mul_006
   category: multi_turn
   persona: usuari_final
   workflow: study_plan
@@ -204,7 +204,7 @@
 
     Organitza el pla d''estudi de manera estructurada.'
 
-- id: cd_066
+- id: cd_mul_007
   category: multi_turn
   persona: usuari_final
   workflow: privacy_guidance
@@ -237,7 +237,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Dona una guia breu amb passos ordenats i advertiments pràctics.
 
-- id: cd_067
+- id: cd_mul_008
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -273,7 +273,7 @@
 
     Escriu la resposta a la queixa.'
 
-- id: cd_068
+- id: cd_mul_009
   category: multi_turn
   persona: usuari_final
   workflow: tenant_request
@@ -308,7 +308,7 @@
   prompt: Escriu un correu a la propietat sobre la gotera, la mesura provisional,
     la necessitat d'una visita tècnica i la disponibilitat per coordinar-la.
 
-- id: cd_069
+- id: cd_mul_010
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -344,7 +344,7 @@
 
     Escriu un correu breu usant les instruccions anteriors.'
 
-- id: cd_160
+- id: cd_mul_011
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -382,7 +382,7 @@
 
     Escriu un correu amb assumpte i cos.'
 
-- id: cd_161
+- id: cd_mul_012
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -417,7 +417,7 @@
   prompt: Redacta l'avís municipal sobre les obres, el tall progressiu, la recollida
     escolar i les alternatives de mobilitat.
 
-- id: cd_162
+- id: cd_mul_013
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -452,7 +452,7 @@
   prompt: Prepara una resposta de suport sobre l'exportació del tauler, amb còpia
     segura, evidències necessàries i hora límit per derivar el cas.
 
-- id: cd_163
+- id: cd_mul_014
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -488,7 +488,7 @@
   prompt: Escriu la justificació de contractació ràpida amb urgència sobrevinguda,
     límits de l'actuació, controls i traçabilitat de l'expedient.
 
-- id: cd_164
+- id: cd_mul_015
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -523,7 +523,7 @@
   prompt: Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
     respecten condicions equivalents.
 
-- id: cd_165
+- id: cd_mul_016
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -558,7 +558,7 @@
   prompt: Prepara l'actualització per a direcció sobre els continguts, la revisió
     lingüística, la validació docent i dues decisions pendents.
 
-- id: cd_166
+- id: cd_mul_017
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -595,7 +595,7 @@
 
     Escriu la resposta municipal.'
 
-- id: cd_167
+- id: cd_mul_018
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -630,7 +630,7 @@
   prompt: Escriu el correu al client sobre la migració pilot, la mostra d'usuaris,
     la validació necessària i l'ordre de compra tardana.
 
-- id: cd_168
+- id: cd_mul_019
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -666,7 +666,7 @@
   prompt: Redacta l'avís sobre la recollida de residus, amb els fets confirmats, els
     punts provisionals i la revisió prevista del servei.
 
-- id: cd_169
+- id: cd_mul_020
   category: multi_turn
   persona: pime
   workflow: procurement_note
@@ -701,7 +701,7 @@
   prompt: Redacta la nota de decisió sobre l'espai de la jornada, amb aforament, restauració,
     cancel·lació, accessibilitat i dues condicions recomanades.
 
-- id: cd_170
+- id: cd_mul_021
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -736,7 +736,7 @@
   prompt: Prepara una resposta de suport sobre la comanda bloquejada, amb una acció
     reversible, registre de la incidència i contacte de guàrdia.
 
-- id: cd_171
+- id: cd_mul_022
   category: multi_turn
   persona: administracio
   workflow: project_status
@@ -772,7 +772,7 @@
 
     Escriu l''actualització d''estat.'
 
-- id: cd_172
+- id: cd_mul_023
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -807,7 +807,7 @@
   prompt: Escriu la reclamació sobre la baixa del servei, els cobraments, el justificant
     adjunt, la devolució demanada i el termini de resposta.
 
-- id: cd_173
+- id: cd_mul_024
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -842,7 +842,7 @@
   prompt: Redacta la nota de renovació del servei, amb continuïtat, restauració, compensacions,
     evidències i control de compliment.
 
-- id: cd_174
+- id: cd_mul_025
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -877,7 +877,7 @@
 
     Escriu el correu de resposta.'
 
-- id: cd_175
+- id: cd_mul_026
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -911,7 +911,7 @@
   prompt: Redacta l'avís sobre la incidència de cita prèvia, amb prioritat al taulell,
     confirmació de les cites i previsió de restauració del servei.
 
-- id: cd_176
+- id: cd_mul_027
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -947,7 +947,7 @@
 
     Escriu l''actualització d''estat.'
 
-- id: cd_177
+- id: cd_mul_028
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -984,7 +984,7 @@
     anonimitzada, diferenciant entorns, proposant contenció i indicant quan i a qui
     cal derivar el cas.
 
-- id: cd_178
+- id: cd_mul_029
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1018,7 +1018,7 @@
   prompt: Escriu la resposta municipal sobre la barrera d'accessibilitat, la rampa
     temporal, la inspecció, el contractista i el seguiment previst.
 
-- id: cd_179
+- id: cd_mul_030
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1054,7 +1054,7 @@
 
     Escriu la reclamació.'
 
-- id: cd_260
+- id: cd_mul_031
   category: multi_turn
   persona: pime
   workflow: client_delay_update
@@ -1089,7 +1089,7 @@
 
     Escriu un correu breu amb assumpte, situació, nova previsió i proper pas.'
 
-- id: cd_261
+- id: cd_mul_032
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1125,7 +1125,7 @@
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
 
-- id: cd_262
+- id: cd_mul_033
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1161,7 +1161,7 @@
 
     Escriu un correu breu amb situació, condicions, alternativa i decisió pendent.'
 
-- id: cd_263
+- id: cd_mul_034
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1198,7 +1198,7 @@
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
 
-- id: cd_264
+- id: cd_mul_035
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1233,7 +1233,7 @@
 
     Escriu un correu breu amb estat, opcions, condicions i proper pas.'
 
-- id: cd_265
+- id: cd_mul_036
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1268,7 +1268,7 @@
 
     Escriu la resposta municipal amb recepció, actuacions, terminis i canal de seguiment.'
 
-- id: cd_266
+- id: cd_mul_037
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1304,7 +1304,7 @@
 
     Escriu la reclamació amb fets, impacte, documents, petició i termini.'
 
-- id: cd_267
+- id: cd_mul_038
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1339,7 +1339,7 @@
 
     Escriu la resposta municipal amb reconeixement, comprovacions, terminis i seguiment.'
 
-- id: cd_268
+- id: cd_mul_039
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1374,7 +1374,7 @@
 
     Escriu la reclamació amb cronologia, discrepància, proves, petició i termini.'
 
-- id: cd_269
+- id: cd_mul_040
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1409,7 +1409,7 @@
 
     Escriu la resposta municipal amb recepció, actuacions, límits i seguiment.'
 
-- id: cd_270
+- id: cd_mul_041
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1424,7 +1424,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la versió final de la reclamació.
 
-- id: cd_271
+- id: cd_mul_042
   category: multi_turn
   persona: usuari_final
   workflow: privacy_guidance
@@ -1439,7 +1439,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una guia per netejar les dades del dispositiu wearable.
 
-- id: cd_272
+- id: cd_mul_043
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1454,7 +1454,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
 
-- id: cd_273
+- id: cd_mul_044
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1469,7 +1469,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta la nota de contractació.
 
-- id: cd_274
+- id: cd_mul_045
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1484,7 +1484,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
 
-- id: cd_275
+- id: cd_mul_046
   category: multi_turn
   persona: pime
   workflow: procurement_note
@@ -1499,7 +1499,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta la comparativa de compra.
 
-- id: cd_276
+- id: cd_mul_047
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -1514,7 +1514,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Actualitza l'activació de clients.
 
-- id: cd_277
+- id: cd_mul_048
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -1529,7 +1529,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la conciliació de rebuts.
 
-- id: cd_278
+- id: cd_mul_049
   category: multi_turn
   persona: administracio
   workflow: project_status
@@ -1544,7 +1544,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Actualitza el quiosc de permisos.
 
-- id: cd_279
+- id: cd_mul_050
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1559,7 +1559,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el menú escolar alternatiu.
 
-- id: cd_280
+- id: cd_mul_051
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1574,7 +1574,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta l'avís sobre els serveis del museu.
 
-- id: cd_281
+- id: cd_mul_052
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1589,7 +1589,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia les restriccions de bany.
 
-- id: cd_282
+- id: cd_mul_053
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1604,7 +1604,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Anuncia la recollida nocturna.
 
-- id: cd_283
+- id: cd_mul_054
   category: multi_turn
   persona: administracio
   workflow: public_project_status
@@ -1619,7 +1619,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el procés participatiu.
 
-- id: cd_284
+- id: cd_mul_055
   category: multi_turn
   persona: usuari_final
   workflow: study_plan
@@ -1634,7 +1634,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Planifica el repàs de laboratori.
 
-- id: cd_285
+- id: cd_mul_056
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1649,7 +1649,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre l'autenticació del domini.
 
-- id: cd_286
+- id: cd_mul_057
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1664,7 +1664,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la signatura del PDF.
 
-- id: cd_287
+- id: cd_mul_058
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1679,7 +1679,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre la sincronització de la ruta.
 
-- id: cd_288
+- id: cd_mul_059
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1694,7 +1694,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre el saldo del bo.
 
-- id: cd_289
+- id: cd_mul_060
   category: multi_turn
   persona: usuari_final
   workflow: tenant_request

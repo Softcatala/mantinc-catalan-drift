@@ -32,7 +32,7 @@ Design decisions, dataset taxonomy, and scorer calibration are documented in
 
 # Example of case
 
-Exemple de cas real (`cd_h20_177`):
+Exemple de cas real (`cd_adv_029`):
 
 **Usuari:** Hem d'ajudar un client que té problemes amb escàners de magatzem.
 

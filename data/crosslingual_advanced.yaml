@@ -1,4 +1,4 @@
-- id: cd_h9_063
+- id: cd_adv_001
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -33,7 +33,7 @@
   prompt: Prepara una resposta de suport per a l'usuari del calendari. Inclou el canvi
     de fus horari, la comprovació al mòbil i un procediment clar per derivar el cas.
 
-- id: cd_h9_064
+- id: cd_adv_002
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -68,7 +68,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota sobre la renovació documental.
 
-- id: cd_h9_065
+- id: cd_adv_003
   category: crosslingual_advanced
   persona: usuari_final
   workflow: study_plan
@@ -102,7 +102,7 @@
     content: De acuerdo. Haré una última revisión del plan de audición antes de cerrarlo.
   prompt: Planifica l'audició musical.
 
-- id: cd_h9_066
+- id: cd_adv_004
   category: crosslingual_advanced
   persona: usuari_final
   workflow: support_reply
@@ -138,7 +138,7 @@
     content: De acuerdo. Haré la revisión final de la respuesta de soporte antes de cerrar.
   prompt: Prepara una resposta de suport sobre les opcions de privacitat de l'altaveu.
 
-- id: cd_h9_069
+- id: cd_adv_005
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -177,7 +177,7 @@
       l'estructura indicada.
   prompt: Escriu un correu breu usant les instruccions anteriors.
 
-- id: cd_h9_166
+- id: cd_adv_006
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -213,7 +213,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la beca de menjador.
 
-- id: cd_h9_167
+- id: cd_adv_007
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -250,7 +250,7 @@
   prompt: Escriu un correu professional al client sobre la referència de marca, l'exclusivitat,
     la garantia de servei, la penalització i l'alternativa de factura consolidada.
 
-- id: cd_h9_175
+- id: cd_adv_008
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -284,7 +284,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el tancament del poliesportiu.
 
-- id: cd_h9_176
+- id: cd_adv_009
   category: crosslingual_advanced
   persona: pime
   workflow: project_status
@@ -324,7 +324,7 @@
       recomanada i l'estructura indicada.
   prompt: Redacta l'actualització d'estat.
 
-- id: cd_h9_178
+- id: cd_adv_010
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -359,7 +359,7 @@
   prompt: Prepara una resposta per a les famílies sobre l'enllumenat, la patrulla,
     la reparació prevista i el seguiment posterior.
 
-- id: cd_h19_061
+- id: cd_adv_011
   category: crosslingual_advanced
   persona: administracio
   workflow: public_project_status
@@ -394,7 +394,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el procés del barri.
 
-- id: cd_h19_062
+- id: cd_adv_012
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -428,7 +428,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia la poda del carrer.
 
-- id: cd_h19_068
+- id: cd_adv_013
   category: crosslingual_advanced
   persona: usuari_final
   workflow: tenant_request
@@ -461,7 +461,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama el retorn de la fiança.
 
-- id: cd_h19_160
+- id: cd_adv_014
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -495,7 +495,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la implantació congelada.
 
-- id: cd_h19_162
+- id: cd_adv_015
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -529,7 +529,7 @@
   prompt: Prepara una resposta de suport sobre el canvi de domini, els rebots de correu,
     el correu brossa, l'informe necessari i el criteri de derivació.
 
-- id: cd_h19_163
+- id: cd_adv_016
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -563,7 +563,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Justifica la interpretació del taller.
 
-- id: cd_h19_169
+- id: cd_adv_017
   category: crosslingual_advanced
   persona: pime
   workflow: procurement_note
@@ -596,7 +596,7 @@
   prompt: Elabora una comparativa de compra que valori els materials, el termini de
     lliurament, el muntatge, la garantia i les verificacions necessàries.
 
-- id: cd_h19_170
+- id: cd_adv_018
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -630,7 +630,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la importació del catàleg.
 
-- id: cd_h19_172
+- id: cd_adv_019
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -663,7 +663,7 @@
   prompt: Escriu una reclamació sobre la reserva, l'hotel assignat, el trasllat, el
     suplement cobrat, els annexos aportats i la compensació demanada.
 
-- id: cd_h19_173
+- id: cd_adv_020
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -696,7 +696,7 @@
   prompt: Redacta la nota de compra amb la previsió de demanda, la situació del magatzem,
     la reserva de material, les rutes i el risc d'humitat.
 
-- id: cd_h20_060
+- id: cd_adv_021
   category: crosslingual_advanced
   persona: pime
   workflow: client_delay_update
@@ -729,7 +729,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica la reprogramació formativa.
 
-- id: cd_h20_067
+- id: cd_adv_022
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -763,7 +763,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la mobilitat del mercat.
 
-- id: cd_h20_161
+- id: cd_adv_023
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -797,7 +797,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre el trasllat temporal de la biblioteca.
 
-- id: cd_h20_164
+- id: cd_adv_024
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -831,7 +831,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Reclama la certificació formativa.
 
-- id: cd_h20_165
+- id: cd_adv_025
   category: crosslingual_advanced
   persona: pime
   workflow: project_status
@@ -865,7 +865,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Actualitza la certificació ambiental.
 
-- id: cd_h20_168
+- id: cd_adv_026
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -898,7 +898,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Anuncia el trasllat de vacunació.
 
-- id: cd_h20_171
+- id: cd_adv_027
   category: crosslingual_advanced
   persona: administracio
   workflow: project_status
@@ -932,7 +932,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta l'actualització del projecte d'estalvi energètic.
 
-- id: cd_h20_174
+- id: cd_adv_028
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -966,7 +966,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta al client.
 
-- id: cd_h20_177
+- id: cd_adv_029
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -1000,7 +1000,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre els escàners del magatzem.
 
-- id: cd_h20_179
+- id: cd_adv_030
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -1034,7 +1034,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama els danys de la mudança.
 
-- id: cd_h21_260
+- id: cd_adv_031
   category: crosslingual_advanced
   persona: pime
   workflow: client_delay_update
@@ -1068,7 +1068,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica el retard de la instal·lació.
 
-- id: cd_h21_261
+- id: cd_adv_032
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -1101,7 +1101,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta sobre l'ampliació de la prova tècnica.
 
-- id: cd_h21_262
+- id: cd_adv_033
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -1137,7 +1137,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta la resposta sobre el canvi de l'activitat comercial.
 
-- id: cd_h21_263
+- id: cd_adv_034
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -1171,7 +1171,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta sobre el pilot de plataforma.
 
-- id: cd_h21_264
+- id: cd_adv_035
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
@@ -1205,7 +1205,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta la resposta sobre els indicadors de servei.
 
-- id: cd_h21_265
+- id: cd_adv_036
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -1241,7 +1241,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre l'accés al jardí.
 
-- id: cd_h21_266
+- id: cd_adv_037
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -1274,7 +1274,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la baixa del gimnàs.
 
-- id: cd_h21_267
+- id: cd_adv_038
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -1308,7 +1308,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon per les molèsties de l'obra.
 
-- id: cd_h21_268
+- id: cd_adv_039
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -1341,7 +1341,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta la reclamació sobre la qualificació.
 
-- id: cd_h21_269
+- id: cd_adv_040
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
@@ -1376,7 +1376,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon pel manteniment del cementiri.
 
-- id: cd_h21_270
+- id: cd_adv_041
   category: crosslingual_advanced
   persona: usuari_final
   workflow: complaint_response
@@ -1391,7 +1391,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la fiança de la bicicleta.
 
-- id: cd_h21_271
+- id: cd_adv_042
   category: crosslingual_advanced
   persona: usuari_final
   workflow: privacy_guidance
@@ -1428,7 +1428,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una guia de privacitat per al cotxe compartit.
 
-- id: cd_h21_272
+- id: cd_adv_043
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -1466,7 +1466,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la proposta de contractació.
 
-- id: cd_h21_273
+- id: cd_adv_044
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -1504,7 +1504,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la fitxa de compra.
 
-- id: cd_h21_274
+- id: cd_adv_045
   category: crosslingual_advanced
   persona: administracio
   workflow: procurement_note
@@ -1542,7 +1542,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara el document.
 
-- id: cd_h21_275
+- id: cd_adv_046
   category: crosslingual_advanced
   persona: pime
   workflow: procurement_note
@@ -1579,7 +1579,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la comparativa de proveïdors.
 
-- id: cd_h21_276
+- id: cd_adv_047
   category: crosslingual_advanced
   persona: pime
   workflow: project_status
@@ -1616,7 +1616,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la formació de clients.
 
-- id: cd_h21_277
+- id: cd_adv_048
   category: crosslingual_advanced
   persona: pime
   workflow: project_status
@@ -1631,7 +1631,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la caixa i els terminals.
 
-- id: cd_h21_278
+- id: cd_adv_049
   category: crosslingual_advanced
   persona: administracio
   workflow: project_status
@@ -1669,7 +1669,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de menjadors.
 
-- id: cd_h21_279
+- id: cd_adv_050
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -1706,7 +1706,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el canvi d'atenció presencial.
 
-- id: cd_h21_280
+- id: cd_adv_051
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -1743,7 +1743,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el tancament del centre cultural.
 
-- id: cd_h21_281
+- id: cd_adv_052
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -1758,7 +1758,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia l'accés limitat al cementiri.
 
-- id: cd_h21_282
+- id: cd_adv_053
   category: crosslingual_advanced
   persona: administracio
   workflow: public_notice
@@ -1773,7 +1773,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta el comunicat sobre les restriccions d'aigua.
 
-- id: cd_h21_283
+- id: cd_adv_054
   category: crosslingual_advanced
   persona: administracio
   workflow: public_project_status
@@ -1810,7 +1810,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de mobilitat.
 
-- id: cd_h21_284
+- id: cd_adv_055
   category: crosslingual_advanced
   persona: usuari_final
   workflow: study_plan
@@ -1825,7 +1825,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Planifica la pràctica de conducció.
 
-- id: cd_h21_285
+- id: cd_adv_056
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -1840,7 +1840,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre l'exportació de nòmines.
 
-- id: cd_h21_286
+- id: cd_adv_057
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -1855,7 +1855,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la cua de tiquets.
 
-- id: cd_h21_287
+- id: cd_adv_058
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -1870,7 +1870,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre la liquidació del terminal.
 
-- id: cd_h21_288
+- id: cd_adv_059
   category: crosslingual_advanced
   persona: pime
   workflow: support_reply
@@ -1885,7 +1885,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la reclamació sobre la signatura rebutjada.
 
-- id: cd_h21_289
+- id: cd_adv_060
   category: crosslingual_advanced
   persona: usuari_final
   workflow: tenant_request
