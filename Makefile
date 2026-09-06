@@ -15,7 +15,7 @@ EVAL_MODELS ?= \
 	Ministral-3-8B-Instruct-2512-Q4_K_M \
 	ALIA-7b-fc-2607-Q4_0 \
 	google_gemma-4-26B-A4B-it-Q4_K_M \
-	google_gemma-3-12b-it-Q4_K_M \
+	gemma-3-12b-it-Q4_K_M \
 	google_gemma-4-E4B-it-Q4_K_M
 OPENAI_MODELS ?= gpt-5.6
 LOCAL_OPENAI_BASE_URL ?= http://localhost:9090/v1/chat/completions
