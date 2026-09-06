@@ -9,19 +9,17 @@ OUT_DIR ?= $(MODEL_OUT_DIR)/lm_eval
 EVAL_TIMELINE ?= outputs/eval_timeline.tsv
 PROMPTS ?= data/prompts_monolingual.yaml data/prompts_crosslingual_basic.yaml data/prompts_multi_turn.yaml data/prompts_crosslingual_advanced.yaml data/prompts_rag_context.yaml
 EXPORT ?= data/lm_eval/catalan_drift.jsonl
-EVAL_RUNS ?= gpt-5.6 gemma-4-12b-it-Q4_K_M Ministral-3-8B-Instruct-2512-Q4_K_M
+EVAL_RUNS ?= gpt-5.6 Ministral-3-8B-Instruct-2512-Q4_K_M
 CLOUD_EVAL_TARGETS ?= eval-gpt56
-LOCAL_EVAL_TARGETS ?= eval-gemma4-12b eval-ministral3-8b
+LOCAL_EVAL_TARGETS ?= eval-ministral3-8b
 AI_LOCAL_MODELS ?= \
 	Muse-Glimmer-30B-UD-Q4_K_XL \
 	google_gemma-4-26B-A4B-it-Q4_K_M \
 	google_gemma-3-27b-it-Q4_K_M \
 	google_gemma-3-12b-it-Q4_K_M \
 	mistralai_Mistral-Small-3.2-24B-Instruct-2506-Q4_K_M \
-	gemma-4-12b-it-Q4_K_M \
 	Meta-Llama-3.1-8B-Instruct-Q4_K_M \
 	google_gemma-4-E4B-it-Q4_K_M \
-	Ministral-3-14B-Instruct-2512-Q4_K_M \
 	phi-4-Q4_K_M \
 	EuroLLM-9B-Instruct-Q4_K_M \
 	google_gemma-3-4b-it-Q4_K_M \
@@ -50,15 +48,16 @@ SKIP_EXPORT ?=
 LIMIT ?=
 EVAL_EXPORT_PREREQ := $(if $(SKIP_EXPORT),,export-lm-eval)
 HF_DATASET_REPO ?= softcatala/mantinc-catalan-drift
-HF_DATASET_FILES ?= data/lm_eval/catalan_drift.jsonl
+HF_DATASET_METADATA ?= data/lm_eval/catalan_drift.metadata.yaml
+HF_DATASET_FILES ?= data/lm_eval/catalan_drift.jsonl $(HF_DATASET_METADATA)
 VERSION ?=
 
 ifneq (,$(filter publish-dataset,$(MAKECMDGOALS)))
 ifeq (,$(VERSION))
-$(error Set VERSION=vX (e.g. VERSION=v1.1))
+$(error Set VERSION=X.Y.Z (e.g. VERSION=1.1.0))
 endif
-ifeq (,$(shell printf '%s' '$(VERSION)' | grep -E '^v[0-9]+(\.[0-9]+)*$$'))
-$(error VERSION must match vX format (e.g. v1, v1.1); got: $(VERSION))
+ifeq (,$(shell printf '%s' '$(VERSION)' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$$'))
+$(error VERSION must match X.Y.Z format (e.g. 1.1.0); got: $(VERSION))
 endif
 endif
 
@@ -137,21 +136,39 @@ all_ai_local_models: $(EVAL_EXPORT_PREREQ)
 eval-gpt56: $(EVAL_EXPORT_PREREQ)
 	$(MAKE) eval-one LM_EVAL_MODEL=openai-chat-completions MODEL_ARGS="model=gpt-5.6,num_concurrent=4" DISPLAY_MODEL=gpt-5.6 RUN_NAME=gpt-5.6 GEN_KWARGS='$(GPT_GEN_KWARGS)'
 
-eval-gemma4-12b:
-	$(MAKE) eval-local-openai DISPLAY_MODEL=gemma-4-12b-it-Q4_K_M LOCAL_NUM_CONCURRENT=2 GEN_KWARGS='$(LOCAL_GEN_KWARGS)'
-
 eval-ministral3-8b:
 	$(MAKE) eval-local-openai DISPLAY_MODEL=Ministral-3-8B-Instruct-2512-Q4_K_M LOCAL_NUM_CONCURRENT=2 GEN_KWARGS='$(LOCAL_GEN_KWARGS)'
 eval-qwen3-14b:
 	$(MAKE) eval-local-openai DISPLAY_MODEL=Qwen_Qwen3-14B-Q4_K_M LOCAL_NUM_CONCURRENT=2
 
-publish-dataset: export-lm-eval
+publish-dataset:
+	@test -z "$$(git status --porcelain)" || { \
+		echo "Working tree must be clean before preparing a release."; \
+		git status --short; \
+		exit 2; \
+	}
+	@git show-ref --verify --quiet "refs/tags/$(VERSION)" && { echo "Git tag already exists: $(VERSION)"; exit 2; } || status=$$?; \
+		test "$${status:-0}" -eq 1
+	$(MAKE) export-lm-eval
+	@checksum=$$(sha256sum "$(EXPORT)" | cut -d ' ' -f 1); \
+		printf 'version: "%s"\nfile: "%s"\nchecksum_sha256: "%s"\ncreated: "%s"\n' \
+		"$(VERSION)" "$$(basename "$(EXPORT)")" "$$checksum" "$$(date --iso-8601=seconds)" > "$(HF_DATASET_METADATA)"
 	@for f in $(HF_DATASET_FILES); do \
 		test -f "$$f" || { echo "Missing file: $$f"; exit 2; }; \
 	done
+	@git status --short -- $(HF_DATASET_FILES)
+	@git diff -- $(HF_DATASET_FILES)
+	@printf 'Create Git commit "Release $(VERSION)" and continue publishing? [y/N] '; \
+		read -r answer; \
+		case "$$answer" in y|Y) ;; *) echo "Release cancelled."; exit 2;; esac
+	git add -- $(HF_DATASET_FILES)
+	git commit -m "Release $(VERSION)"
+	@test -z "$$(git status --porcelain)" || { echo "Working tree is not clean after the release commit; stopping."; exit 2; }
 	@for f in $(HF_DATASET_FILES); do \
 		echo "Uploading $$f to $(HF_DATASET_REPO)"; \
 		hf upload --repo-type dataset "$(HF_DATASET_REPO)" "$$f" "$$f" --commit-message "Release $(VERSION)" || exit $$?; \
 	done
 	@echo "Tagging $(HF_DATASET_REPO) as $(VERSION)"
 	$(PYTHON) -c "from huggingface_hub import HfApi; HfApi().create_tag('$(HF_DATASET_REPO)', tag='$(VERSION)', repo_type='dataset')"
+	@echo "Tagging Git repository as $(VERSION)"
+	git tag "$(VERSION)"

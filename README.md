@@ -44,23 +44,23 @@ labels, firmware version and offline mode.
 
 **Assistent:** Tradueixo el fons tècnic a instruccions clares.
 
-**Usuari:** Standard template (ES/EN):
+**Usuari:** Standard template:
 
-DESTINATARIO / RECIPIENT:
+RECIPIENT:
 
-MOTIVO / REASON:
+REASON:
 
-ANTECEDENTES / BACKGROUND:
+BACKGROUND:
 
-DECISIÓN / DECISION:
+DECISION:
 
-PLAZO / DEADLINE:
+DEADLINE:
 
-**Assistent:** OK. I will do la revisión final antes de cerrar.
+**Assistent:** De acuerdo. Haré la revisión final antes de cerrar.
 
-**Prompt final:** Fes la resposta.
+**Prompt final:** Resol els escàners del magatzem.
 
-Tots els casos del benchmark són als fitxers de prompts de [`data/`](data/).
+All benchmark cases are in the prompt files under [`data/`](data/).
 
 
 ## Run
@@ -134,14 +134,12 @@ Results from the current 300-item evaluation run.
 
 | Model | Overall | Catalan token ratio |
 |---|---:|---:|
-| Gemma 4 26B A4B | **82.7% ±4.3** | 84.9% |
-| Ministral 3 8B | 82.3% ±4.3 | 72.0% |
+| Ministral 3 8B | **82.3% ±4.3** | 72.0% |
 | ALIA 7B | 81.3% ±4.4 | 71.8% |
-| Gemma 4 12B | 79.3% ±4.6 | 81.0% |
-| Ministral 3 14B | 78.0% ±4.7 | 80.3% |
+| Gemma 4 26B A4B | 81.0% ±4.4 | 84.2% |
 | Gemma 3 12B | 75.0% ±4.9 | 79.0% |
 | Gemma 4 E4B | 73.3% ±5.0 | 82.0% |
-| GPT-5.6 | 71.3% ±5.1 | 76.2% |
+| GPT-5.6 | 72.0% ±5.1 | 77.6% |
 
 `± N` is the Wilson 95% half-width at n=300. Rank differences smaller than
 the two rows' combined half-widths are inside the CIs and should not be read
@@ -154,11 +152,9 @@ under. They are not directly comparable across rows unless the configs match.
 
 | Model | Provider | Precision |
 |---|---|---|
-| Gemma 4 26B A4B | local OpenAI-compatible | Q4_K_M |
 | Ministral 3 8B | local OpenAI-compatible | Q4_K_M |
 | ALIA 7B | local OpenAI-compatible | Q4_0 |
-| Gemma 4 12B | local OpenAI-compatible | Q4_K_M |
-| Ministral 3 14B | local OpenAI-compatible | Q4_K_M |
+| Gemma 4 26B A4B | local OpenAI-compatible | Q4_K_M |
 | Gemma 3 12B | local OpenAI-compatible | Q4_K_M |
 | Gemma 4 E4B | local OpenAI-compatible | Q4_K_M |
 | GPT-5.6 | OpenAI Chat Completions | fp16 |
@@ -190,14 +186,12 @@ signal to read.
 
 | Model | Monolingual | Cross basic | Multi-turn | Cross advanced | RAG context |
 |---|---:|---:|---:|---:|---:|
-| Gemma 4 26B A4B | 100.0% ±3.0 | 86.7% ±8.6 | 58.3% ±12.1 | 80.0% ±10.0 | 88.3% ±8.2 |
 | Ministral 3 8B | 95.0% ±6.0 | 76.7% ±10.5 | 73.3% ±10.9 | 73.3% ±10.9 | 93.3% ±6.7 |
 | ALIA 7B | 100.0% ±3.0 | 68.3% ±11.5 | 76.7% ±10.5 | 76.7% ±10.5 | 85.0% ±9.0 |
-| Gemma 4 12B | 100.0% ±3.0 | 70.0% ±11.3 | 66.7% ±11.6 | 81.7% ±9.7 | 78.3% ±10.2 |
-| Ministral 3 14B | 91.7% ±7.2 | 71.7% ±11.1 | 63.3% ±11.8 | 70.0% ±11.3 | 93.3% ±6.7 |
+| Gemma 4 26B A4B | 100.0% ±3.0 | 83.3% ±9.4 | 55.0% ±12.2 | 81.7% ±9.7 | 85.0% ±9.0 |
 | Gemma 3 12B | 98.3% ±4.3 | 76.7% ±10.5 | 61.7% ±11.9 | 70.0% ±11.3 | 68.3% ±11.5 |
 | Gemma 4 E4B | 98.3% ±4.3 | 55.0% ±12.2 | 66.7% ±11.6 | 76.7% ±10.5 | 70.0% ±11.3 |
-| GPT-5.6 | 100.0% ±3.0 | 78.3% ±10.2 | 60.0% ±12.0 | 60.0% ±12.0 | 58.3% ±12.1 |
+| GPT-5.6 | 100.0% ±3.0 | 83.3% ±9.4 | 53.3% ±12.2 | 63.3% ±11.8 | 60.0% ±12.0 |
 
 For a finer diagnostic that cuts across categories, run
 `python3 scripts/pressure_pattern_report.py` — it slices the same 300 items

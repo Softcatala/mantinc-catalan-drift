@@ -111,7 +111,7 @@
   - role: user
     content: Tenim un usuari que no aconsegueix acabar l'alta al servei.
   - role: assistant
-    content: Podem respondre amb passos concrets i una via d'escalat.
+    content: Podem respondre amb passos concrets i un procediment per derivar el cas.
   - role: user
     content: The onboarding flow fails after a payment retry, creating a risk of customer
       churn. Use the support macro if needed.
@@ -442,7 +442,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre l'exportació del tauler, amb còpia
-    segura, evidències necessàries i hora límit per escalar el cas.
+    segura, evidències necessàries i hora límit per derivar el cas.
 - id: cd_163
   category: multi_turn
   persona: administracio
@@ -703,12 +703,12 @@
     content: Tenim un client amb una incidència tècnica urgent durant un període de
       moltes comandes.
   - role: assistant
-    content: Cal respondre amb passos segurs, recollida de dades i escalat si cal.
+    content: Cal respondre amb passos segurs, recollida de dades i derivació si cal.
   - role: user
     content: 'El cliente ha escrito: error intermitente, pedido bloqueado, reintento
       manual, registro duplicado y equipo de guardia.'
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -722,14 +722,14 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre la comanda bloquejada, amb una acció
     reversible, registre de la incidència i contacte de guàrdia.
 - id: cd_171
   category: multi_turn
   persona: administracio
   workflow: project_status
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -742,7 +742,7 @@
     content: The project office wrote about grant milestone, procurement delay, public
       dashboard, risk register and escalation path.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -756,7 +756,7 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-ne una versió per a càrrecs electes, amb síntesi i decisions concretes.
 
     Escriu l''actualització d''estat.'
@@ -777,7 +777,7 @@
     content: 'Tengo apuntado: permanencia encubierta, baja solicitada, cobro indebido,
       justificante adjunto y reclamación de consumo.'
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -791,14 +791,14 @@
 
       PRÓXIMO PASO / NEXT STEP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la reclamació sobre la baixa del servei, els cobraments, el justificant
     adjunt, la devolució demanada i el termini de resposta.
 - id: cd_173
   category: multi_turn
   persona: administracio
   workflow: procurement_note
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -811,7 +811,7 @@
     content: The technical team uses framework supplier, disaster recovery, service
       credit, evidence pack and compliance checkpoint.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla estándar (headers ES/EN):
 
@@ -825,7 +825,7 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de renovació del servei, amb continuïtat, restauració, compensacions,
     evidències i control de compliment.
 - id: cd_174
@@ -844,7 +844,7 @@
     content: El equipo de ventas propone sesiones por idioma, calendario intensivo,
       contrato puente, usuarios adicionales y validación del responsable de cuenta.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla estándar (headers ES/EN):
 
@@ -858,7 +858,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Redacta-ho amb dues opcions i una recomanació final.
 
     Escriu el correu de resposta.'
@@ -866,7 +866,7 @@
   category: multi_turn
   persona: administracio
   workflow: public_notice
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -878,7 +878,7 @@
     content: The operations note says appointment outage, walk-in desk, priority queue,
       confirmation email and service restoration.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Bilingual form (ES/EN headers):
 
@@ -892,7 +892,7 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre la incidència de cita prèvia, amb prioritat al taulell,
     confirmació de les cites i previsió de restauració del servei.
 - id: cd_176
@@ -912,7 +912,7 @@
     content: El responsable técnico habla de despliegue aplazado, deuda técnica, ventana
       de mantenimiento, validación de negocio y comité de riesgos.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Reusable form (bilingual headers):
 
@@ -926,7 +926,7 @@
 
       SEGUIMIENTO / FOLLOW-UP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Dona''m una versió executiva amb tres riscos i una decisió recomanada.
 
     Escriu l''actualització d''estat.'
@@ -934,7 +934,7 @@
   category: multi_turn
   persona: pime
   workflow: support_reply
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -948,7 +948,7 @@
     content: Their developer says webhook retry, payload mismatch, sandbox account,
       production token and rate limit.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -962,14 +962,15 @@
 
       TAREA / TASK:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre la integració, demanant una mostra
-    anonimitzada, diferenciant entorns, proposant contenció i indicant l'escalat.
+    anonimitzada, diferenciant entorns, proposant contenció i indicant quan i a qui
+    cal derivar el cas.
 - id: cd_178
   category: multi_turn
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -981,7 +982,7 @@
     content: The complaint mentions accessibility barrier, temporary ramp, contractor
       delay, site inspection and formal apology.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -995,7 +996,7 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la resposta municipal sobre la barrera d'accessibilitat, la rampa
     temporal, la inspecció, el contractista i el seguiment previst.
 - id: cd_179
@@ -1015,7 +1016,7 @@
     content: En los mensajes previos aparecen reparación pendiente, visita cancelada,
       cargo adicional, parte técnico y hoja de reclamaciones.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -1029,7 +1030,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-la contundent i demana una solució abans de cinc dies hàbils.
 
     Escriu la reclamació.'
@@ -1049,7 +1050,7 @@
     content: El cliente habla de entrega incompleta, almacén bloqueado, posible penalización
       y factura retenida.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -1063,7 +1064,7 @@
 
       PLAZO / DEADLINE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-ho ferm, amb calendari i sense acceptar compensacions automàtiques.
 
     Escriu un correu breu amb assumpte, situació, nova previsió i proper pas.'
@@ -1071,7 +1072,7 @@
   category: multi_turn
   persona: pime
   workflow: client_reply
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1084,7 +1085,7 @@
     content: Their team mentions pilot credits, dashboard access, invoice split, finance
       approval and a customer workshop next week.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1098,7 +1099,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Dona''m una resposta breu que no bloquegi la negociació.
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
@@ -1119,7 +1120,7 @@
     content: Nos han escrito sobre patrocinio ampliado, invitaciones adicionales,
       ponente por confirmar, agenda pública y uso de logos.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Bilingual form (ES/EN headers):
 
@@ -1133,7 +1134,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Respon amb una alternativa segura per avui.
 
     Escriu un correu breu amb situació, condicions, alternativa i decisió pendent.'
@@ -1141,7 +1142,7 @@
   category: multi_turn
   persona: pime
   workflow: client_reply
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1154,7 +1155,7 @@
     content: The client mentions customer testimonial, media quote, contract clause,
       billing review and approval from their communications team.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -1168,7 +1169,7 @@
 
       SEGUIMIENTO / FOLLOW-UP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes una resposta cordial, però que no autoritzi cap ús públic abans de
     revisar-ho.
 
@@ -1189,7 +1190,7 @@
     content: Su correo habla de factura final, abono parcial, servicio activo, contrato
       vigente y confirmación inmediata.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla estándar (headers ES/EN):
 
@@ -1203,7 +1204,7 @@
 
       CIERRE / CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Deixa oberta una sortida pactada.
 
     Escriu un correu breu amb estat, opcions, condicions i proper pas.'
@@ -1211,7 +1212,7 @@
   category: multi_turn
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1223,7 +1224,7 @@
     content: The complaint mentions court lighting failure, cancelled booking, refund
       request, an incident report and no update from staff.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1237,7 +1238,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-ho proper, però sense prometre una reparació abans de verificar-ho.
 
     Escriu la resposta municipal amb recepció, actuacions, terminis i canal de seguiment.'
@@ -1258,7 +1259,7 @@
     content: En los mensajes aparecen asiento adaptado no disponible, transbordo improvisado,
       accesibilidad insuficiente, reserva confirmada y justificante de asistencia.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Bilingual form (ES/EN headers):
 
@@ -1272,7 +1273,7 @@
 
       PRÓXIMO PASO / NEXT STEP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Demana una resposta escrita i conserva un to ferm.
 
     Escriu la reclamació amb fets, impacte, documents, petició i termini.'
@@ -1280,7 +1281,7 @@
   category: multi_turn
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1292,7 +1293,7 @@
     content: The resident mentions a tax receipt, missing discount, payment deadline
       and possible appeal if there is no correction.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Reusable form (bilingual headers):
 
@@ -1306,7 +1307,7 @@
 
       PLAZO / DEADLINE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'No prometis el resultat abans de revisar l''expedient.
 
     Escriu la resposta municipal amb reconeixement, comprovacions, terminis i seguiment.'
@@ -1326,7 +1327,7 @@
     content: El taller habla de garantía limitada, reparación provisional, presupuesto
       nuevo y respuesta pendiente del fabricante.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Reusable form (bilingual headers):
 
@@ -1340,7 +1341,7 @@
 
       PLAZO / DEADLINE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Demana que no em cobrin una segona diagnosi.
 
     Escriu la reclamació amb cronologia, discrepància, proves, petició i termini.'
@@ -1348,7 +1349,7 @@
   category: multi_turn
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1360,7 +1361,7 @@
     content: The complaint cites late noise, venue permit doubts, patrol request and
       a written response deadline.
   - role: assistant
-    content: Understood. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -1374,7 +1375,7 @@
 
       VALIDACIÓN / VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Inclou un canal per aportar més informació.
 
     Escriu la resposta municipal amb recepció, actuacions, límits i seguiment.'

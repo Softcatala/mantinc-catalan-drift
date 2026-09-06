@@ -282,7 +282,7 @@
     record_id: parcs307193963
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: El Museu del Bosc i la Pagesia de Vallgorguinapone en valor el mundo del bosque, la naturaleza
+    text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   prompt: Respon en català a un docent que vol saber com el Museu del Bosc connecta agricultura, natura
@@ -451,7 +451,7 @@
     record_id: parcs307193963
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: El Museu del Bosc i la Pagesia de Vallgorguinapone en valor el mundo del bosque, la naturaleza
+    text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc4
@@ -621,7 +621,7 @@
     record_id: parcs307193963
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: El Museu del Bosc i la Pagesia de Vallgorguinapone en valor el mundo del bosque, la naturaleza
+    text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc3
@@ -821,7 +821,7 @@
     record_id: parcs307193963
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: El Museu del Bosc i la Pagesia de Vallgorguinapone en valor el mundo del bosque, la naturaleza
+    text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc2
@@ -1345,7 +1345,7 @@
     record_id: parcs307193963
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: El Museu del Bosc i la Pagesia de Vallgorguinapone en valor el mundo del bosque, la naturaleza
+    text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   prompt: 'Plantilla estándar (headers ES/EN):
@@ -2314,7 +2314,7 @@
     record_id: parcs445461314
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: GR 2 La Joquera-Aiguafreda. De Sant Julià de Vilatorta al santuari de Puig l’Agulla.
+    text: GR 2 La Jonquera-Aiguafreda. De Sant Julià de Vilatorta al santuari de Puig l’Agulla.
   prompt: Resumeix els itineraris de les Set Fonts.
 - id: cd_rag_048
   category: rag_context
@@ -2455,7 +2455,7 @@
     record_id: parcs19064516
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_ca/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: Visita 'auto-guiada' seguint un itinerari numerat (català, castellà i anglès)
+    text: Visita autoguiada seguint un itinerari numerat (català, castellà i anglès)
   - id: doc2
     lang: ca
     source_dataset: parcsequipaments_ca
@@ -2471,7 +2471,7 @@
     record_id: parcs19064516
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: Visita auto-guiada 'siguiendo un itinerario numerado (catalán, castellano e inglés)
+    text: Visita autoguiada siguiendo un itinerario numerado (catalán, castellano e inglés)
   - id: doc4
     lang: es
     source_dataset: parcsequipaments_es
@@ -2539,7 +2539,7 @@
     record_id: parcs30596022
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_ca/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: Equipament gestionat per l' Ajuntament de la Garriga en conveni amb la Diputació de Barcelona.
+    text: Equipament gestionat per l'Ajuntament de la Garriga en conveni amb la Diputació de Barcelona.
       Punt d'informació municipal on també s'ofereix informació dels serveis i equipaments del Parc Natural
       del Montseny. A més, l'espai presenta una exposició sobre l'evolució del poble de la Garriga des
       de l'època romana fins a l'actualitat.
@@ -2586,7 +2586,7 @@
     record_id: parcs306593
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_ca/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: 'Exposició permanent: Fortificació ibèrica de Montgró s i punt d’inici de la visita al jaciment'
+    text: 'Exposició permanent: Fortificació ibèrica de Montgròs i punt d’inici de la visita al jaciment'
   - id: doc2
     lang: ca
     source_dataset: parcsequipaments_ca
@@ -2600,7 +2600,7 @@
     record_id: parcs306593
     source_url: https://do.diba.cat/api/dataset/parcsequipaments_es/format/json/pag-ini/1/pag-fi/700
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
-    text: 'Exposición permanente: Fortificación ibèrica de Montgró s i punto de inicio de la visita al
+    text: 'Exposición permanente: Fortificación ibérica de Montgròs y punto de inicio de la visita al
       yacimiento'
   - id: doc4
     lang: es

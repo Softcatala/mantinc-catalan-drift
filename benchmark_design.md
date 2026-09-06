@@ -67,9 +67,9 @@ Each sample should specify:
   - `ca-es`: mixed Catalan and Spanish retrieved context answered in Catalan.
   - `es-ca`: Spanish source material or prior-turn context answered in Catalan.
   - `en-ca`: English source material or prior-turn context answered in Catalan.
-  - `en-es-ca` / `es-en-ca`: trilingual `crosslingual_advanced` items
-    combining English and Spanish across prior turns (order marks the first
-    crosslingual turn) answered in Catalan.
+  - `en-es-ca` / `es-en-ca`: trilingual items combining English and Spanish
+    across prior turns (order marks the first crosslingual turn) answered in
+    Catalan.
 
 ## Distributed Adversarial Pressure
 

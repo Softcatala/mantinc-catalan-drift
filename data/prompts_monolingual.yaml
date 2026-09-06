@@ -150,7 +150,7 @@
   prompt: Contesta com a equip de suport. Un client informa que l'etiqueta de retorn
     no es genera, l'adreça de recollida apareix incompleta i no pot descarregar les
     instruccions d'enviament. Dona una resposta amb diagnosi inicial, dades que cal
-    demanar, passos immediats, escalat intern, termini de resposta i missatge final
+    demanar, passos immediats, derivació interna, termini de resposta i missatge final
     tranquil·litzador.
 - id: cd_105
   category: monolingual
@@ -313,7 +313,7 @@
   prompt: Respon com a suport tècnic a un client empresarial que diu que la integració
     envia dades duplicades, bloqueja comandes grans i no mostra errors clars. Inclou
     reconeixement, hipòtesis inicials, proves demanades, solució temporal segura,
-    criteri d'escalat i actualització prevista.
+    criteri de derivació i actualització prevista.
 - id: cd_200
   category: monolingual
   persona: usuari_final
@@ -556,7 +556,7 @@
   prompt: >-
     Respon com a suport tècnic a un equip de camp que no pot desar signatures quan
     treballa sense connexió. Dona passos de diagnosi, instruccions per no perdre
-    dades, informació que cal recollir i criteri d'escalat.
+    dades, informació que cal recollir i criteri de derivació.
 - id: cd_222
   category: monolingual
   persona: pime

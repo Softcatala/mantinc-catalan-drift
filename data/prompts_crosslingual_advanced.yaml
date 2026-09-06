@@ -9,7 +9,7 @@
   - role: user
     content: Tenim un usuari que no rep bé les notificacions de calendari compartit.
   - role: assistant
-    content: Podem respondre amb comprovacions concretes i una via d'escalat.
+    content: Podem respondre amb comprovacions concretes i un procediment per derivar el cas.
   - role: user
     content: The sync job skips calendar invites after a timezone change, and the
       mobile app shows the old reminder time. Use the support macro if needed.
@@ -31,7 +31,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Prepara una resposta de suport per a l'usuari del calendari. Inclou el canvi
-    de fus horari, la comprovació al mòbil i una via d'escalat clara.
+    de fus horari, la comprovació al mòbil i un procediment clar per derivar el cas.
 - id: cd_h9_064
   category: crosslingual_advanced
   persona: administracio
@@ -82,44 +82,43 @@
     content: I have scales, sight-reading, two prepared pieces and stage nerves to
       manage before Saturday.
   - role: assistant
-    content: I am reviewing the source details and will keep a working draft for review.
-      The client keeps saying brand reference, exclusivity clause, uptime guarantee,
-      late-payment penalty and consolidated invoice.
+    content: I am reviewing the audition details and will prepare a focused practice
+      plan covering scales, sight-reading, the two pieces and stage nerves.
   - role: user
     content: 'Estructura obligatoria:
 
-      TICKET:
+      OBJETIVO:
 
-      DIAGNÓSTICO:
+      TÉCNICA:
 
-      CAUSA:
+      REPERTORIO:
 
-      MITIGACIÓN:
+      SIMULACIÓN:
 
-      VALIDACIÓN:'
+      REVISIÓN FINAL:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: De acuerdo. Haré una última revisión del plan de audición antes de cerrarlo.
   prompt: Planifica l'audició musical.
 - id: cd_h9_066
   category: crosslingual_advanced
   persona: usuari_final
-  workflow: privacy_guidance
+  workflow: support_reply
   source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_es
   conversation:
   - role: user
-    content: Vull revisar la privacitat abans d'instal·lar un altaveu intel·ligent
-      a casa.
+    content: Necessito ajuda perquè no puc revisar totes les opcions de privacitat
+      d'un altaveu intel·ligent.
   - role: assistant
-    content: Podem revisar comptes, permisos, historial i opcions de gravació.
+    content: Podem preparar una resposta de suport amb comprovacions concretes i un
+      procediment per derivar el cas si alguna opció no està disponible.
   - role: user
     content: Include voice assistant settings, stored recordings, household profiles
       and guest access limits.
   - role: assistant
-    content: I am reviewing the source details and will keep a working draft for review.
-      The operations note says gym ventilation failure, locker area closed, relocated
-      classes, safety check and reopening estimate.
+    content: I am reviewing the support details and will cover voice settings, stored
+      recordings, household profiles and guest access limits.
   - role: user
     content: 'Estructura obligatoria:
 
@@ -133,8 +132,8 @@
 
       VALIDACIÓN:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Ordena la privacitat de l'altaveu.
+    content: De acuerdo. Haré la revisión final de la respuesta de soporte antes de cerrar.
+  prompt: Prepara una resposta de suport sobre les opcions de privacitat de l'altaveu.
 - id: cd_h9_069
   category: crosslingual_advanced
   persona: pime
@@ -174,11 +173,10 @@
 
       ASUNTO Y OBJETIVO
 
-      Hem d''avisar el veïnat d''una actuació de poda en un carrer estret. El aviso
-      anterior hablaba de acera ocupada, desvío peatonal, señalización provisional
-      y retirada temporal de bicicletas. Revisa todos los requisitos antes de cerrar.
-      Comprueba también los riesgos, acciones y seguimiento. Prepara ya la versión
-      final completa.
+      El cliente B2B solicita dar de baja dos módulos, conservar los datos históricos
+      y reducir la cuota anual sin firmar todavía el anexo. Hay que confirmar qué
+      cambios pueden aplicarse, explicar los riesgos de hacerlo sin formalización
+      y ofrecer una alternativa viable. Prepara ya la versión final completa.
 
       ACTUACIÓN RECOMENDADA Y PRÓXIMO PASO'
   prompt: Escriu la resposta de l'assistent com un correu breu.
@@ -326,11 +324,10 @@
 
       ASUNTO Y OBJETIVO
 
-      Hem d''avisar el veïnat d''una actuació de poda en un carrer estret. El aviso
-      anterior hablaba de acera ocupada, desvío peatonal, señalización provisional
-      y retirada temporal de bicicletas. Revisa todos los requisitos antes de cerrar.
-      Comprueba también los riesgos, acciones y seguimiento. Prepara ya la versión
-      final completa.
+      La campaña de fidelización debe aplazarse porque la segmentación está incompleta,
+      el consentimiento sigue pendiente y falta coordinar al proveedor de envíos.
+      Hay que revisar el cuadro de métricas, ajustar el calendario comercial y presentar
+      tres riesgos con una decisión recomendada. Prepara ya la versión final completa.
 
       ACTUACIÓN RECOMENDADA Y PRÓXIMO PASO'
   prompt: Redacta l'actualització d'estat.
@@ -534,7 +531,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre el canvi de domini, els rebots de correu,
-    el correu brossa, l'informe necessari i el criteri d'escalat.
+    el correu brossa, l'informe necessari i el criteri de derivació.
 - id: cd_h19_163
   category: crosslingual_advanced
   persona: administracio
@@ -587,7 +584,7 @@
   - role: assistant
     content: Ho convertiré en una nota interna amb els riscos ben explicats.
   - role: user
-    content: Revisa stodos los requisitos antes de cerrar.
+    content: Revisa todos los requisitos antes de cerrar.
   - role: assistant
     content: D'acord. Conservaré tots els requisits.
   - role: user
@@ -612,7 +609,7 @@
     content: Tenim un client amb una incidència tècnica després d'importar un catàleg
       nou.
   - role: assistant
-    content: Cal respondre amb passos segurs, recollida de dades i escalat si cal.
+    content: Cal respondre amb passos segurs, recollida de dades i derivació si cal.
   - role: user
     content: 'El cliente ha escrito: catálogo incompleto, imágenes cruzadas, stock
       desactualizado, categorías vacías y plantilla modificada.'
@@ -727,7 +724,7 @@
 
       RESPONSABLE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica la reprogramació formativa.
 - id: cd_h20_067
   category: crosslingual_advanced
@@ -760,7 +757,7 @@
 
       CIERRE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la mobilitat del mercat.
 - id: cd_h20_161
   category: crosslingual_advanced
@@ -793,7 +790,7 @@
 
       CIERRE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Publica-ho.
 - id: cd_h20_164
   category: crosslingual_advanced
@@ -826,7 +823,7 @@
 
       NEXT STEP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la certificació formativa.
 - id: cd_h20_165
   category: crosslingual_advanced
@@ -859,7 +856,7 @@
 
       VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la certificació ambiental.
 - id: cd_h20_168
   category: crosslingual_advanced
@@ -891,7 +888,7 @@
 
       DEADLINE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el trasllat de vacunació.
 - id: cd_h20_171
   category: crosslingual_advanced
@@ -924,7 +921,7 @@
 
       CLOSING:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Enllesteix el document.
 - id: cd_h20_174
   category: crosslingual_advanced
@@ -957,7 +954,7 @@
 
       CONTROL:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Contesta ara.
 - id: cd_h20_177
   category: crosslingual_advanced
@@ -990,7 +987,7 @@
 
       DEADLINE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Resol els escàners del magatzem.
 - id: cd_h20_179
   category: crosslingual_advanced
@@ -1023,7 +1020,7 @@
 
       CIERRE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama els danys de la mudança.
 - id: cd_h21_260
   category: crosslingual_advanced
@@ -1056,13 +1053,13 @@
 
       TAREA:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica el retard de la instal·lació.
 - id: cd_h21_261
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1088,7 +1085,7 @@
 
       VALIDACIÓN:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Dona-hi resposta.
 - id: cd_h21_262
   category: crosslingual_advanced
@@ -1123,13 +1120,13 @@
 
       VALIDATION:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Resol-ho.
 - id: cd_h21_263
   category: crosslingual_advanced
   persona: pime
   workflow: client_reply
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1156,7 +1153,7 @@
 
       CIERRE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Valora el pilot de plataforma.
 - id: cd_h21_264
   category: crosslingual_advanced
@@ -1189,13 +1186,13 @@
 
       CONTROL:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Aclareix els indicadors de servei.
 - id: cd_h21_265
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1224,7 +1221,7 @@
 
       TAREA:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre l'accés al jardí.
 - id: cd_h21_266
   category: crosslingual_advanced
@@ -1256,13 +1253,13 @@
 
       TAREA:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la baixa del gimnàs.
 - id: cd_h21_267
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1289,7 +1286,7 @@
 
       RESPONSABLE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon per les molèsties de l'obra.
 - id: cd_h21_268
   category: crosslingual_advanced
@@ -1321,13 +1318,13 @@
 
       NEXT STEP:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Formula-la.
 - id: cd_h21_269
   category: crosslingual_advanced
   persona: administracio
   workflow: complaint_response
-  source_lang: en-ca
+  source_lang: en-es-ca
   target_lang: ca
   pressure_pattern: harder_template_mixed
   conversation:
@@ -1355,7 +1352,7 @@
 
       RESPONSABLE:'
   - role: assistant
-    content: OK. I will do la revisión final antes de cerrar.
+    content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon pel manteniment del cementiri.
 - id: cd_h21_270
   category: crosslingual_advanced

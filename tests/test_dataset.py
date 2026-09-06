@@ -102,8 +102,10 @@ class DatasetTest(unittest.TestCase):
 
     def test_advanced_distribution_preserves_coverage(self) -> None:
         advanced = [row for row in self.rows if row["category"] == "crosslingual_advanced"]
-        languages = Counter(row["source_lang"] for row in advanced)
-        self.assertLessEqual(abs(languages["es-ca"] - languages["en-ca"]), 4)
+        first_source_languages = Counter(
+            row["source_lang"].split("-")[0] for row in advanced
+        )
+        self.assertEqual(first_source_languages, Counter({"es": 30, "en": 30}))
         self.assertEqual(set(row["persona"] for row in advanced), {"administracio", "pime", "usuari_final"})
         source_workflows = {
             row["workflow"] for row in self.rows if row["category"] == "multi_turn"

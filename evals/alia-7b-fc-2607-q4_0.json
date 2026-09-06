@@ -27,9 +27,9 @@
       "total": 60
     }
   },
-  "created_at": "2026-09-03T16:50:10+02:00",
-  "git_commit": "653e3d19d88d8bb8f550d43539da6d8772778bb2",
-  "inference_seconds": 2772.4422647830215,
+  "created_at": "2026-09-05T21:48:28+02:00",
+  "git_commit": "a3ea30c2f28b3a62005b432cffdba988161425e2",
+  "inference_seconds": 2801.4334388040006,
   "model": "ALIA-7b-fc-2607-Q4_0",
   "n": 300,
   "n_api_or_empty_failures": 0,
