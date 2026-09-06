@@ -54,10 +54,10 @@ VERSION ?=
 
 ifneq (,$(filter publish-dataset,$(MAKECMDGOALS)))
 ifeq (,$(VERSION))
-$(error Set VERSION=X.Y.Z (e.g. VERSION=1.1.0))
+$(error Set VERSION=vX.Y.Z (e.g. VERSION=v1.1.0))
 endif
-ifeq (,$(shell printf '%s' '$(VERSION)' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$$'))
-$(error VERSION must match X.Y.Z format (e.g. 1.1.0); got: $(VERSION))
+ifeq (,$(shell printf '%s' '$(VERSION)' | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$$'))
+$(error VERSION must match vX.Y.Z format (e.g. v1.1.0); got: $(VERSION))
 endif
 endif
 
