@@ -289,7 +289,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
-      antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
+      antepasados de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   prompt: Respon en català a un docent que vol saber com el Museu del Bosc connecta agricultura, natura
     i memòria local.
 
@@ -462,7 +462,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
-      antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
+      antepasados de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc4
     lang: es
     source_dataset: parcsequipaments_es
@@ -636,7 +636,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
-      antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
+      antepasados de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc3
     lang: es
     source_dataset: parcsequipaments_es
@@ -840,7 +840,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
-      antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
+      antepasados de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   - id: doc2
     lang: es
     source_dataset: parcsequipaments_es
@@ -1374,7 +1374,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: El Museu del Bosc i la Pagesia de Vallgorguina pone en valor el mundo del bosque, la naturaleza
       y la agricultura. La voluntad es conservar y mostrar el rico patrimonio de la forma de vida de los
-      antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
+      antepasados de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   prompt: 'Plantilla estándar (headers ES/EN):
 
     INCIDENCIA / INCIDENT:
