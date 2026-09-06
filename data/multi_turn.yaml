@@ -32,6 +32,7 @@
   prompt: 'Fes que soni urgent, però sense tocar el marge.
 
     Escriu un correu breu amb assumpte i cos.'
+
 - id: cd_061
   category: multi_turn
   persona: administracio
@@ -67,6 +68,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una actualització del projecte digital per a les parts interessades,
     amb el bloqueig principal, la persona responsable, el termini i la revisió prevista.
+
 - id: cd_062
   category: multi_turn
   persona: administracio
@@ -100,6 +102,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís veïnal sobre el tall d'aigua, amb la franja horària, la zona
     afectada i el canal de consulta.
+
 - id: cd_063
   category: multi_turn
   persona: pime
@@ -132,6 +135,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta de suport.
+
 - id: cd_064
   category: multi_turn
   persona: administracio
@@ -164,6 +168,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
+
 - id: cd_065
   category: multi_turn
   persona: usuari_final
@@ -198,6 +203,7 @@
   prompt: 'Fes-me''l per a cinc dies i amb tasques concretes.
 
     Organitza el pla d''estudi de manera estructurada.'
+
 - id: cd_066
   category: multi_turn
   persona: usuari_final
@@ -230,6 +236,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Dona una guia breu amb passos ordenats i advertiments pràctics.
+
 - id: cd_067
   category: multi_turn
   persona: administracio
@@ -265,6 +272,7 @@
   prompt: 'Fes-ho formal però proper, sense sonar defensiu.
 
     Escriu la resposta a la queixa.'
+
 - id: cd_068
   category: multi_turn
   persona: usuari_final
@@ -299,6 +307,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu un correu a la propietat sobre la gotera, la mesura provisional,
     la necessitat d'una visita tècnica i la disponibilitat per coordinar-la.
+
 - id: cd_069
   category: multi_turn
   persona: pime
@@ -334,6 +343,7 @@
   prompt: 'Redacta-ho amb fermesa i deixa oberta una alternativa.
 
     Escriu un correu breu usant les instruccions anteriors.'
+
 - id: cd_160
   category: multi_turn
   persona: pime
@@ -371,6 +381,7 @@
   prompt: 'Fes una resposta breu, ferma i amb una proposta de reunió avui mateix.
 
     Escriu un correu amb assumpte i cos.'
+
 - id: cd_161
   category: multi_turn
   persona: administracio
@@ -405,6 +416,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís municipal sobre les obres, el tall progressiu, la recollida
     escolar i les alternatives de mobilitat.
+
 - id: cd_162
   category: multi_turn
   persona: pime
@@ -439,6 +451,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre l'exportació del tauler, amb còpia
     segura, evidències necessàries i hora límit per derivar el cas.
+
 - id: cd_163
   category: multi_turn
   persona: administracio
@@ -474,6 +487,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la justificació de contractació ràpida amb urgència sobrevinguda,
     límits de l'actuació, controls i traçabilitat de l'expedient.
+
 - id: cd_164
   category: multi_turn
   persona: usuari_final
@@ -508,6 +522,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
     respecten condicions equivalents.
+
 - id: cd_165
   category: multi_turn
   persona: pime
@@ -542,6 +557,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara l'actualització per a direcció sobre els continguts, la revisió
     lingüística, la validació docent i dues decisions pendents.
+
 - id: cd_166
   category: multi_turn
   persona: administracio
@@ -578,6 +594,7 @@
   prompt: 'Fes-ho proper, però sense prometre cap resultat abans de revisar l''expedient.
 
     Escriu la resposta municipal.'
+
 - id: cd_167
   category: multi_turn
   persona: pime
@@ -612,6 +629,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu el correu al client sobre la migració pilot, la mostra d'usuaris,
     la validació necessària i l'ordre de compra tardana.
+
 - id: cd_168
   category: multi_turn
   persona: administracio
@@ -647,6 +665,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre la recollida de residus, amb els fets confirmats, els
     punts provisionals i la revisió prevista del servei.
+
 - id: cd_169
   category: multi_turn
   persona: pime
@@ -681,6 +700,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de decisió sobre l'espai de la jornada, amb aforament, restauració,
     cancel·lació, accessibilitat i dues condicions recomanades.
+
 - id: cd_170
   category: multi_turn
   persona: pime
@@ -715,6 +735,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre la comanda bloquejada, amb una acció
     reversible, registre de la incidència i contacte de guàrdia.
+
 - id: cd_171
   category: multi_turn
   persona: administracio
@@ -750,6 +771,7 @@
   prompt: 'Fes-ne una versió per a càrrecs electes, amb síntesi i decisions concretes.
 
     Escriu l''actualització d''estat.'
+
 - id: cd_172
   category: multi_turn
   persona: usuari_final
@@ -784,6 +806,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la reclamació sobre la baixa del servei, els cobraments, el justificant
     adjunt, la devolució demanada i el termini de resposta.
+
 - id: cd_173
   category: multi_turn
   persona: administracio
@@ -818,6 +841,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de renovació del servei, amb continuïtat, restauració, compensacions,
     evidències i control de compliment.
+
 - id: cd_174
   category: multi_turn
   persona: pime
@@ -852,6 +876,7 @@
   prompt: 'Redacta-ho amb dues opcions i una recomanació final.
 
     Escriu el correu de resposta.'
+
 - id: cd_175
   category: multi_turn
   persona: administracio
@@ -885,6 +910,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre la incidència de cita prèvia, amb prioritat al taulell,
     confirmació de les cites i previsió de restauració del servei.
+
 - id: cd_176
   category: multi_turn
   persona: pime
@@ -920,6 +946,7 @@
   prompt: 'Dona''m una versió executiva amb tres riscos i una decisió recomanada.
 
     Escriu l''actualització d''estat.'
+
 - id: cd_177
   category: multi_turn
   persona: pime
@@ -956,6 +983,7 @@
   prompt: Prepara una resposta de suport sobre la integració, demanant una mostra
     anonimitzada, diferenciant entorns, proposant contenció i indicant quan i a qui
     cal derivar el cas.
+
 - id: cd_178
   category: multi_turn
   persona: administracio
@@ -989,6 +1017,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la resposta municipal sobre la barrera d'accessibilitat, la rampa
     temporal, la inspecció, el contractista i el seguiment previst.
+
 - id: cd_179
   category: multi_turn
   persona: usuari_final
@@ -1024,6 +1053,7 @@
   prompt: 'Fes-la contundent i demana una solució abans de cinc dies hàbils.
 
     Escriu la reclamació.'
+
 - id: cd_260
   category: multi_turn
   persona: pime
@@ -1058,6 +1088,7 @@
   prompt: 'Fes-ho ferm, amb calendari i sense acceptar compensacions automàtiques.
 
     Escriu un correu breu amb assumpte, situació, nova previsió i proper pas.'
+
 - id: cd_261
   category: multi_turn
   persona: pime
@@ -1093,6 +1124,7 @@
   prompt: 'Dona''m una resposta breu que no bloquegi la negociació.
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
+
 - id: cd_262
   category: multi_turn
   persona: pime
@@ -1128,6 +1160,7 @@
   prompt: 'Respon amb una alternativa segura per avui.
 
     Escriu un correu breu amb situació, condicions, alternativa i decisió pendent.'
+
 - id: cd_263
   category: multi_turn
   persona: pime
@@ -1164,6 +1197,7 @@
     revisar-ho.
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
+
 - id: cd_264
   category: multi_turn
   persona: pime
@@ -1198,6 +1232,7 @@
   prompt: 'Deixa oberta una sortida pactada.
 
     Escriu un correu breu amb estat, opcions, condicions i proper pas.'
+
 - id: cd_265
   category: multi_turn
   persona: administracio
@@ -1232,6 +1267,7 @@
   prompt: 'Fes-ho proper, però sense prometre una reparació abans de verificar-ho.
 
     Escriu la resposta municipal amb recepció, actuacions, terminis i canal de seguiment.'
+
 - id: cd_266
   category: multi_turn
   persona: usuari_final
@@ -1267,6 +1303,7 @@
   prompt: 'Demana una resposta escrita i conserva un to ferm.
 
     Escriu la reclamació amb fets, impacte, documents, petició i termini.'
+
 - id: cd_267
   category: multi_turn
   persona: administracio
@@ -1301,6 +1338,7 @@
   prompt: 'No prometis el resultat abans de revisar l''expedient.
 
     Escriu la resposta municipal amb reconeixement, comprovacions, terminis i seguiment.'
+
 - id: cd_268
   category: multi_turn
   persona: usuari_final
@@ -1335,6 +1373,7 @@
   prompt: 'Demana que no em cobrin una segona diagnosi.
 
     Escriu la reclamació amb cronologia, discrepància, proves, petició i termini.'
+
 - id: cd_269
   category: multi_turn
   persona: administracio
@@ -1369,6 +1408,7 @@
   prompt: 'Inclou un canal per aportar més informació.
 
     Escriu la resposta municipal amb recepció, actuacions, límits i seguiment.'
+
 - id: cd_270
   category: multi_turn
   persona: usuari_final
@@ -1383,6 +1423,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la versió final de la reclamació.
+
 - id: cd_271
   category: multi_turn
   persona: usuari_final
@@ -1397,6 +1438,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una guia per netejar les dades del dispositiu wearable.
+
 - id: cd_272
   category: multi_turn
   persona: administracio
@@ -1411,6 +1453,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
+
 - id: cd_273
   category: multi_turn
   persona: administracio
@@ -1425,6 +1468,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta la nota de contractació.
+
 - id: cd_274
   category: multi_turn
   persona: administracio
@@ -1439,6 +1483,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de contractació.
+
 - id: cd_275
   category: multi_turn
   persona: pime
@@ -1453,6 +1498,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta la comparativa de compra.
+
 - id: cd_276
   category: multi_turn
   persona: pime
@@ -1467,6 +1513,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Actualitza l'activació de clients.
+
 - id: cd_277
   category: multi_turn
   persona: pime
@@ -1481,6 +1528,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la conciliació de rebuts.
+
 - id: cd_278
   category: multi_turn
   persona: administracio
@@ -1495,6 +1543,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Actualitza el quiosc de permisos.
+
 - id: cd_279
   category: multi_turn
   persona: administracio
@@ -1509,6 +1558,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el menú escolar alternatiu.
+
 - id: cd_280
   category: multi_turn
   persona: administracio
@@ -1523,6 +1573,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta l'avís sobre els serveis del museu.
+
 - id: cd_281
   category: multi_turn
   persona: administracio
@@ -1537,6 +1588,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia les restriccions de bany.
+
 - id: cd_282
   category: multi_turn
   persona: administracio
@@ -1551,6 +1603,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Anuncia la recollida nocturna.
+
 - id: cd_283
   category: multi_turn
   persona: administracio
@@ -1565,6 +1618,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el procés participatiu.
+
 - id: cd_284
   category: multi_turn
   persona: usuari_final
@@ -1579,6 +1633,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Planifica el repàs de laboratori.
+
 - id: cd_285
   category: multi_turn
   persona: pime
@@ -1593,6 +1648,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre l'autenticació del domini.
+
 - id: cd_286
   category: multi_turn
   persona: pime
@@ -1607,6 +1663,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la signatura del PDF.
+
 - id: cd_287
   category: multi_turn
   persona: pime
@@ -1621,6 +1678,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre la sincronització de la ruta.
+
 - id: cd_288
   category: multi_turn
   persona: pime
@@ -1635,6 +1693,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre el saldo del bo.
+
 - id: cd_289
   category: multi_turn
   persona: usuari_final

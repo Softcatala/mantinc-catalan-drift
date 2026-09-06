@@ -8,6 +8,7 @@
   prompt: 'Tema: ús de la intel·ligència artificial per ampliar
     les capacitats humanes. Explica un malentès habitual sobre aquest tema i corregeix-lo
     amb un exemple concret.'
+
 - id: cd_002
   category: monolingual
   persona: pime
@@ -18,6 +19,7 @@
   prompt: Escriu una resposta breu per a un client que reclama
     que una comanda ha arribat dos dies tard. Inclou disculpa, explicació, solució
     proposada i to professional.
+
 - id: cd_003
   category: monolingual
   persona: administracio
@@ -28,6 +30,7 @@
   prompt: Escriu un avís municipal sobre el tancament temporal
     d'un parc per tasques de manteniment. Ha de tenir títol, data, motiu, afectació
     i canal per fer arribar les consultes.
+
 - id: cd_004
   category: monolingual
   persona: administracio
@@ -38,6 +41,7 @@
   prompt: Redacta una nota interna per justificar la compra de material informàtic
     per a una oficina municipal, amb necessitat, criteris de selecció, calendari i
     risc si s'ajorna.
+
 - id: cd_005
   category: monolingual
   persona: pime
@@ -47,6 +51,7 @@
   pressure_pattern: no_pressure
   prompt: Prepara una resposta de suport tècnic per a una persona que no pot accedir
     al seu compte. Dona tres passos de comprovació i una frase final de seguiment.
+
 - id: cd_006
   category: monolingual
   persona: usuari_final
@@ -57,6 +62,7 @@
   prompt: Escriu una reclamació educada a una companyia de serveis perquè una factura
     inclou un càrrec duplicat. Inclou dades que cal aportar, petició concreta i termini
     raonable de resposta.
+
 - id: cd_007
   category: monolingual
   persona: pime
@@ -67,6 +73,7 @@
   prompt: Escriu una actualització setmanal d'un projecte de renovació del web d'una
     petita empresa. Organitza-la en estat, avenços, riscos, decisions pendents i properes
     accions.
+
 - id: cd_008
   category: monolingual
   persona: administracio
@@ -76,6 +83,7 @@
   pressure_pattern: no_pressure
   prompt: Redacta un butlletí breu de salut comunitària sobre prevenció de cops de
     calor per a gent gran, amb quatre recomanacions pràctiques i un recordatori final.
+
 - id: cd_009
   category: monolingual
   persona: usuari_final
@@ -85,6 +93,7 @@
   pressure_pattern: no_pressure
   prompt: Respon. Prepara un pla d'estudi de set dies per repassar una prova de matemàtiques,
     amb objectius diaris i criteris per saber si s'han assolit.
+
 - id: cd_010
   category: monolingual
   persona: usuari_final
@@ -95,6 +104,7 @@
   prompt: Dona una guia pràctica per revisar la privacitat d'un telèfon abans de cedir-lo
     a una altra persona. Inclou còpia de seguretat, tancament de sessions, esborrat
     i comprovació final.
+
 - id: cd_100
   category: monolingual
   persona: pime
@@ -107,6 +117,7 @@
     a direcció. Inclou assumpte, reconeixement dels fets, què encara s'està verificant,
     solució provisional, calendari de revisió i una frase que no admeti responsabilitats
     legals.
+
 - id: cd_101
   category: monolingual
   persona: administracio
@@ -118,6 +129,7 @@
     de sentit en dos carrers i una franja d'accés reservada per a persones amb mobilitat
     reduïda. Ha d'incloure títol, dates, afectació, excepcions, recomanacions de mobilitat
     i canal per comunicar incidències.
+
 - id: cd_102
   category: monolingual
   persona: pime
@@ -129,6 +141,7 @@
     la botiga en línia a un sistema de gestió nou. Organitza-la en resum executiu,
     avenços verificats, dependències externes, riscos comercials, decisions necessàries
     aquesta setmana i criteris per autoritzar el llançament.
+
 - id: cd_103
   category: monolingual
   persona: administracio
@@ -140,6 +153,7 @@
     al núvol per a arxius municipals. Inclou necessitat pública, dades que cal protegir,
     criteris de solvència, criteris d'adjudicació, riscos si no es contracta, controls
     de seguretat i proper tràmit.
+
 - id: cd_104
   category: monolingual
   persona: pime
@@ -152,6 +166,7 @@
     instruccions d'enviament. Dona una resposta amb diagnosi inicial, dades que cal
     demanar, passos immediats, derivació interna, termini de resposta i missatge final
     tranquil·litzador.
+
 - id: cd_105
   category: monolingual
   persona: usuari_final
@@ -163,6 +178,7 @@
     per humitats tot i tenir informes tècnics i fotografies. Inclou antecedents, discrepància
     amb la decisió, documentació adjunta, petició concreta, termini de resposta i
     reserva d'accions futures.
+
 - id: cd_106
   category: monolingual
   persona: administracio
@@ -174,6 +190,7 @@
     i dubtes sobre l'accessibilitat durant unes obres. La resposta ha de reconèixer
     les molèsties, explicar límits competencials, concretar actuacions, indicar terminis
     i oferir un canal de seguiment sense sonar defensiva.
+
 - id: cd_107
   category: monolingual
   persona: pime
@@ -185,6 +202,7 @@
     sense canviar pressupost ni calendari. Mantén un to ferm i col·laboratiu, separa
     què es pot assumir ara, què requereix pressupost addicional, quins riscos hi ha
     i quina alternativa mínima es pot validar en la reunió vinent.
+
 - id: cd_108
   category: monolingual
   persona: administracio
@@ -196,6 +214,7 @@
     expedients històrics. Inclou percentatge del progrés, incidències de qualitat, dependència
     amb l'arxiu extern, risc de justificació econòmica, mesures correctores i decisions
     que ha de prendre la comissió de seguiment.
+
 - id: cd_109
   category: monolingual
   persona: pime
@@ -207,6 +226,7 @@
     informàtic. Inclou criteris de preu, temps de resposta, cobertura fora d'horari,
     protecció de dades, risc de dependència i recomanació raonada amb condicions de
     revisió.
+
 - id: cd_110
   category: monolingual
   persona: administracio
@@ -216,6 +236,7 @@
   pressure_pattern: no_pressure
   prompt: Escriu un avís municipal per vent fort. Inclou recomanacions per a vianants,
     activitats esportives, terrasses, elements de façana i desplaçaments no essencials.
+
 - id: cd_111
   category: monolingual
   persona: pime
@@ -227,6 +248,7 @@
     després d''una incidència de seguretat: serveis restablerts, dades encara en revisió,
     mesures provisionals, impacte en clients, risc reputacional, dependències tècniques
     i pròximes fites abans de tancar l''incident.'
+
 - id: cd_112
   category: monolingual
   persona: administracio
@@ -238,6 +260,7 @@
     per a serveis municipals. Inclou necessitat operativa, criteris ambientals, cost
     total previst, requisits de manteniment, riscos de disponibilitat, justificació
     de la durada i recomanació de contractació.
+
 - id: cd_113
   category: monolingual
   persona: pime
@@ -249,6 +272,7 @@
     de clients i ara veu registres duplicats, camps desplaçats i errors de validació.
     La resposta ha d'evitar culpabilitzar l'usuari i incloure comprovacions, còpia
     de seguretat, proposta de neteja, dades que cal enviar i termini estimat.
+
 - id: cd_114
   category: monolingual
   persona: usuari_final
@@ -260,6 +284,7 @@
     fora de termini, el rebut mostra un recàrrec i el portal d'atenció no conserva
     les consultes anteriors. Inclou exposició dels fets, impacte, documents adjunts,
     sol·licitud de rectificació i petició de confirmació escrita.
+
 - id: cd_115
   category: monolingual
   persona: administracio
@@ -271,6 +296,7 @@
     que no implica tall del subministrament però exigeix precaucions per a usos sensibles.
     Inclou què se sap, què s'està analitzant, recomanacions, col·lectius especialment
     afectats, actualització prevista i canal oficial.
+
 - id: cd_116
   category: monolingual
   persona: pime
@@ -282,6 +308,7 @@
     de dades personals i mantenir accés temporal a l'historial de comandes. Dona una
     resposta equilibrada amb passos separats per devolució, privacitat, accés temporal,
     terminis i persona de contacte.
+
 - id: cd_117
   category: monolingual
   persona: administracio
@@ -293,6 +320,7 @@
     pagaments i notificacions. Inclou resum, fites completades, proves pendents, riscos
     d'accessibilitat, coordinació amb proveïdors, comunicació a la ciutadania i decisió
     requerida.
+
 - id: cd_118
   category: monolingual
   persona: pime
@@ -303,6 +331,7 @@
   prompt: Redacta una nota interna per seleccionar un proveïdor d'auditoria d'accessibilitat
     per al web corporatiu. Inclou objectiu, abast, criteris tècnics, criteris econòmics,
     calendari, risc de no actuar, responsabilitats internes i proposta de decisió.
+
 - id: cd_119
   category: monolingual
   persona: pime
@@ -314,6 +343,7 @@
     envia dades duplicades, bloqueja comandes grans i no mostra errors clars. Inclou
     reconeixement, hipòtesis inicials, proves demanades, solució temporal segura,
     criteri de derivació i actualització prevista.
+
 - id: cd_200
   category: monolingual
   persona: usuari_final
@@ -325,6 +355,7 @@
     Explica un malentès habitual sobre l'ús de sistemes
     automàtics per assignar cites mèdiques i corregeix-lo amb un exemple concret
     que mostri per què cal supervisió humana.
+
 - id: cd_201
   category: monolingual
   persona: pime
@@ -336,6 +367,7 @@
     Escriu un correu a un client que ha rebut una sessió de formació amb menys
     places disponibles de les contractades. Inclou reconeixement de la incidència,
     explicació breu, proposta de recuperació, límit de responsabilitat i proper pas.
+
 - id: cd_202
   category: monolingual
   persona: administracio
@@ -347,6 +379,7 @@
     Redacta un avís municipal sobre canvis temporals en l'atenció de serveis
     socials per una reorganització d'agendes. Inclou títol, dates, persones
     afectades, alternativa de contacte, casos urgents i propera actualització.
+
 - id: cd_203
   category: monolingual
   persona: administracio
@@ -359,6 +392,7 @@
     nivells de soroll en equipaments municipals. Inclou necessitat, abast de les
     dades, criteris tècnics, garanties de privacitat, riscos de no actuar i tràmit
     següent.
+
 - id: cd_204
   category: monolingual
   persona: pime
@@ -370,6 +404,7 @@
     Contesta com a suport tècnic a una empresa que veu imports incorrectes al portal
     de subscripcions després de canviar la regió fiscal. Inclou reconeixement,
     comprovacions, dades necessàries, mesura temporal i termini de seguiment.
+
 - id: cd_205
   category: monolingual
   persona: usuari_final
@@ -381,6 +416,7 @@
     Escriu una reclamació a un centre mèdic perquè una visita programada s'ha
     reassignat dues vegades sense confirmar la nova hora. Inclou cronologia,
     impacte, documentació disponible, petició concreta i termini raonable.
+
 - id: cd_206
   category: monolingual
   persona: pime
@@ -392,6 +428,7 @@
     Escriu una actualització d'estat per a la direcció d'una PIME que està
     substituint el sistema de facturació recurrent. Organitza-la en resum, avenços,
     incidències de conciliació, riscos comercials, decisions pendents i properes fites.
+
 - id: cd_207
   category: monolingual
   persona: administracio
@@ -403,6 +440,7 @@
     Redacta un butlletí breu de salut comunitària sobre prevenció de caigudes a la
     llar per a persones grans. Inclou quatre recomanacions pràctiques, un consell
     per a familiars i un recordatori final de prudència.
+
 - id: cd_208
   category: monolingual
   persona: usuari_final
@@ -414,6 +452,7 @@
     Prepara un pla d'estudi de deu dies per revisar una prova d'accés amb lectura,
     expressió escrita i càlcul bàsic. Inclou objectius diaris, una revisió intermèdia
     i criteris per decidir què reforçar.
+
 - id: cd_209
   category: monolingual
   persona: usuari_final
@@ -425,6 +464,7 @@
     Dona una guia pràctica per revisar la privacitat d'una tauleta familiar abans
     de prestar-la durant unes vacances. Inclou comptes, permisos, historial, còpies
     de seguretat i comprovació final.
+
 - id: cd_210
   category: monolingual
   persona: pime
@@ -436,6 +476,7 @@
     Redacta una resposta per a un client que vol activar una promoció abans de tenir
     validats els preus i les condicions legals. Mantén un to col·laboratiu, separa
     què es pot avançar, què falta confirmar i quina alternativa segura es proposa.
+
 - id: cd_211
   category: monolingual
   persona: pime
@@ -447,6 +488,7 @@
     Escriu un correu a un client que demana mantenir un servei antic mentre s'activa
     el nou contracte. Inclou estat, condicions transitòries, riscos operatius,
     termini de decisió i persona de contacte.
+
 - id: cd_212
   category: monolingual
   persona: pime
@@ -458,6 +500,7 @@
     Escriu una resposta a un client que reclama perquè una sessió demostrativa no
     incloïa totes les funcionalitats promeses. Inclou disculpa prudent, aclariment,
     proposta de nova sessió, límits i tancament professional.
+
 - id: cd_213
   category: monolingual
   persona: administracio
@@ -469,6 +512,7 @@
     Escriu un avís públic sobre el tancament parcial d'una piscina municipal per
     substituir rajoles malmeses. Inclou dates, espais afectats, alternatives per a
     cursets, criteris de prioritat i canal de consultes.
+
 - id: cd_214
   category: monolingual
   persona: administracio
@@ -480,6 +524,7 @@
     Redacta un avís municipal sobre una incidència al sistema de venda d'entrades
     d'un teatre públic. Inclou què passa, com es conservaran les reserves, alternativa
     temporal, terminis i propera comunicació.
+
 - id: cd_215
   category: monolingual
   persona: administracio
@@ -491,6 +536,7 @@
     Escriu un avís sobre canvis provisionals en una ruta de transport escolar per
     obres en un pont. Inclou parades afectades, horaris, punt alternatiu, recomanacions
     de seguretat i canal per comunicar incidències.
+
 - id: cd_216
   category: monolingual
   persona: administracio
@@ -502,6 +548,7 @@
     Prepara una nota interna per contractar la digitalització d'actes històriques
     d'un arxiu local. Inclou objectiu, criteris de qualitat, tractament de documents
     fràgils, calendari, riscos de conservació i validació necessària.
+
 - id: cd_217
   category: monolingual
   persona: administracio
@@ -513,6 +560,7 @@
     Redacta una nota de valoració per contractar subtitulació i transcripció dels
     plens municipals. Inclou necessitat d'accessibilitat, abast, criteris de servei,
     protecció de dades, cost estimat i recomanació condicionada.
+
 - id: cd_218
   category: monolingual
   persona: pime
@@ -524,6 +572,7 @@
     Redacta una nota interna per triar un proveïdor de formació per a l'equip
     comercial. Inclou objectius, criteris de contingut, disponibilitat, cost,
     indicadors d'impacte, riscos i recomanació.
+
 - id: cd_219
   category: monolingual
   persona: pime
@@ -535,6 +584,7 @@
     Prepara una nota per decidir si es canvia el proveïdor d'embalatges després de
     diverses incidències de qualitat. Inclou criteris de comparació, impacte en
     clients, riscos logístics, condicions de transició i decisió recomanada.
+
 - id: cd_220
   category: monolingual
   persona: pime
@@ -546,6 +596,7 @@
     Escriu una resposta de suport per a una empresa que ha importat contactes al
     CRM i detecta camps obligatoris buits, etiquetes duplicades i consentiments
     pendents. Inclou comprovacions, còpia de seguretat, dades a enviar i termini.
+
 - id: cd_221
   category: monolingual
   persona: pime
@@ -557,6 +608,7 @@
     Respon com a suport tècnic a un equip de camp que no pot desar signatures quan
     treballa sense connexió. Dona passos de diagnosi, instruccions per no perdre
     dades, informació que cal recollir i criteri de derivació.
+
 - id: cd_222
   category: monolingual
   persona: pime
@@ -568,6 +620,7 @@
     Escriu una resposta de suport per a un client que veu reserves duplicades després
     de sincronitzar dos calendaris corporatius. Inclou reconeixement, comprovacions
     segures, solució temporal, dades necessàries i propera actualització.
+
 - id: cd_223
   category: monolingual
   persona: administracio
@@ -579,6 +632,7 @@
     Redacta una resposta municipal a una queixa per cues llargues a l'oficina de
     tributs durant el període de pagament voluntari. Inclou reconeixement, mesures
     adoptades, alternatives, terminis i canal de seguiment.
+
 - id: cd_224
   category: monolingual
   persona: usuari_final
@@ -590,6 +644,7 @@
     Escriu una reclamació a una agència de viatges perquè ha canviat l'hotel reservat
     sense acceptació prèvia. Inclou fets, diferències de servei, documents adjunts,
     solució demanada i termini de resposta.
+
 - id: cd_225
   category: monolingual
   persona: usuari_final
@@ -601,6 +656,7 @@
     Redacta una reclamació a un fabricant perquè una garantia no reconeix una avaria
     intermitent ja documentada pel servei tècnic. Inclou antecedents, proves, petició
     principal, alternativa acceptable i reserva d'accions.
+
 - id: cd_226
   category: monolingual
   persona: administracio
@@ -612,6 +668,7 @@
     Prepara un informe d'estat sobre la publicació d'un portal municipal de dades
     obertes. Inclou fites completades, conjunts pendents, riscos de qualitat,
     validacions jurídiques, comunicació pública i decisió requerida.
+
 - id: cd_227
   category: monolingual
   persona: pime
@@ -623,6 +680,7 @@
     Escriu una actualització per a direcció sobre el desplegament d'un servei de
     manteniment a domicili. Inclou estat operatiu, formació de tècnics, incidències
     de planificació, impacte en clients, riscos i properes accions.
+
 - id: cd_228
   category: monolingual
   persona: administracio
@@ -634,6 +692,7 @@
     Redacta una actualització d'estat sobre la renovació del sistema de reserves
     d'equipaments esportius municipals. Inclou avenços, proves amb entitats, riscos
     d'accessibilitat, calendari, comunicació i decisió pendent.
+
 - id: cd_229
   category: monolingual
   persona: pime

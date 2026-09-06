@@ -32,6 +32,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Prepara una resposta de suport per a l'usuari del calendari. Inclou el canvi
     de fus horari, la comprovació al mòbil i un procediment clar per derivar el cas.
+
 - id: cd_h9_064
   category: crosslingual_advanced
   persona: administracio
@@ -66,6 +67,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota sobre la renovació documental.
+
 - id: cd_h9_065
   category: crosslingual_advanced
   persona: usuari_final
@@ -99,6 +101,7 @@
   - role: assistant
     content: De acuerdo. Haré una última revisión del plan de audición antes de cerrarlo.
   prompt: Planifica l'audició musical.
+
 - id: cd_h9_066
   category: crosslingual_advanced
   persona: usuari_final
@@ -134,6 +137,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final de la respuesta de soporte antes de cerrar.
   prompt: Prepara una resposta de suport sobre les opcions de privacitat de l'altaveu.
+
 - id: cd_h9_069
   category: crosslingual_advanced
   persona: pime
@@ -172,6 +176,7 @@
     content: D'acord. Mantindré un to ferm, deixaré oberta una alternativa i seguiré
       l'estructura indicada.
   prompt: Escriu un correu breu usant les instruccions anteriors.
+
 - id: cd_h9_166
   category: crosslingual_advanced
   persona: administracio
@@ -207,6 +212,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la beca de menjador.
+
 - id: cd_h9_167
   category: crosslingual_advanced
   persona: pime
@@ -243,6 +249,7 @@
     content: Understood. I will do the final review before closing.
   prompt: Escriu un correu professional al client sobre la referència de marca, l'exclusivitat,
     la garantia de servei, la penalització i l'alternativa de factura consolidada.
+
 - id: cd_h9_175
   category: crosslingual_advanced
   persona: administracio
@@ -276,6 +283,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el tancament del poliesportiu.
+
 - id: cd_h9_176
   category: crosslingual_advanced
   persona: pime
@@ -315,6 +323,7 @@
     content: D'acord. Prepararé una versió executiva amb tres riscos, una decisió
       recomanada i l'estructura indicada.
   prompt: Redacta l'actualització d'estat.
+
 - id: cd_h9_178
   category: crosslingual_advanced
   persona: administracio
@@ -349,6 +358,7 @@
     content: Understood. I will use this structure to prepare the document.
   prompt: Prepara una resposta per a les famílies sobre l'enllumenat, la patrulla,
     la reparació prevista i el seguiment posterior.
+
 - id: cd_h19_061
   category: crosslingual_advanced
   persona: administracio
@@ -383,6 +393,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el procés del barri.
+
 - id: cd_h19_062
   category: crosslingual_advanced
   persona: administracio
@@ -416,6 +427,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia la poda del carrer.
+
 - id: cd_h19_068
   category: crosslingual_advanced
   persona: usuari_final
@@ -448,6 +460,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama el retorn de la fiança.
+
 - id: cd_h19_160
   category: crosslingual_advanced
   persona: pime
@@ -481,6 +494,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la implantació congelada.
+
 - id: cd_h19_162
   category: crosslingual_advanced
   persona: pime
@@ -514,6 +528,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre el canvi de domini, els rebots de correu,
     el correu brossa, l'informe necessari i el criteri de derivació.
+
 - id: cd_h19_163
   category: crosslingual_advanced
   persona: administracio
@@ -547,6 +562,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Justifica la interpretació del taller.
+
 - id: cd_h19_169
   category: crosslingual_advanced
   persona: pime
@@ -579,6 +595,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Elabora una comparativa de compra que valori els materials, el termini de
     lliurament, el muntatge, la garantia i les verificacions necessàries.
+
 - id: cd_h19_170
   category: crosslingual_advanced
   persona: pime
@@ -612,6 +629,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la importació del catàleg.
+
 - id: cd_h19_172
   category: crosslingual_advanced
   persona: usuari_final
@@ -644,6 +662,7 @@
     content: De acuerdo. Mantendré todos los detalles indicados en la versión final.
   prompt: Escriu una reclamació sobre la reserva, l'hotel assignat, el trasllat, el
     suplement cobrat, els annexos aportats i la compensació demanada.
+
 - id: cd_h19_173
   category: crosslingual_advanced
   persona: administracio
@@ -676,6 +695,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de compra amb la previsió de demanda, la situació del magatzem,
     la reserva de material, les rutes i el risc d'humitat.
+
 - id: cd_h20_060
   category: crosslingual_advanced
   persona: pime
@@ -708,6 +728,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica la reprogramació formativa.
+
 - id: cd_h20_067
   category: crosslingual_advanced
   persona: administracio
@@ -741,6 +762,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre la mobilitat del mercat.
+
 - id: cd_h20_161
   category: crosslingual_advanced
   persona: administracio
@@ -774,6 +796,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre el trasllat temporal de la biblioteca.
+
 - id: cd_h20_164
   category: crosslingual_advanced
   persona: usuari_final
@@ -807,6 +830,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Reclama la certificació formativa.
+
 - id: cd_h20_165
   category: crosslingual_advanced
   persona: pime
@@ -840,6 +864,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Actualitza la certificació ambiental.
+
 - id: cd_h20_168
   category: crosslingual_advanced
   persona: administracio
@@ -872,6 +897,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Anuncia el trasllat de vacunació.
+
 - id: cd_h20_171
   category: crosslingual_advanced
   persona: administracio
@@ -905,6 +931,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta l'actualització del projecte d'estalvi energètic.
+
 - id: cd_h20_174
   category: crosslingual_advanced
   persona: pime
@@ -938,6 +965,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta al client.
+
 - id: cd_h20_177
   category: crosslingual_advanced
   persona: pime
@@ -971,6 +999,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre els escàners del magatzem.
+
 - id: cd_h20_179
   category: crosslingual_advanced
   persona: usuari_final
@@ -1004,6 +1033,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama els danys de la mudança.
+
 - id: cd_h21_260
   category: crosslingual_advanced
   persona: pime
@@ -1037,6 +1067,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Comunica el retard de la instal·lació.
+
 - id: cd_h21_261
   category: crosslingual_advanced
   persona: pime
@@ -1069,6 +1100,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta sobre l'ampliació de la prova tècnica.
+
 - id: cd_h21_262
   category: crosslingual_advanced
   persona: pime
@@ -1104,6 +1136,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta la resposta sobre el canvi de l'activitat comercial.
+
 - id: cd_h21_263
   category: crosslingual_advanced
   persona: pime
@@ -1137,6 +1170,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la resposta sobre el pilot de plataforma.
+
 - id: cd_h21_264
   category: crosslingual_advanced
   persona: pime
@@ -1170,6 +1204,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta la resposta sobre els indicadors de servei.
+
 - id: cd_h21_265
   category: crosslingual_advanced
   persona: administracio
@@ -1205,6 +1240,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon sobre l'accés al jardí.
+
 - id: cd_h21_266
   category: crosslingual_advanced
   persona: usuari_final
@@ -1237,6 +1273,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la baixa del gimnàs.
+
 - id: cd_h21_267
   category: crosslingual_advanced
   persona: administracio
@@ -1270,6 +1307,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon per les molèsties de l'obra.
+
 - id: cd_h21_268
   category: crosslingual_advanced
   persona: usuari_final
@@ -1302,6 +1340,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta la reclamació sobre la qualificació.
+
 - id: cd_h21_269
   category: crosslingual_advanced
   persona: administracio
@@ -1336,6 +1375,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Respon pel manteniment del cementiri.
+
 - id: cd_h21_270
   category: crosslingual_advanced
   persona: usuari_final
@@ -1350,6 +1390,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Reclama la fiança de la bicicleta.
+
 - id: cd_h21_271
   category: crosslingual_advanced
   persona: usuari_final
@@ -1386,6 +1427,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una guia de privacitat per al cotxe compartit.
+
 - id: cd_h21_272
   category: crosslingual_advanced
   persona: administracio
@@ -1423,6 +1465,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la proposta de contractació.
+
 - id: cd_h21_273
   category: crosslingual_advanced
   persona: administracio
@@ -1460,6 +1503,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la fitxa de compra.
+
 - id: cd_h21_274
   category: crosslingual_advanced
   persona: administracio
@@ -1497,6 +1541,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara el document.
+
 - id: cd_h21_275
   category: crosslingual_advanced
   persona: pime
@@ -1533,6 +1578,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la comparativa de proveïdors.
+
 - id: cd_h21_276
   category: crosslingual_advanced
   persona: pime
@@ -1569,6 +1615,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la formació de clients.
+
 - id: cd_h21_277
   category: crosslingual_advanced
   persona: pime
@@ -1583,6 +1630,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la caixa i els terminals.
+
 - id: cd_h21_278
   category: crosslingual_advanced
   persona: administracio
@@ -1620,6 +1668,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de menjadors.
+
 - id: cd_h21_279
   category: crosslingual_advanced
   persona: administracio
@@ -1656,6 +1705,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el canvi d'atenció presencial.
+
 - id: cd_h21_280
   category: crosslingual_advanced
   persona: administracio
@@ -1692,6 +1742,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el tancament del centre cultural.
+
 - id: cd_h21_281
   category: crosslingual_advanced
   persona: administracio
@@ -1706,6 +1757,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia l'accés limitat al cementiri.
+
 - id: cd_h21_282
   category: crosslingual_advanced
   persona: administracio
@@ -1720,6 +1772,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta el comunicat sobre les restriccions d'aigua.
+
 - id: cd_h21_283
   category: crosslingual_advanced
   persona: administracio
@@ -1756,6 +1809,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de mobilitat.
+
 - id: cd_h21_284
   category: crosslingual_advanced
   persona: usuari_final
@@ -1770,6 +1824,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Planifica la pràctica de conducció.
+
 - id: cd_h21_285
   category: crosslingual_advanced
   persona: pime
@@ -1784,6 +1839,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre l'exportació de nòmines.
+
 - id: cd_h21_286
   category: crosslingual_advanced
   persona: pime
@@ -1798,6 +1854,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta una resposta de suport sobre la cua de tiquets.
+
 - id: cd_h21_287
   category: crosslingual_advanced
   persona: pime
@@ -1812,6 +1869,7 @@
   - role: assistant
     content: Understood. I will do the final review before closing.
   prompt: Redacta una resposta de suport sobre la liquidació del terminal.
+
 - id: cd_h21_288
   category: crosslingual_advanced
   persona: pime
@@ -1826,6 +1884,7 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la reclamació sobre la signatura rebutjada.
+
 - id: cd_h21_289
   category: crosslingual_advanced
   persona: usuari_final

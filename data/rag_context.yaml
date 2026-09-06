@@ -42,6 +42,7 @@
       peladores, leñador), vegetación, fauna y usos actuales (excursionismo).'
   prompt: Respon en català a una família que pregunta què trobarà a cada planta del Museu del Bosc i si
     s'hi expliquen oficis rurals.
+
 - id: cd_rag_002
   category: rag_context
   persona: pime
@@ -96,6 +97,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_003
   category: rag_context
   persona: usuari_final
@@ -149,6 +151,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_004
   category: rag_context
   persona: administracio
@@ -205,6 +208,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_005
   category: rag_context
   persona: administracio
@@ -243,6 +247,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: Exposición fotográfica sobre la floración del Parque Natural de Sant Llorenç del Munt y l'Obac
   prompt: Respon en català amb un anunci de l'oferta ambiental de la Muntada per a joves i famílies.
+
 - id: cd_rag_006
   category: rag_context
   persona: usuari_final
@@ -287,6 +292,7 @@
       antepasados ​​de Vallgorguina, el corazón del Parque de El Montnegre i el Corredor.
   prompt: Respon en català a un docent que vol saber com el Museu del Bosc connecta agricultura, natura
     i memòria local.
+
 - id: cd_rag_007
   category: rag_context
   persona: pime
@@ -343,6 +349,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_008
   category: rag_context
   persona: usuari_final
@@ -383,6 +390,7 @@
     text: Ruta teatralizada inclusiva 'Emboscada, un viatge pels cinc sentits', pensada exclusivamente
       para personas con discapacidades
   prompt: Respon en català a una persona que compara opcions inclusives a la Casa Nova de l'Obac.
+
 - id: cd_rag_009
   category: rag_context
   persona: pime
@@ -420,6 +428,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: Espacio disponible para sesiones de prácticas de campo para universidades
   prompt: Respon en català a una empresa d'educació ambiental que estudia col·laborar amb la Muntada.
+
 - id: cd_rag_010
   category: rag_context
   persona: administracio
@@ -478,6 +487,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_011
   category: rag_context
   persona: usuari_final
@@ -521,6 +531,7 @@
     text: Mural del bosque, espectacular montaje escenográfico que adentra al visitante en un mundo de
       sonidos y sensaciones que forman parte del patrimonio inmaterial del Montseny.
   prompt: Respon en català a una ciutadana que pregunta què diferencia la Gabella d'un museu convencional.
+
 - id: cd_rag_012
   category: rag_context
   persona: usuari_final
@@ -561,6 +572,7 @@
     text: 'Exposicion: ''Sant Llorenç del Munt: un paisatge mediterrani '' - que dispone de un cuaderno
       pedagógico específico.'
   prompt: Respon en català a una família que valora una sortida a la Casa Nova de l'Obac.
+
 - id: cd_rag_013
   category: rag_context
   persona: pime
@@ -599,6 +611,7 @@
     text: Escuela de naturaleza y lugar de participación juvenil y de formación para el respeto y uso
       del medio ambiente.
   prompt: Respon en català amb una descripció dels serveis de la Muntada per a una entitat educativa.
+
 - id: cd_rag_014
   category: rag_context
   persona: administracio
@@ -657,6 +670,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_015
   category: rag_context
   persona: administracio
@@ -714,6 +728,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_016
   category: rag_context
   persona: usuari_final
@@ -756,6 +771,7 @@
       táctiles y sonoras de animales
   prompt: Respon en català a una persona que pregunta si la Casa Nova de l'Obac ofereix una experiència
     accessible i guiada.
+
 - id: cd_rag_017
   category: rag_context
   persona: pime
@@ -807,6 +823,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_018
   category: rag_context
   persona: usuari_final
@@ -865,6 +882,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_019
   category: rag_context
   persona: pime
@@ -920,6 +938,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_020
   category: rag_context
   persona: administracio
@@ -961,6 +980,7 @@
     text: Actividades de refuerzo para créditos comunes, variables y de síntesis
   prompt: Respon en català amb un anunci dels recursos inclusius i pedagògics citats per a la Casa Nova
     de l'Obac.
+
 - id: cd_rag_021
   category: rag_context
   persona: usuari_final
@@ -1000,6 +1020,7 @@
     text: Actividades de fin de semana para las AMPA. Taller de cocina solar y excursiones
   prompt: Respon en català a una associació de famílies i estudiants que pregunta quines activitats ambientals
     ofereix la Muntada.
+
 - id: cd_rag_022
   category: rag_context
   persona: administracio
@@ -1058,6 +1079,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_023
   category: rag_context
   persona: usuari_final
@@ -1104,6 +1126,7 @@
   prompt: Una entitat prepara una sortida inclusiva a Can Casades. Fes en català una fitxa que separi la
     funció del centre, els serveis d'informació, el material adaptat disponible, els dos audiovisuals amb
     la durada i l'exposició permanent. No atribueixis al centre cap recurs que no consti als fragments.
+
 - id: cd_rag_024
   category: rag_context
   persona: pime
@@ -1146,6 +1169,7 @@
       una reproducción del Castillo de Montsoriu. Le animamos a descargarlo.'
   prompt: Respon en català amb una nota interna que resumeixi quatre relats de la Gabella i un risc per
     relat.
+
 - id: cd_rag_025
   category: rag_context
   persona: administracio
@@ -1199,6 +1223,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_026
   category: rag_context
   persona: usuari_final
@@ -1255,6 +1280,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_027
   category: rag_context
   persona: pime
@@ -1306,6 +1332,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_028
   category: rag_context
   persona: pime
@@ -1362,6 +1389,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_029
   category: rag_context
   persona: pime
@@ -1418,6 +1446,7 @@
 
 
     Sintetitza la Farga del Roquer.'
+
 - id: cd_rag_030
   category: rag_context
   persona: administracio
@@ -1471,6 +1500,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_031
   category: rag_context
   persona: usuari_final
@@ -1527,6 +1557,7 @@
 
 
     Contesta la consulta.'
+
 - id: cd_rag_032
   category: rag_context
   persona: administracio
@@ -1584,6 +1615,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_033
   category: rag_context
   persona: usuari_final
@@ -1640,6 +1672,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_034
   category: rag_context
   persona: pime
@@ -1693,6 +1726,7 @@
 
 
     Informa sobre el mural del bosc.'
+
 - id: cd_rag_035
   category: rag_context
   persona: administracio
@@ -1748,6 +1782,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_036
   category: rag_context
   persona: administracio
@@ -1808,6 +1843,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_037
   category: rag_context
   persona: administracio
@@ -1867,6 +1903,7 @@
 
 
     Sintetitza la informació.'
+
 - id: cd_rag_038
   category: rag_context
   persona: usuari_final
@@ -1918,6 +1955,7 @@
 
 
     Fes el resum.'
+
 - id: cd_rag_039
   category: rag_context
   persona: administracio
@@ -1971,6 +2009,7 @@
 
 
     Fes la resposta.'
+
 - id: cd_rag_040
   category: rag_context
   persona: administracio
@@ -2026,6 +2065,7 @@
 
 
     Prepara l''avís.'
+
 - id: cd_rag_041
   category: rag_context
   persona: usuari_final
@@ -2065,6 +2105,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: Actividades de fin de semana para las AMPA. Taller de cocina solar y excursiones
   prompt: Respon sobre l'escola de natura.
+
 - id: cd_rag_042
   category: rag_context
   persona: administracio
@@ -2108,6 +2149,7 @@
       montnegrecorredor, desfibrilador, Montnegre-Corredor, Desfibrilador, Elemento de patrimonio histórico-cultural,
       Elemento de patrimonio natural.'
   prompt: Resumeix el servei informatiu itinerant.
+
 - id: cd_rag_043
   category: rag_context
   persona: administracio
@@ -2148,6 +2190,7 @@
     text: El Museo también acoje el Centro de Documentación del Parque Natural del Montnegre i el Corredor.
       Mataró
   prompt: Resumeix el Museu de Mataró.
+
 - id: cd_rag_044
   category: rag_context
   persona: administracio
@@ -2190,6 +2233,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: 'Para más información se puede consultar: Observatorio Astronómico de Tiana'
   prompt: Informa sobre l'audiovisual de la Serralada.
+
 - id: cd_rag_045
   category: rag_context
   persona: administracio
@@ -2232,6 +2276,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: Su base de datos bibliográficos se puede consultar por Internet [catàleg col·lectiu]
   prompt: Anuncia el centre documental del Garraf.
+
 - id: cd_rag_046
   category: rag_context
   persona: administracio
@@ -2277,6 +2322,7 @@
       Maleses. Categorías documentales: marina, museos_y_equipamientos_culturales, Marina, Museos y equipamientos
       culturales.'
   prompt: Respon sobre el museu de les Maleses.
+
 - id: cd_rag_047
   category: rag_context
   persona: administracio
@@ -2316,6 +2362,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: GR 2 La Jonquera-Aiguafreda. De Sant Julià de Vilatorta al santuari de Puig l’Agulla.
   prompt: Resumeix els itineraris de les Set Fonts.
+
 - id: cd_rag_048
   category: rag_context
   persona: usuari_final
@@ -2357,6 +2404,7 @@
     license: https://creativecommons.org/licenses/by/4.0/deed.ca
     text: GR-2 La Jonquera – Aiguafreda. Tram de Vilanova de Sau a Sant Llorenç del Munt.
   prompt: Resumeix el punt de Vilanova de Sau.
+
 - id: cd_rag_049
   category: rag_context
   persona: pime
@@ -2401,6 +2449,7 @@
     text: 'Nombre del equipamiento: Astrosabadell. Categorías documentales: certificacio_cets, museos_y_equipamientos_culturales,
       certificació CETS, Museos y equipamientos culturales.'
   prompt: Informa sobre l'associació astronòmica.
+
 - id: cd_rag_050
   category: rag_context
   persona: administracio
@@ -2441,6 +2490,7 @@
     text: La gestión de este equipamiento es posible gracias al convenio de colaboración entre la Diputación
       de Barcelona y el Ayuntamiento de Sant Vicenç de Castellet.
   prompt: Anuncia el punt occidental del parc.
+
 - id: cd_rag_051
   category: rag_context
   persona: usuari_final
@@ -2482,6 +2532,7 @@
       montnegrecorredor, equipamientos_de_educacion_ambiental_e_investigacion, Montnegre-Corredor, Equipamientos
       de educación ambiental e investigación, Museos y equipamientos culturales, Museos.'
   prompt: Respon sobre la visita autoguiada.
+
 - id: cd_rag_052
   category: rag_context
   persona: usuari_final
@@ -2525,6 +2576,7 @@
     text: También hay barro proveniente del castillo de Rocafort. La mayor parte de piezas han sido donadas
       desinteresadamente por los propios vecinos del pueblo.
   prompt: Resumeix la col·lecció de vida pagesa.
+
 - id: cd_rag_053
   category: rag_context
   persona: administracio
@@ -2572,6 +2624,7 @@
       documentales: montseny, venta_de_publicaciones, Montseny, Venta de publicaciones, Exposición permanente,
       Información personalizada.'
   prompt: Resumeix el punt de la Garriga.
+
 - id: cd_rag_054
   category: rag_context
   persona: administracio
@@ -2611,6 +2664,7 @@
     text: 'Nombre del equipamiento: Centro de Información el Brull. Categorías documentales: montseny,
       Montseny.'
   prompt: Informa sobre la fortificació del Montgròs.
+
 - id: cd_rag_055
   category: rag_context
   persona: administracio
@@ -2658,6 +2712,7 @@
       Ciencias Naturales. Categorías documentales: montseny, centro_de_documentacion, Montseny, Centro
       de documentación, Información personalizada, Centros de documentación.'
   prompt: Anuncia el centre documental del Montseny.
+
 - id: cd_rag_056
   category: rag_context
   persona: administracio
@@ -2699,6 +2754,7 @@
     text: 'Nombre del equipamiento: Audiovisual: Les quatre estacions al Montseny (Las cuatro estaciones
       en el Montseny). Categorías documentales: montseny, audiovisuales, Montseny, Audiovisuales.'
   prompt: Respon sobre l'audiovisual de les estacions.
+
 - id: cd_rag_057
   category: rag_context
   persona: pime
@@ -2742,6 +2798,7 @@
     text: La colección del museo se reparte en dos plantas que dan valor al mundo del bosque, la naturaleza
       y la agricultura.
   prompt: Resumeix el museu de memòria rural.
+
 - id: cd_rag_058
   category: rag_context
   persona: usuari_final
@@ -2784,6 +2841,7 @@
       venta_de_publicaciones, Montseny, Venta de publicaciones, Información personalizada, Itinerario
       autoguiado.'
   prompt: Resumeix el punt d'Aiguafreda.
+
 - id: cd_rag_059
   category: rag_context
   persona: pime
@@ -2825,6 +2883,7 @@
     text: 'Nombre del equipamiento: Llegendes del Montseny (Leyendas del Montseny). Categorías documentales:
       montseny, audiovisuales, Montseny, Audiovisuales.'
   prompt: Informa sobre les llegendes del Montseny.
+
 - id: cd_rag_060
   category: rag_context
   persona: administracio
