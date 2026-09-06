@@ -154,7 +154,7 @@
     content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
       los detalles relevantes.
   - role: user
-    content: 'Redacta-ho amb fermesa i deixa oberta una alternativa.
+    content: 'El to ha de ser ferm i ha de deixar oberta una alternativa.
 
 
       Plantilla reutilizable:
@@ -169,17 +169,9 @@
 
       PRÓXIMO PASO:'
   - role: assistant
-    content: 'BORRADOR PARA REVISIÓN
-
-      ASUNTO Y OBJETIVO
-
-      El cliente B2B solicita dar de baja dos módulos, conservar los datos históricos
-      y reducir la cuota anual sin firmar todavía el anexo. Hay que confirmar qué
-      cambios pueden aplicarse, explicar los riesgos de hacerlo sin formalización
-      y ofrecer una alternativa viable. Prepara ya la versión final completa.
-
-      ACTUACIÓN RECOMENDADA Y PRÓXIMO PASO'
-  prompt: Escriu la resposta de l'assistent com un correu breu.
+    content: D'acord. Mantindré un to ferm, deixaré oberta una alternativa i seguiré
+      l'estructura indicada.
+  prompt: Escriu un correu breu usant les instruccions anteriors.
 - id: cd_h9_166
   category: crosslingual_advanced
   persona: administracio
@@ -305,7 +297,7 @@
     content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
       los detalles relevantes.
   - role: user
-    content: 'Dona''m una versió executiva amb tres riscos i una decisió recomanada.
+    content: 'La versió ha de ser executiva, amb tres riscos i una decisió recomanada.
 
 
       Plantilla reutilizable:
@@ -320,16 +312,8 @@
 
       PRÓXIMO PASO:'
   - role: assistant
-    content: 'BORRADOR PARA REVISIÓN
-
-      ASUNTO Y OBJETIVO
-
-      La campaña de fidelización debe aplazarse porque la segmentación está incompleta,
-      el consentimiento sigue pendiente y falta coordinar al proveedor de envíos.
-      Hay que revisar el cuadro de métricas, ajustar el calendario comercial y presentar
-      tres riesgos con una decisión recomendada. Prepara ya la versión final completa.
-
-      ACTUACIÓN RECOMENDADA Y PRÓXIMO PASO'
+    content: D'acord. Prepararé una versió executiva amb tres riscos, una decisió
+      recomanada i l'estructura indicada.
   prompt: Redacta l'actualització d'estat.
 - id: cd_h9_178
   category: crosslingual_advanced
@@ -362,7 +346,7 @@
 
       NEXT STEP:'
   - role: assistant
-    content: D'acord. Faré servir aquesta estructura per preparar el document.
+    content: Understood. I will use this structure to prepare the document.
   prompt: Prepara una resposta per a les famílies sobre l'enllumenat, la patrulla,
     la reparació prevista i el seguiment posterior.
 - id: cd_h19_061
@@ -383,8 +367,7 @@
     content: Hay que explicar los resultados de la encuesta piloto, las reglas de
       moderación, las reservas de espacios y la próxima sesión pública.
   - role: assistant
-    content: Ho convertiré en llenguatge administratiu, amb responsabilitats i terminis
-      clars.
+    content: Lo convertiré a lenguaje administrativo, con responsabilidades y plazos claros.
   - role: user
     content: 'Ficha resumen:
 
@@ -449,7 +432,7 @@
     content: The landlord kept part of the deposit for cleaning, but the checkout
       photos and meter readings were already sent.
   - role: assistant
-    content: Faré una versió formal i concreta.
+    content: I will prepare a formal and specific version.
   - role: user
     content: 'Plantilla estándar de respuesta:
 
@@ -482,8 +465,7 @@
     content: El distribuidor solicita suspensión temporal, conservación de licencias,
       acceso mínimo para administradores y revisión de facturación al reactivar.
   - role: assistant
-    content: Ho tractaré amb prudència comercial i sense copiar la formulació del
-      client.
+    content: Lo trataré con prudencia comercial y sin copiar la formulación del cliente.
   - role: user
     content: 'Ficha resumen:
 
@@ -517,17 +499,17 @@
     content: The ticket mentions domain migration, email bounces, whitelist request,
       spam filtering and a missing delivery report.
   - role: assistant
-    content: Entenc que cal transformar els detalls tècnics sense repetir-los literalment.
+    content: I understand that the technical details must be transformed without repeating them verbatim.
   - role: user
     content: Revisa todos los requisitos antes de cerrar.
   - role: assistant
-    content: D'acord. Conservaré tots els requisits.
+    content: De acuerdo. Conservaré todos los requisitos.
   - role: user
     content: Comprueba también los riesgos, acciones y seguimiento.
   - role: assistant
-    content: D'acord. També conservaré aquests elements.
+    content: De acuerdo. También conservaré estos elementos.
   - role: user
-    content: Prepara ya la versión final completa.
+    content: La versión final debe incluir todos los detalles indicados.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre el canvi de domini, els rebots de correu,
@@ -549,7 +531,7 @@
     content: 'Nos han pasado estos puntos: intérpretes disponibles, reserva de sala,
       presupuesto cerrado, factura por horas y asistencia prevista.'
   - role: assistant
-    content: Ho convertiré a llenguatge administratiu i mantindré la cautela jurídica.
+    content: Lo convertiré a lenguaje administrativo y mantendré la cautela jurídica.
   - role: user
     content: 'Plantilla estándar de respuesta:
 
@@ -582,17 +564,17 @@
     content: The offer mentions delivery slots, recycled materials, assembly limits,
       warranty coverage and a showroom sample.
   - role: assistant
-    content: Ho convertiré en una nota interna amb els riscos ben explicats.
+    content: I will turn it into an internal note with the risks clearly explained.
   - role: user
     content: Revisa todos los requisitos antes de cerrar.
   - role: assistant
-    content: D'acord. Conservaré tots els requisits.
+    content: De acuerdo. Conservaré todos los requisitos.
   - role: user
     content: Comprueba también los riesgos, acciones y seguimiento.
   - role: assistant
-    content: D'acord. També conservaré aquests elements.
+    content: De acuerdo. También conservaré estos elementos.
   - role: user
-    content: Prepara ya la versión final completa.
+    content: La versión final debe incluir todos los detalles indicados.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Elabora una comparativa de compra que valori els materials, el termini de
@@ -614,7 +596,7 @@
     content: 'El cliente ha escrito: catálogo incompleto, imágenes cruzadas, stock
       desactualizado, categorías vacías y plantilla modificada.'
   - role: assistant
-    content: Evitaré copiar aquests termes i mantindré una resposta clara.
+    content: Evitaré copiar estos términos y mantendré una respuesta clara.
   - role: user
     content: 'Ficha resumen:
 
@@ -647,19 +629,19 @@
     content: 'Tengo apuntado: hotel cambiado, traslado cancelado, suplemento inesperado,
       reserva confirmada y agencia sin respuesta.'
   - role: assistant
-    content: Ho redactaré sense copiar literalment aquestes expressions.
+    content: Lo redactaré sin copiar literalmente estas expresiones.
   - role: user
     content: Revisa todos los requisitos antes de cerrar.
   - role: assistant
-    content: D'acord. Conservaré tots els requisits.
+    content: De acuerdo. Conservaré todos los requisitos.
   - role: user
     content: Comprueba también los riesgos, acciones y seguimiento.
   - role: assistant
-    content: D'acord. També conservaré aquests elements.
+    content: De acuerdo. También conservaré estos elementos.
   - role: user
-    content: Prepara ya la versión final completa.
+    content: La versión final debe incluir todos los detalles indicados.
   - role: assistant
-    content: Understood. I will now deliver the final version with the requested details.
+    content: De acuerdo. Mantendré todos los detalles indicados en la versión final.
   prompt: Escriu una reclamació sobre la reserva, l'hotel assignat, el trasllat, el
     suplement cobrat, els annexos aportats i la compensació demanada.
 - id: cd_h19_173
@@ -679,17 +661,17 @@
     content: The operations team mentions winter forecast, warehouse capacity, emergency
       stock, delivery routes and moisture controls.
   - role: assistant
-    content: Faré una versió administrativa amb etiquetes clares.
+    content: I will prepare an administrative version with clear labels.
   - role: user
     content: Revisa todos los requisitos antes de cerrar.
   - role: assistant
-    content: D'acord. Conservaré tots els requisits.
+    content: De acuerdo. Conservaré todos los requisitos.
   - role: user
     content: Comprueba también los riesgos, acciones y seguimiento.
   - role: assistant
-    content: D'acord. També conservaré aquests elements.
+    content: De acuerdo. También conservaré estos elementos.
   - role: user
-    content: Prepara ya la versión final completa.
+    content: La versión final debe incluir todos los detalles indicados.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de compra amb la previsió de demanda, la situació del magatzem,
@@ -743,7 +725,7 @@
     content: La queja habla de carril bici ocupado, vallas mal colocadas, acceso difícil
       para carritos y falta de señalización.
   - role: assistant
-    content: Prendré aquests elements i els redactaré en llenguatge administratiu.
+    content: Tomaré estos elementos y los redactaré en lenguaje administrativo.
   - role: user
     content: 'Plantilla reusable:
 
@@ -776,7 +758,7 @@
     content: Include library relocation, returns desk, reading room capacity, collection
       limits and temporary opening hours, but don't make it sound too technical.
   - role: assistant
-    content: Convertiré aquests conceptes a llenguatge administratiu clar i útil.
+    content: I will convert these concepts into clear and useful administrative language.
   - role: user
     content: 'Formulario estándar:
 
@@ -809,7 +791,7 @@
     content: Su correo menciona el examen de certificación, el plazo vencido, el portal
       averiado, el vale del curso y la cola de revisión manual.
   - role: assistant
-    content: Faré servir aquesta informació sense copiar la formulació original.
+    content: Usaré esta información sin copiar la formulación original.
   - role: user
     content: 'Reusable form:
 
@@ -823,7 +805,7 @@
 
       NEXT STEP:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Reclama la certificació formativa.
 - id: cd_h20_165
   category: crosslingual_advanced
@@ -842,7 +824,7 @@
     content: Use supplier audit, certificate evidence, corrective action, site visit
       and renewal window because the consultant uses those labels.
   - role: assistant
-    content: Ho expressaré en llenguatge empresarial amb etiquetes clares.
+    content: I will express it in business language with clear labels.
   - role: user
     content: 'Reusable form:
 
@@ -856,7 +838,7 @@
 
       VALIDATION:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Actualitza la certificació ambiental.
 - id: cd_h20_168
   category: crosslingual_advanced
@@ -874,7 +856,7 @@
     content: El borrador incluye centro alternativo, horario ampliado, cita ya confirmada,
       transporte cercano y personal de apoyo.
   - role: assistant
-    content: Ho redactaré i distingiré fets confirmats de recomanacions.
+    content: Lo redactaré distinguiendo los hechos confirmados de las recomendaciones.
   - role: user
     content: 'Standard form:
 
@@ -888,7 +870,7 @@
 
       DEADLINE:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Anuncia el trasllat de vacunació.
 - id: cd_h20_171
   category: crosslingual_advanced
@@ -907,7 +889,7 @@
     content: The project office wrote about energy audit visits, household signups,
       meter readings, workshop attendance and supplier scheduling.
   - role: assistant
-    content: Transformaré aquests elements en llenguatge administratiu.
+    content: I will transform these elements into administrative language.
   - role: user
     content: 'Structured template:
 
@@ -921,7 +903,7 @@
 
       CLOSING:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Enllesteix el document.
 - id: cd_h20_174
   category: crosslingual_advanced
@@ -940,7 +922,7 @@
     content: El equipo comercial propone anticipo reducido, factura fraccionada, vencimiento
       ampliado, revisión de crédito y anexo contractual.
   - role: assistant
-    content: Ho convertiré en una resposta comercial clara.
+    content: Lo convertiré en una respuesta comercial clara.
   - role: user
     content: 'Formulario estándar:
 
@@ -973,7 +955,7 @@
     content: Their operator says scanner pairing, bluetooth drops, warehouse labels,
       firmware version and offline mode.
   - role: assistant
-    content: Tradueixo el fons tècnic a instruccions clares.
+    content: I will translate the technical substance into clear instructions.
   - role: user
     content: 'Standard template:
 
@@ -987,7 +969,7 @@
 
       DEADLINE:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol els escàners del magatzem.
 - id: cd_h20_179
   category: crosslingual_advanced
@@ -1006,7 +988,7 @@
     content: El presupuesto cita inventario firmado, caja golpeada, seguro contratado,
       fotografías adjuntas y respuesta pendiente del transportista.
   - role: assistant
-    content: Ho redactaré de manera ordenada i sense copiar el castellà.
+    content: Lo redactaré de manera ordenada y sin copiar el texto original.
   - role: user
     content: 'Plantilla reusable:
 
@@ -1120,7 +1102,7 @@
 
       VALIDATION:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol-ho.
 - id: cd_h21_263
   category: crosslingual_advanced
@@ -1186,7 +1168,7 @@
 
       CONTROL:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Aclareix els indicadors de servei.
 - id: cd_h21_265
   category: crosslingual_advanced
@@ -1318,7 +1300,7 @@
 
       NEXT STEP:'
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Formula-la.
 - id: cd_h21_269
   category: crosslingual_advanced
@@ -1398,9 +1380,9 @@
 
       TASK:'
   - role: assistant
-    content: D'acord. Faré una guia pràctica sense copiar literalment.
+    content: Understood. I will prepare a practical guide without copying verbatim.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Ordena la privacitat del cotxe compartit.
@@ -1435,9 +1417,9 @@
 
       SEGUIMIENTO:'
   - role: assistant
-    content: D'acord. Ho redactaré amb cautela administrativa.
+    content: De acuerdo. Lo redactaré con cautela administrativa.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Tanca la proposta.
@@ -1472,9 +1454,9 @@
 
       OWNER:'
   - role: assistant
-    content: D'acord. Mantindré la informació i adaptaré la llengua final.
+    content: Understood. I will preserve the information and adapt the final language.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Completa la fitxa.
@@ -1509,9 +1491,9 @@
 
       CIERRE:'
   - role: assistant
-    content: D'acord. Redactaré la nota final amb la llengua indicada.
+    content: De acuerdo. Redactaré la nota final en el idioma indicado.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara el document.
@@ -1545,9 +1527,9 @@
 
       CLOSING:'
   - role: assistant
-    content: D'acord. Ho convertiré en una nota interna.
+    content: Understood. I will turn it into an internal note.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Presenta la comparativa.
@@ -1581,9 +1563,9 @@
 
       CONTROL:'
   - role: assistant
-    content: D'acord. La versió final mantindrà el contingut sense copiar les etiquetes.
+    content: Understood. The final version will preserve the content without copying the labels.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la formació de clients.
@@ -1632,9 +1614,9 @@
 
       FOLLOW-UP:'
   - role: assistant
-    content: D'acord. Redactaré l'actualització.
+    content: Understood. I will draft the update.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de menjadors.
@@ -1668,9 +1650,9 @@
 
       CIERRE:'
   - role: assistant
-    content: D'acord. Ho transformaré en un avís públic.
+    content: De acuerdo. Lo transformaré en un aviso público.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el canvi d'atenció presencial.
@@ -1704,9 +1686,9 @@
 
       VALIDATION:'
   - role: assistant
-    content: D'acord. Prepararé un avís clar per al públic.
+    content: Understood. I will prepare a clear notice for the public.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el tancament del centre cultural.
@@ -1736,7 +1718,7 @@
     content: Include fountain shutdown, drought restriction, bottle refill points,
       playground misting disabled and next review date.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Publica el comunicat.
 - id: cd_h21_283
   category: crosslingual_advanced
@@ -1768,9 +1750,9 @@
 
       RESPONSABLE:'
   - role: assistant
-    content: D'acord. Faré una actualització clara.
+    content: De acuerdo. Prepararé una actualización clara.
   - role: user
-    content: Haz una última revisión y deja lista la respuesta final.
+    content: La respuesta final debe quedar revisada y lista para entregar.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el projecte de mobilitat.
@@ -1786,7 +1768,7 @@
     content: I need driving test practice, hazard perception, parallel parking, mirror
       mistakes and a calm routine for the final day.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Planifica la pràctica de conducció.
 - id: cd_h21_285
   category: crosslingual_advanced
@@ -1800,7 +1782,7 @@
     content: The ticket says payroll export rounding issue, missing payslip totals,
       one department affected and audit file mismatch.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol l'exportació de nòmines.
 - id: cd_h21_286
   category: crosslingual_advanced
@@ -1828,7 +1810,7 @@
     content: The merchant says payment terminal settlement, missing receipt, offline
       batch, duplicate authorization and bank reconciliation issue.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol la liquidació del terminal.
 - id: cd_h21_288
   category: crosslingual_advanced
@@ -1856,5 +1838,5 @@
     content: Their note mentions heating meter reading, roommate contribution, landlord
       approval, shared bill and missing monthly statement.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Aclareix el rebut de calefacció.

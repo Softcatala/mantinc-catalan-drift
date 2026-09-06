@@ -31,7 +31,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes que soni urgent, però sense tocar el marge.
 
-    Escriu una resposta de l''assistent com un correu breu amb assumpte i cos.'
+    Escriu un correu breu amb assumpte i cos.'
 - id: cd_061
   category: multi_turn
   persona: administracio
@@ -180,8 +180,7 @@
     content: I already did a practice test and found weak areas, so I need a short
       study sprint with a review checklist.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formulario interno:
 
@@ -198,7 +197,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-me''l per a cinc dies i amb tasques concretes.
 
-    Respon com a assistent amb un pla d''estudi estructurat.'
+    Organitza el pla d''estudi de manera estructurada.'
 - id: cd_066
   category: multi_turn
   persona: usuari_final
@@ -215,8 +214,7 @@
     content: Include smart TV apps, microphone settings, viewing history and linked
       streaming accounts.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Esquema oficial:
 
@@ -266,7 +264,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-ho formal però proper, sense sonar defensiu.
 
-    Escriu la propera resposta de l''assistent.'
+    Escriu la resposta a la queixa.'
 - id: cd_068
   category: multi_turn
   persona: usuari_final
@@ -335,7 +333,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Redacta-ho amb fermesa i deixa oberta una alternativa.
 
-    Escriu la resposta de l''assistent com un correu breu.'
+    Escriu un correu breu usant les instruccions anteriors.'
 - id: cd_160
   category: multi_turn
   persona: pime
@@ -372,7 +370,7 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes una resposta breu, ferma i amb una proposta de reunió avui mateix.
 
-    Escriu la propera resposta de l''assistent com un correu amb assumpte i cos.'
+    Escriu un correu amb assumpte i cos.'
 - id: cd_161
   category: multi_turn
   persona: administracio
@@ -390,8 +388,7 @@
     content: Include rolling closure, school pickup window, mobility hub, emergency
       lane and live map, but don't make it sound too technical.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Estructura obligatoria:
 
@@ -425,8 +422,7 @@
     content: The ticket mentions board export, missing comments, archived cards, CSV
       limit and an incomplete activity log.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Ficha resumen:
 
@@ -495,8 +491,7 @@
     content: Their email mentions wristband pickup, entrance queue, access map, closed
       stage and crowd information point.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Plantilla estándar de respuesta:
 
@@ -511,10 +506,8 @@
       CIERRE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: 'Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
+  prompt: Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
     respecten condicions equivalents.
-
-    Escriu la propera resposta de l''assistent.'
 - id: cd_165
   category: multi_turn
   persona: pime
@@ -532,8 +525,7 @@
     content: Use content backlog, localization review, trainer sign-off, launch window
       and learner communications because the project team uses those labels.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formato estándar:
 
@@ -603,8 +595,7 @@
     content: The client keeps saying data migration, pilot workshop, sample users,
       acceptance window and delayed purchase order.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Estructura obligatoria:
 
@@ -673,8 +664,7 @@
     content: The offer mentions venue capacity, catering options, deposit deadline,
       cancellation terms and accessibility constraints.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formato estándar:
 
@@ -742,7 +732,7 @@
     content: The project office wrote about grant milestone, procurement delay, public
       dashboard, risk register and escalation path.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -811,7 +801,7 @@
     content: The technical team uses framework supplier, disaster recovery, service
       credit, evidence pack and compliance checkpoint.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla estándar (headers ES/EN):
 
@@ -878,7 +868,7 @@
     content: The operations note says appointment outage, walk-in desk, priority queue,
       confirmation email and service restoration.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Bilingual form (ES/EN headers):
 
@@ -948,7 +938,7 @@
     content: Their developer says webhook retry, payload mismatch, sandbox account,
       production token and rate limit.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -982,7 +972,7 @@
     content: The complaint mentions accessibility barrier, temporary ramp, contractor
       delay, site inspection and formal apology.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -1085,7 +1075,7 @@
     content: Their team mentions pilot credits, dashboard access, invoice split, finance
       approval and a customer workshop next week.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1155,7 +1145,7 @@
     content: The client mentions customer testimonial, media quote, contract clause,
       billing review and approval from their communications team.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -1224,7 +1214,7 @@
     content: The complaint mentions court lighting failure, cancelled booking, refund
       request, an incident report and no update from staff.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1293,7 +1283,7 @@
     content: The resident mentions a tax receipt, missing discount, payment deadline
       and possible appeal if there is no correction.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Reusable form (bilingual headers):
 
@@ -1361,7 +1351,7 @@
     content: The complaint cites late noise, venue permit doubts, patrol request and
       a written response deadline.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -1405,7 +1395,7 @@
     content: Include wearable health history, emergency contacts, bluetooth pairing,
       payment shortcuts and profile settings.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Ordena la neteja del dispositiu wearable.
 - id: cd_272
   category: multi_turn
@@ -1433,7 +1423,7 @@
     content: The service request mentions temporary signage, floor maps, accessible
       entrances, printing proofs and an opening deadline.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Tanca aquesta tasca.
 - id: cd_274
   category: multi_turn
@@ -1461,7 +1451,7 @@
     content: The offer includes headset replacement, extended warranty, noise reduction,
       extra units for agents and a paid trial period.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Prepara el resultat definitiu.
 - id: cd_276
   category: multi_turn
@@ -1475,7 +1465,7 @@
     content: Use customer survey, onboarding blockers, activation rate, account playbook
       and success-team handoff because those are the team's labels.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Actualitza l'activació de clients.
 - id: cd_277
   category: multi_turn
@@ -1503,7 +1493,7 @@
     content: The project note says permit kiosk, document scanner, queue display,
       staff training and pilot counter are not fully aligned.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Actualitza el quiosc de permisos.
 - id: cd_279
   category: multi_turn
@@ -1531,7 +1521,7 @@
     content: The operations note says museum audio guides are unavailable, online
       tickets still work, one exhibition desk moves and staff will assist visitors.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Dona-hi forma final.
 - id: cd_281
   category: multi_turn
@@ -1559,7 +1549,7 @@
     content: Include relocated bins, night collection, cleaning crews, revised schedule
       and a notice for affected streets.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Anuncia la recollida nocturna.
 - id: cd_283
   category: multi_turn
@@ -1587,7 +1577,7 @@
     content: I already reviewed lab safety, formulas, labelled diagrams, flashcards
       and timed practice questions.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Planifica el repàs de laboratori.
 - id: cd_285
   category: multi_turn
@@ -1601,7 +1591,7 @@
     content: Their developer mentions domain authentication, DKIM record, SPF alignment,
       bounce rate and a paused campaign.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol l'autenticació del domini.
 - id: cd_286
   category: multi_turn
@@ -1629,7 +1619,7 @@
     content: The field note says tablet route list, missing signature, delayed sync,
       driver notes and one unsent form.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Resol la sincronització de la ruta.
 - id: cd_288
   category: multi_turn
@@ -1657,5 +1647,5 @@
     content: Their message says heating meter reading, roommate contribution, shared
       bill, agency approval and no monthly breakdown.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Respon sobre el rebut de calefacció.
