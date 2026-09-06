@@ -32,7 +32,7 @@ VALID_PRESSURE_PATTERNS = {
     "inline_source_es",
     "midconv_es_recency",
     "rag_context",
-    "harder_template_es",
+    "template_es",
     "harder_template_mixed",
     "harder_short_implicit",
 }

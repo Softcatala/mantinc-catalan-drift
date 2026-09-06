@@ -4,7 +4,7 @@
   workflow: ai_misconception_explanation
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Mucha gente cree que una respuesta de IA siempre es objetiva y neutral porque
     se basa en datos, pero puede reproducir sesgos si no se revisa con criterio humano."
 
@@ -29,7 +29,7 @@
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Tenemos una factura pendiente y necesitamos una respuesta urgente porque
     el presupuesto cerrado vence mañana."
 
@@ -55,7 +55,7 @@
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El ascensor de la biblioteca no estará disponible mañana por la tarde. El
     personal trasladará los libros reservados a la planta baja y organizará acceso asistido cuando se
     solicite."
@@ -81,7 +81,7 @@
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The customer says a document upload stalls after the second attachment, the file format
     warning is unclear, and the processing queue has not moved since yesterday."
 
@@ -107,7 +107,7 @@
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El proveedor homologado confirma el plazo de entrega, pero falta el visto
     bueno de la mesa de contratación."
 
@@ -133,7 +133,7 @@
   workflow: study_plan
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Empieza con un examen de prueba, identifica los temas más flojos, practica
     con tiempo limitado durante dos días y reserva la última tarde para el repaso final."
 
@@ -159,7 +159,7 @@
   workflow: project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El entregable principal está listo, pero hay un riesgo comercial por el retraso
     acumulado y conviene convocar una reunión de seguimiento."
 
@@ -185,7 +185,7 @@
   workflow: citizen_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "We received your question about the community garden waiting list. Plot assignments
     will be reviewed next week, missing documents can be sent by email and applicants will receive an
     update."
@@ -212,7 +212,7 @@
   workflow: complaint_response
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El producto llegó defectuoso, el reemplazo prometido no se ha enviado, adjunto
     fotografías y pido una solución dentro de la garantía."
 
@@ -238,7 +238,7 @@
   workflow: privacy_guidance
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Before creating a child profile, review visibility settings, ad personalization, follower
     approvals and photo tagging permissions."
 
@@ -264,7 +264,7 @@
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El cliente habla de un bloqueo de producción, exige una garantía extendida,
     menciona penalización automática y pide una respuesta vinculante antes del cierre."
 
@@ -291,7 +291,7 @@
   workflow: public_notice
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Wildfire smoke may affect school pickup hours. Vulnerable residents should use an indoor
     shelter until the next air quality update."
 
@@ -317,7 +317,7 @@
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Single sign-on works for the admin role, but invoice export fails for users with stale
     permissions and the audit log shows no error."
 
@@ -343,7 +343,7 @@
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Una oferta podría ser baja temeraria, falta acreditar solvencia técnica,
     se plantea subsanación documental y la mesa de contratación espera informe jurídico."
 
@@ -369,7 +369,7 @@
   workflow: complaint_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The passenger suffered denied boarding, missed a connecting flight, only received a
     meal voucher, requested a written explanation and wants to file a compensation claim."
 
@@ -395,7 +395,7 @@
   workflow: project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "La integración contable funciona en el entorno de pruebas, pero el proveedor
     externo detecta desviación de alcance y propone una reunión de desbloqueo."
 
@@ -421,7 +421,7 @@
   workflow: complaint_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The resident reports a missed inspection, raises a safety concern, asks for complaint
     escalation, wants a response deadline and a case owner."
 
@@ -448,7 +448,7 @@
   workflow: client_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The client wants to publish a case study, use our logo in a press note, extend the trial
     period and skip the legal review this week."
 
@@ -475,7 +475,7 @@
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "La pasarela peatonal se cerrará por un evento deportivo, habrá vallado provisional,
     itinerario alternativo señalizado y personal de apoyo."
 
@@ -501,7 +501,7 @@
   workflow: procurement_note
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The proposal compares uniform suppliers, size availability, fabric samples, return conditions,
     delivery batches and branding requirements."
 

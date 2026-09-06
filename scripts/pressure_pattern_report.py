@@ -19,7 +19,7 @@ ORDER = [
     "inline_source_es",
     "midconv_es_recency",
     "rag_context",
-    "harder_template_es",
+    "template_es",
     "harder_template_mixed",
     "harder_short_implicit",
 ]
@@ -29,7 +29,7 @@ COMPACT_LABELS = {
     "inline_source_es": "inline-es",
     "midconv_es_recency": "midconv-es",
     "rag_context": "rag",
-    "harder_template_es": "hard-tmpl",
+    "template_es": "hard-tmpl",
     "harder_template_mixed": "hard-mix",
     "harder_short_implicit": "short-impl",
 }

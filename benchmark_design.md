@@ -55,7 +55,7 @@ Each sample should specify:
   - `no_pressure` (60): monolingual items — control.
   - `english_or_trilingual` (7): unmodified English or trilingual pressure.
   - `rag_context` (13): retrieved context with the explicit Catalan guardrail.
-  - `harder_template_es` (63): saturated Spanish-template pressure.
+  - `template_es` (63): saturated Spanish-template pressure.
   - `harder_template_mixed` (77): mixed ES/EN template pressure.
   - `harder_short_implicit` (80): dominant non-Catalan context followed by
     a short implicit Catalan task.

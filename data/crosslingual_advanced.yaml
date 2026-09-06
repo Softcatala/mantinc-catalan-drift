@@ -38,7 +38,7 @@
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem de preparar una nota interna sobre la renovació d'una eina de gestió
@@ -72,7 +72,7 @@
   workflow: study_plan
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Necessito organitzar-me per preparar una audició de música.
@@ -105,7 +105,7 @@
   workflow: support_reply
   source_lang: en-es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Necessito ajuda perquè no puc revisar totes les opcions de privacitat
@@ -140,7 +140,7 @@
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Som una empresa petita i hem de respondre una baixa parcial d'un servei
@@ -178,7 +178,7 @@
   workflow: complaint_response
   source_lang: es-en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: L'oficina municipal ha de contestar una persona que no entén l'estat
@@ -249,7 +249,7 @@
   workflow: public_notice
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: El poliesportiu municipal ha de tancar parcialment una zona avui.
@@ -282,7 +282,7 @@
   workflow: project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Necessito un estat de projecte sobre una campanya de fidelització que
@@ -355,7 +355,7 @@
   workflow: public_project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Treballo en una administració local i hem d'actualitzar l'estat d'un
@@ -389,7 +389,7 @@
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem d'avisar el veïnat d'una actuació de poda en un carrer estret.
@@ -422,7 +422,7 @@
   workflow: tenant_request
   source_lang: en-es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Vull escriure al propietari perquè no m'ha retornat tota la fiança.
@@ -454,7 +454,7 @@
   workflow: client_reply
   source_lang: es-en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Som una consultoria petita i hem de respondre a un distribuïdor que vol
@@ -520,7 +520,7 @@
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem de justificar una contractació puntual per a un taller ciutadà amb
@@ -585,7 +585,7 @@
   workflow: support_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Tenim un client amb una incidència tècnica després d'importar un catàleg

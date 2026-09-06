@@ -68,7 +68,10 @@ class DatasetTest(unittest.TestCase):
             with self.subTest(row=row["id"]):
                 category = row["category"]
                 has_instruction = mentions_catalan_instruction(row)
-                if row["pressure_pattern"].startswith("harder_"):
+                if (
+                    row["pressure_pattern"] == "template_es"
+                    or row["pressure_pattern"].startswith("harder_")
+                ):
                     self.assertFalse(has_instruction)
                 elif category == "rag_context":
                     self.assertTrue(has_instruction)

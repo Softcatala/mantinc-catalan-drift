@@ -48,7 +48,7 @@
   workflow: public_info_summary
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -102,7 +102,7 @@
   workflow: service_summary
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -155,7 +155,7 @@
   workflow: internal_briefing
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -293,7 +293,7 @@
   workflow: public_info_summary
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -426,7 +426,7 @@
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -605,7 +605,7 @@
   workflow: internal_briefing
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -663,7 +663,7 @@
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -762,7 +762,7 @@
   workflow: public_info_summary
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -813,7 +813,7 @@
   workflow: service_summary
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
@@ -871,7 +871,7 @@
   workflow: internal_briefing
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   retrieved_context:
   - id: doc1
     lang: es
