@@ -131,7 +131,7 @@
       CIERRE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Enllesteix-ho ara.
+  prompt: Redacta la resposta de suport.
 - id: cd_064
   category: multi_turn
   persona: administracio
@@ -163,7 +163,7 @@
       RESPONSABLE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Deixa-la preparada.
+  prompt: Redacta la nota de contractació.
 - id: cd_065
   category: multi_turn
   persona: usuari_final
@@ -1382,7 +1382,7 @@
       tutor sin validar, expediente incompleto y convalidación bloqueada.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Presenta'n la versió final.
+  prompt: Redacta la versió final de la reclamació.
 - id: cd_271
   category: multi_turn
   persona: usuari_final
@@ -1396,7 +1396,7 @@
       payment shortcuts and profile settings.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Ordena la neteja del dispositiu wearable.
+  prompt: Redacta una guia per netejar les dades del dispositiu wearable.
 - id: cd_272
   category: multi_turn
   persona: administracio
@@ -1410,7 +1410,7 @@
       vulnerable, disponibilidad urgente y presupuesto limitado.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Completa l'encàrrec.
+  prompt: Redacta la nota de contractació.
 - id: cd_273
   category: multi_turn
   persona: administracio
@@ -1424,7 +1424,7 @@
       entrances, printing proofs and an opening deadline.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Tanca aquesta tasca.
+  prompt: Redacta la nota de contractació.
 - id: cd_274
   category: multi_turn
   persona: administracio
@@ -1438,7 +1438,7 @@
       plazo de instalación y presupuesto disponible.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Deixa el text llest.
+  prompt: Redacta la nota de contractació.
 - id: cd_275
   category: multi_turn
   persona: pime
@@ -1452,7 +1452,7 @@
       extra units for agents and a paid trial period.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Prepara el resultat definitiu.
+  prompt: Redacta la comparativa de compra.
 - id: cd_276
   category: multi_turn
   persona: pime
@@ -1522,7 +1522,7 @@
       tickets still work, one exhibition desk moves and staff will assist visitors.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Dona-hi forma final.
+  prompt: Redacta l'avís sobre els serveis del museu.
 - id: cd_281
   category: multi_turn
   persona: administracio
@@ -1592,7 +1592,7 @@
       bounce rate and a paused campaign.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Resol l'autenticació del domini.
+  prompt: Redacta una resposta de suport sobre l'autenticació del domini.
 - id: cd_286
   category: multi_turn
   persona: pime
@@ -1606,7 +1606,7 @@
       actualizado y sesión que caduca.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol la signatura del PDF.
+  prompt: Redacta una resposta de suport sobre la signatura del PDF.
 - id: cd_287
   category: multi_turn
   persona: pime
@@ -1620,7 +1620,7 @@
       driver notes and one unsent form.
   - role: assistant
     content: Understood. I will do the final review before closing.
-  prompt: Resol la sincronització de la ruta.
+  prompt: Redacta una resposta de suport sobre la sincronització de la ruta.
 - id: cd_288
   category: multi_turn
   persona: pime
@@ -1634,7 +1634,7 @@
       caducidad visible y app móvil desactualizada.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol el saldo del bo.
+  prompt: Redacta una resposta de suport sobre el saldo del bo.
 - id: cd_289
   category: multi_turn
   persona: usuari_final
