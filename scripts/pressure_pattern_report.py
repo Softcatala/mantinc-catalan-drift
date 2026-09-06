@@ -35,7 +35,7 @@ COMPACT_LABELS = {
 }
 
 items = {}
-for path in sorted(ROOT.glob("data/prompts_*.yaml")):
+for path in sorted(ROOT.glob("data/*.yaml")):
     for r in yaml.safe_load(path.read_text(encoding="utf-8")) or []:
         items[r["id"]] = r.get("pressure_pattern", "unknown")
 

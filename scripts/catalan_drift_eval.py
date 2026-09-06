@@ -24,11 +24,11 @@ from lm_eval_tasks.catalan_drift.utils import (
 
 
 DEFAULT_PROMPTS = [
-    "data/prompts_monolingual.yaml",
-    "data/prompts_crosslingual_basic.yaml",
-    "data/prompts_multi_turn.yaml",
-    "data/prompts_crosslingual_advanced.yaml",
-    "data/prompts_rag_context.yaml",
+    "data/monolingual.yaml",
+    "data/crosslingual_basic.yaml",
+    "data/multi_turn.yaml",
+    "data/crosslingual_advanced.yaml",
+    "data/rag_context.yaml",
 ]
 
 

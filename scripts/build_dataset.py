@@ -13,11 +13,11 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {
-    "monolingual": ROOT / "data/prompts_monolingual.yaml",
-    "crosslingual_basic": ROOT / "data/prompts_crosslingual_basic.yaml",
-    "multi_turn": ROOT / "data/prompts_multi_turn.yaml",
-    "crosslingual_advanced": ROOT / "data/prompts_crosslingual_advanced.yaml",
-    "rag_context": ROOT / "data/prompts_rag_context.yaml",
+    "monolingual": ROOT / "data/monolingual.yaml",
+    "crosslingual_basic": ROOT / "data/crosslingual_basic.yaml",
+    "multi_turn": ROOT / "data/multi_turn.yaml",
+    "crosslingual_advanced": ROOT / "data/crosslingual_advanced.yaml",
+    "rag_context": ROOT / "data/rag_context.yaml",
 }
 EXPECTED_CATEGORY_COUNTS = {
     "monolingual": 60,
