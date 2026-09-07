@@ -1,10 +1,10 @@
-- id: cd_030
+- id: cd_bas_001
   category: crosslingual_basic
   persona: usuari_final
   workflow: ai_misconception_explanation
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Mucha gente cree que una respuesta de IA siempre es objetiva y neutral porque
     se basa en datos, pero puede reproducir sesgos si no se revisa con criterio humano."
 
@@ -23,13 +23,14 @@
 
 
     Explica un malentès comú sobre el tema descrit i corregeix-lo amb un exemple concret.'
-- id: cd_031
+
+- id: cd_bas_002
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Tenemos una factura pendiente y necesitamos una respuesta urgente porque
     el presupuesto cerrado vence mañana."
 
@@ -49,13 +50,14 @@
 
     Redacta una resposta professional al client. Ha de reconèixer la pressió, proposar una data de resposta
     i evitar copiar expressions del text original.'
-- id: cd_032
+
+- id: cd_bas_003
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El ascensor de la biblioteca no estará disponible mañana por la tarde. El
     personal trasladará los libros reservados a la planta baja y organizará acceso asistido cuando se
     solicite."
@@ -75,13 +77,14 @@
 
 
     Prepara l''avís.'
-- id: cd_033
+
+- id: cd_bas_004
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The customer says a document upload stalls after the second attachment, the file format
     warning is unclear, and the processing queue has not moved since yesterday."
 
@@ -101,13 +104,14 @@
 
     Contesta com a equip de suport. Resumeix el problema, dona passos concrets i tanca amb una proposta
     de seguiment.'
-- id: cd_034
+
+- id: cd_bas_005
   category: crosslingual_basic
   persona: administracio
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El proveedor homologado confirma el plazo de entrega, pero falta el visto
     bueno de la mesa de contratación."
 
@@ -127,13 +131,14 @@
 
     Escriu una nota de contractació breu. Inclou criteri de selecció, termini, validació necessària i
     proper pas, sense copiar termes castellans.'
-- id: cd_035
+
+- id: cd_bas_006
   category: crosslingual_basic
   persona: usuari_final
   workflow: study_plan
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Empieza con un examen de prueba, identifica los temas más flojos, practica
     con tiempo limitado durante dos días y reserva la última tarde para el repaso final."
 
@@ -153,13 +158,14 @@
 
     Prepara un pla d''estudi d''una setmana a partir de la font. Ha de tenir fites diàries i un control
     de progrés.'
-- id: cd_036
+
+- id: cd_bas_007
   category: crosslingual_basic
   persona: pime
   workflow: project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El entregable principal está listo, pero hay un riesgo comercial por el retraso
     acumulado y conviene convocar una reunión de seguimiento."
 
@@ -179,13 +185,14 @@
 
     Escriu una actualització de projecte per a direcció. Converteix la font en estat, risc, decisió necessària
     i propera acció.'
-- id: cd_037
+
+- id: cd_bas_008
   category: crosslingual_basic
   persona: administracio
   workflow: citizen_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "We received your question about the community garden waiting list. Plot assignments
     will be reviewed next week, missing documents can be sent by email and applicants will receive an
     update."
@@ -206,13 +213,14 @@
 
     Redacta una resposta institucional a una consulta ciutadana. Inclou recepció de la consulta, actuació
     prevista, termini i informació de seguiment.'
-- id: cd_038
+
+- id: cd_bas_009
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El producto llegó defectuoso, el reemplazo prometido no se ha enviado, adjunto
     fotografías y pido una solución dentro de la garantía."
 
@@ -232,13 +240,14 @@
 
     Escriu una reclamació clara a partir de la font. Inclou què ha passat, què es demana, documents adjunts
     i termini de resposta.'
-- id: cd_039
+
+- id: cd_bas_010
   category: crosslingual_basic
   persona: usuari_final
   workflow: privacy_guidance
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Before creating a child profile, review visibility settings, ad personalization, follower
     approvals and photo tagging permissions."
 
@@ -258,13 +267,14 @@
 
     Dona una guia pràctica de privacitat basada en la font. Organitza la resposta en passos breus i evita
     mantenir la terminologia de la font.'
-- id: cd_130
+
+- id: cd_bas_011
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "El cliente habla de un bloqueo de producción, exige una garantía extendida,
     menciona penalización automática y pide una respuesta vinculante antes del cierre."
 
@@ -285,13 +295,14 @@
     Redacta una resposta per a un client important. Ha de reconèixer la pressió, separar fets confirmats
     i punts pendents, proposar una mesura provisional i evitar compromisos legals o expressions del text
     original.'
-- id: cd_131
+
+- id: cd_bas_012
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Wildfire smoke may affect school pickup hours. Vulnerable residents should use an indoor
     shelter until the next air quality update."
 
@@ -311,13 +322,14 @@
 
     Escriu un avís públic amb títol, motiu, recomanacions per grups vulnerables, afectació a centres educatius,
     canals d''informació i propera actualització. No conservis expressions de la font.'
-- id: cd_132
+
+- id: cd_bas_013
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "Single sign-on works for the admin role, but invoice export fails for users with stale
     permissions and the audit log shows no error."
 
@@ -337,13 +349,14 @@
 
     Contesta com a suport tècnic. Resumeix el problema, demana dades de verificació, proposa comprovacions
     ordenades, indica quan cal derivar el cas i evita copiar la terminologia de la font.'
-- id: cd_133
+
+- id: cd_bas_014
   category: crosslingual_basic
   persona: administracio
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "Una oferta podría ser baja temeraria, falta acreditar solvencia técnica,
     se plantea subsanación documental y la mesa de contratación espera informe jurídico."
 
@@ -363,13 +376,14 @@
 
     Escriu una nota de contractació que expliqui la situació, identifiqui els riscos, proposi comprovacions
     i indiqui el proper tràmit. No copiïs termes castellans de la font.'
-- id: cd_134
+
+- id: cd_bas_015
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The passenger suffered denied boarding, missed a connecting flight, only received a
     meal voucher, requested a written explanation and wants to file a compensation claim."
 
@@ -389,13 +403,14 @@
 
     Escriu una reclamació formal a una companyia aèria. Inclou fets, impacte, documentació adjunta, petició
     concreta i termini de resposta, sense conservar les expressions de la font.'
-- id: cd_135
+
+- id: cd_bas_016
   category: crosslingual_basic
   persona: pime
   workflow: project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "La integración contable funciona en el entorno de pruebas, pero el proveedor
     externo detecta desviación de alcance y propone una reunión de desbloqueo."
 
@@ -415,13 +430,14 @@
 
     Escriu una actualització de projecte per a direcció amb resum, avenços, bloquejos, impacte en calendari,
     decisions necessàries i properes accions. Evita copiar expressions castellanes.'
-- id: cd_136
+
+- id: cd_bas_017
   category: crosslingual_basic
   persona: administracio
   workflow: complaint_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The resident reports a missed inspection, raises a safety concern, asks for complaint
     escalation, wants a response deadline and a case owner."
 
@@ -442,13 +458,14 @@
     Redacta una resposta institucional a una queixa ciutadana. Ha de reconèixer la recepció, explicar
     l''actuació prevista, aclarir terminis i indicar responsable de seguiment, sense mantenir expressions
     de la font.'
-- id: cd_137
+
+- id: cd_bas_018
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The client wants to publish a case study, use our logo in a press note, extend the trial
     period and skip the legal review this week."
 
@@ -469,13 +486,14 @@
     Respon a un client que pressiona per canviar condicions comercials. La resposta ha de ser breu però
     clara: límit del que es pot prometre, alternativa viable, dades pendents i següent punt de decisió.
     No copiïs el vocabulari de la font.'
-- id: cd_138
+
+- id: cd_bas_019
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font (castellà): "La pasarela peatonal se cerrará por un evento deportivo, habrá vallado provisional,
     itinerario alternativo señalizado y personal de apoyo."
 
@@ -495,13 +513,14 @@
 
     Escriu un avís públic clar i operatiu. Inclou títol, motiu, horari, col·lectius prioritaris, alternativa
     disponible i propera comunicació. No reprodueixis expressions castellanes.'
-- id: cd_139
+
+- id: cd_bas_020
   category: crosslingual_basic
   persona: pime
   workflow: procurement_note
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   prompt: 'Font: "The proposal compares uniform suppliers, size availability, fabric samples, return conditions,
     delivery batches and branding requirements."
 
@@ -521,7 +540,8 @@
 
     Redacta una nota interna per decidir entre proveïdors. Inclou criteris tècnics, econòmics, legals
     i operatius, riscos de dependència i recomanació condicionada. Evita conservar termes de la font.'
-- id: cd_140
+
+- id: cd_bas_021
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
@@ -547,7 +567,8 @@
 
     Contesta com a suport de comerç electrònic. Dona una resposta amb diagnosi, passos per evitar pèrdua
     de dades, informació que cal enviar, criteri de prioritat i tancament empàtic. No copiïs termes castellans.'
-- id: cd_141
+
+- id: cd_bas_022
   category: crosslingual_basic
   persona: administracio
   workflow: project_status
@@ -573,7 +594,8 @@
 
     Escriu un informe d''estat per a un projecte públic. Organitza''l en avenços, desviacions, riscos,
     impacte pressupostari i decisions del grup de seguiment. No mantinguis expressions de la font.'
-- id: cd_142
+
+- id: cd_bas_023
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -598,7 +620,8 @@
 
 
     Redacta la reclamació.'
-- id: cd_143
+
+- id: cd_bas_024
   category: crosslingual_basic
   persona: administracio
   workflow: procurement_note
@@ -624,7 +647,8 @@
 
     Redacta una nota de contractació d''urgència amb justificació, límits, comprovacions prèvies, evidències
     que cal conservar i control posterior. Evita el lèxic de la font.'
-- id: cd_144
+
+- id: cd_bas_025
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
@@ -650,7 +674,8 @@
 
     Redacta una resposta comercial que ordeni una situació confusa, confirmi què es pot fer, què requereix
     validació escrita i com es tancarà el pressupost. No traslladis expressions castellanes.'
-- id: cd_145
+
+- id: cd_bas_026
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
@@ -676,7 +701,8 @@
 
     Escriu un avís de servei d''atenció ciutadana amb causa, afectació, mesures provisionals, priorització,
     canals alternatius i propera actualització. No copiïs expressions de la font.'
-- id: cd_146
+
+- id: cd_bas_027
   category: crosslingual_basic
   persona: pime
   workflow: project_status
@@ -701,7 +727,8 @@
 
 
     Fes l''actualització.'
-- id: cd_147
+
+- id: cd_bas_028
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
@@ -726,7 +753,8 @@
 
 
     Fes la resposta.'
-- id: cd_148
+
+- id: cd_bas_029
   category: crosslingual_basic
   persona: administracio
   workflow: complaint_response
@@ -752,7 +780,8 @@
 
     Redacta una resposta municipal a una queixa de neteja viària. Inclou disculpa institucional, verificació
     prevista, mesura temporal, seguiment i canal per aportar noves dades. No conservis expressions castellanes.'
-- id: cd_149
+
+- id: cd_bas_030
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -779,7 +808,8 @@
     Escriu una reclamació a un fabricant. Inclou cronologia, problema tècnic, documentació disponible,
     solució demanada, alternativa acceptable i termini de resposta. No mantinguis les expressions de la
     font.'
-- id: cd_230
+
+- id: cd_bas_031
   category: crosslingual_basic
   persona: usuari_final
   workflow: ai_misconception_explanation
@@ -805,7 +835,8 @@
 
 
     Fes l''explicació.'
-- id: cd_231
+
+- id: cd_bas_032
   category: crosslingual_basic
   persona: administracio
   workflow: citizen_response
@@ -831,7 +862,8 @@
 
     Redacta una resposta institucional a una consulta ciutadana. Inclou recepció, estat de revisió, documentació
     pendent, termini orientatiu i canal de seguiment.'
-- id: cd_232
+
+- id: cd_bas_033
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
@@ -857,7 +889,8 @@
 
     Escriu una resposta professional a un client. Ha de reconèixer el retard, separar dades pendents i
     compensació possible, proposar calendari i evitar copiar expressions del text original.'
-- id: cd_233
+
+- id: cd_bas_034
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
@@ -883,7 +916,8 @@
 
     Redacta un correu breu per a un client. Inclou situació, límit del que es pot confirmar, informació
     pendent, alternativa viable i proper pas.'
-- id: cd_234
+
+- id: cd_bas_035
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
@@ -909,7 +943,8 @@
 
     Escriu una resposta a un client que pressiona per llançar una acció comercial. Mantén un to col·laboratiu,
     indica què es pot avançar, què falta validar i quin calendari és prudent.'
-- id: cd_235
+
+- id: cd_bas_036
   category: crosslingual_basic
   persona: pime
   workflow: client_reply
@@ -935,7 +970,8 @@
 
     Escriu una resposta equilibrada a un client B2B. Inclou disculpa prudent, verificació, solució provisional,
     límits sobre compensacions i següent actualització.'
-- id: cd_236
+
+- id: cd_bas_037
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -961,7 +997,8 @@
 
     Escriu una reclamació formal. Inclou cronologia, impacte, documents adjunts, petició concreta i termini
     de resposta, sense conservar expressions de la font.'
-- id: cd_237
+
+- id: cd_bas_038
   category: crosslingual_basic
   persona: administracio
   workflow: complaint_response
@@ -987,7 +1024,8 @@
 
     Redacta una resposta municipal a una queixa tributària. Ha de reconèixer la recepció, explicar comprovacions,
     indicar documentació útil, termini i canal de seguiment.'
-- id: cd_238
+
+- id: cd_bas_039
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -1013,7 +1051,8 @@
 
     Escriu una reclamació a una companyia de transport. Inclou fets, conseqüències, proves disponibles,
     solució demanada i petició de confirmació.'
-- id: cd_239
+
+- id: cd_bas_040
   category: crosslingual_basic
   persona: administracio
   workflow: complaint_response
@@ -1039,7 +1078,8 @@
 
     Redacta una resposta institucional a una queixa veïnal. Inclou reconeixement, actuació immediata,
     verificació prevista, terminis i canal per aportar més informació.'
-- id: cd_240
+
+- id: cd_bas_041
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -1051,7 +1091,8 @@
 
 
     Redacta la reclamació.'
-- id: cd_241
+
+- id: cd_bas_042
   category: crosslingual_basic
   persona: usuari_final
   workflow: complaint_response
@@ -1063,7 +1104,8 @@
 
 
     Redacta la reclamació.'
-- id: cd_242
+
+- id: cd_bas_043
   category: crosslingual_basic
   persona: usuari_final
   workflow: privacy_guidance
@@ -1075,7 +1117,8 @@
 
 
     Dona''m els passos.'
-- id: cd_243
+
+- id: cd_bas_044
   category: crosslingual_basic
   persona: administracio
   workflow: procurement_note
@@ -1087,7 +1130,8 @@
 
 
     Redacta la nota.'
-- id: cd_244
+
+- id: cd_bas_045
   category: crosslingual_basic
   persona: administracio
   workflow: procurement_note
@@ -1099,7 +1143,8 @@
 
 
     Redacta la nota.'
-- id: cd_245
+
+- id: cd_bas_046
   category: crosslingual_basic
   persona: pime
   workflow: procurement_note
@@ -1111,7 +1156,8 @@
 
 
     Redacta la nota.'
-- id: cd_246
+
+- id: cd_bas_047
   category: crosslingual_basic
   persona: pime
   workflow: procurement_note
@@ -1123,7 +1169,8 @@
 
 
     Redacta la nota.'
-- id: cd_247
+
+- id: cd_bas_048
   category: crosslingual_basic
   persona: pime
   workflow: project_status
@@ -1135,7 +1182,8 @@
 
 
     Fes l''actualització.'
-- id: cd_248
+
+- id: cd_bas_049
   category: crosslingual_basic
   persona: administracio
   workflow: project_status
@@ -1147,7 +1195,8 @@
 
 
     Fes l''actualització.'
-- id: cd_249
+
+- id: cd_bas_050
   category: crosslingual_basic
   persona: administracio
   workflow: project_status
@@ -1159,7 +1208,8 @@
 
 
     Fes l''actualització.'
-- id: cd_250
+
+- id: cd_bas_051
   category: crosslingual_basic
   persona: pime
   workflow: project_status
@@ -1171,7 +1221,8 @@
 
 
     Fes l''actualització.'
-- id: cd_251
+
+- id: cd_bas_052
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
@@ -1183,7 +1234,8 @@
 
 
     Prepara l''avís.'
-- id: cd_252
+
+- id: cd_bas_053
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
@@ -1195,7 +1247,8 @@
 
 
     Prepara l''avís.'
-- id: cd_253
+
+- id: cd_bas_054
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
@@ -1207,7 +1260,8 @@
 
 
     Prepara l''avís.'
-- id: cd_254
+
+- id: cd_bas_055
   category: crosslingual_basic
   persona: administracio
   workflow: public_notice
@@ -1219,7 +1273,8 @@
 
 
     Prepara l''avís.'
-- id: cd_255
+
+- id: cd_bas_056
   category: crosslingual_basic
   persona: usuari_final
   workflow: study_plan
@@ -1231,7 +1286,8 @@
 
 
     Fes el pla.'
-- id: cd_256
+
+- id: cd_bas_057
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
@@ -1243,7 +1299,8 @@
 
 
     Fes la resposta.'
-- id: cd_257
+
+- id: cd_bas_058
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
@@ -1255,7 +1312,8 @@
 
 
     Fes la resposta.'
-- id: cd_258
+
+- id: cd_bas_059
   category: crosslingual_basic
   persona: pime
   workflow: support_reply
@@ -1267,7 +1325,8 @@
 
 
     Fes la resposta.'
-- id: cd_259
+
+- id: cd_bas_060
   category: crosslingual_basic
   persona: pime
   workflow: support_reply

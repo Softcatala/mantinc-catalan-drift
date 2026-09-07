@@ -1,5 +1,5 @@
 {
-  "catalan_token_ratio": 0.7763,
+  "catalan_token_ratio": 0.7714,
   "categories": {
     "crosslingual_advanced": {
       "pass": 38,
@@ -7,8 +7,8 @@
       "total": 60
     },
     "crosslingual_basic": {
-      "pass": 50,
-      "pass_rate": 0.8333,
+      "pass": 48,
+      "pass_rate": 0.8,
       "total": 60
     },
     "monolingual": {
@@ -17,8 +17,8 @@
       "total": 60
     },
     "multi_turn": {
-      "pass": 32,
-      "pass_rate": 0.5333,
+      "pass": 35,
+      "pass_rate": 0.5833,
       "total": 60
     },
     "rag_context": {
@@ -27,16 +27,16 @@
       "total": 60
     }
   },
-  "created_at": "2026-09-05T07:18:38+02:00",
-  "git_commit": "c6eac2b0d84d18df8430de544a62f22bddf55001",
-  "inference_seconds": 565.7463002459845,
+  "created_at": "2026-09-06T19:47:31+00:00",
+  "git_commit": "593269d964620a0bdd032514860b8c817a1cd347",
+  "inference_seconds": 708.3951700040052,
   "model": "gpt-5.6",
   "n": 300,
   "n_api_or_empty_failures": 0,
-  "n_catalan_tokens": 44663,
-  "n_detected_language_tokens": 57534,
-  "n_failures": 84,
-  "n_language_failures": 84,
-  "n_passes": 216,
-  "pass_rate": 0.72
+  "n_catalan_tokens": 44514,
+  "n_detected_language_tokens": 57706,
+  "n_failures": 83,
+  "n_language_failures": 83,
+  "n_passes": 217,
+  "pass_rate": 0.7233
 }

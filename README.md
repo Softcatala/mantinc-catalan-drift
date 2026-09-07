@@ -32,7 +32,7 @@ Design decisions, dataset taxonomy, and scorer calibration are documented in
 
 # Example of case
 
-Exemple de cas real (`cd_h20_177`):
+Exemple de cas real (`cd_adv_029`):
 
 **Usuari:** Hem d'ajudar un client que té problemes amb escàners de magatzem.
 
@@ -134,12 +134,12 @@ Results from the current 300-item evaluation run.
 
 | Model | Overall | Catalan token ratio |
 |---|---:|---:|
-| Ministral 3 8B | **82.3% ±4.3** | 72.0% |
-| ALIA 7B | 81.3% ±4.4 | 71.8% |
-| Gemma 4 26B A4B | 81.0% ±4.4 | 84.2% |
-| Gemma 3 12B | 75.0% ±4.9 | 79.0% |
-| Gemma 4 E4B | 73.3% ±5.0 | 82.0% |
-| GPT-5.6 | 72.0% ±5.1 | 77.6% |
+| ALIA 7B | **84.3% ±4.1** | 84.1% |
+| Gemma 4 26B A4B | 82.0% ±4.3 | 85.0% |
+| Gemma 3 12B | 75.7% ±4.8 | 78.7% |
+| GPT-5.6 | 72.3% ±5.0 | 77.1% |
+| Gemma 4 E4B | 72.3% ±5.0 | 82.2% |
+| Ministral 3 8B | 66.3% ±5.3 | 69.2% |
 
 `± N` is the Wilson 95% half-width at n=300. Rank differences smaller than
 the two rows' combined half-widths are inside the CIs and should not be read
@@ -186,12 +186,12 @@ signal to read.
 
 | Model | Monolingual | Cross basic | Multi-turn | Cross advanced | RAG context |
 |---|---:|---:|---:|---:|---:|
-| Ministral 3 8B | 95.0% ±6.0 | 76.7% ±10.5 | 73.3% ±10.9 | 73.3% ±10.9 | 93.3% ±6.7 |
-| ALIA 7B | 100.0% ±3.0 | 68.3% ±11.5 | 76.7% ±10.5 | 76.7% ±10.5 | 85.0% ±9.0 |
-| Gemma 4 26B A4B | 100.0% ±3.0 | 83.3% ±9.4 | 55.0% ±12.2 | 81.7% ±9.7 | 85.0% ±9.0 |
-| Gemma 3 12B | 98.3% ±4.3 | 76.7% ±10.5 | 61.7% ±11.9 | 70.0% ±11.3 | 68.3% ±11.5 |
-| Gemma 4 E4B | 98.3% ±4.3 | 55.0% ±12.2 | 66.7% ±11.6 | 76.7% ±10.5 | 70.0% ±11.3 |
-| GPT-5.6 | 100.0% ±3.0 | 83.3% ±9.4 | 53.3% ±12.2 | 63.3% ±11.8 | 60.0% ±12.0 |
+| Ministral 3 8B | 96.7% ±5.2 | 53.3% ±12.2 | 55.0% ±12.2 | 65.0% ±11.7 | 61.7% ±11.9 |
+| ALIA 7B | 98.3% ±4.3 | 75.0% ±10.7 | 76.7% ±10.5 | 83.3% ±9.4 | 88.3% ±8.2 |
+| Gemma 4 26B A4B | 100.0% ±3.0 | 83.3% ±9.4 | 58.3% ±12.1 | 80.0% ±10.0 | 88.3% ±8.2 |
+| Gemma 3 12B | 100.0% ±3.0 | 78.3% ±10.2 | 55.0% ±12.2 | 70.0% ±11.3 | 75.0% ±10.7 |
+| Gemma 4 E4B | 98.3% ±4.3 | 53.3% ±12.2 | 65.0% ±11.7 | 76.7% ±10.5 | 68.3% ±11.5 |
+| GPT-5.6 | 100.0% ±3.0 | 80.0% ±10.0 | 58.3% ±12.1 | 63.3% ±11.8 | 60.0% ±12.0 |
 
 For a finer diagnostic that cuts across categories, run
 `python3 scripts/pressure_pattern_report.py` — it slices the same 300 items

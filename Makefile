@@ -9,25 +9,18 @@ OUT_DIR ?= $(MODEL_OUT_DIR)/lm_eval
 EVAL_TIMELINE ?= outputs/eval_timeline.tsv
 PROMPTS ?= data/monolingual.yaml data/crosslingual_basic.yaml data/multi_turn.yaml data/crosslingual_advanced.yaml data/rag_context.yaml
 EXPORT ?= data/lm_eval/catalan_drift.jsonl
-EVAL_RUNS ?= gpt-5.6 Ministral-3-8B-Instruct-2512-Q4_K_M
-CLOUD_EVAL_TARGETS ?= eval-gpt56
-LOCAL_EVAL_TARGETS ?= eval-ministral3-8b
-AI_LOCAL_MODELS ?= \
-	Muse-Glimmer-30B-UD-Q4_K_XL \
-	google_gemma-4-26B-A4B-it-Q4_K_M \
-	google_gemma-3-27b-it-Q4_K_M \
-	google_gemma-3-12b-it-Q4_K_M \
-	mistralai_Mistral-Small-3.2-24B-Instruct-2506-Q4_K_M \
-	Meta-Llama-3.1-8B-Instruct-Q4_K_M \
-	google_gemma-4-E4B-it-Q4_K_M \
-	phi-4-Q4_K_M \
-	EuroLLM-9B-Instruct-Q4_K_M \
-	google_gemma-3-4b-it-Q4_K_M \
-	aya-expanse-8b-Q4_K_M \
+# Space-separated suite; models in OPENAI_MODELS use OpenAI, the rest use the local endpoint.
+EVAL_MODELS ?= \
+	gpt-5.6 \
 	Ministral-3-8B-Instruct-2512-Q4_K_M \
-	ALIA-7b-fc-2607-Q4_0
+	ALIA-7b-fc-2607-Q4_0 \
+	google_gemma-4-26B-A4B-it-Q4_K_M \
+	gemma-3-12b-it-Q4_K_M \
+	google_gemma-4-E4B-it-Q4_K_M
+OPENAI_MODELS ?= gpt-5.6
 LOCAL_OPENAI_BASE_URL ?= http://localhost:9090/v1/chat/completions
-LOCAL_NUM_CONCURRENT ?= 1
+LOCAL_NUM_CONCURRENT ?= 2
+OPENAI_NUM_CONCURRENT ?= 4
 GPT_GEN_KWARGS ?= {"temperature":0,"reasoning_effort":"none"}
 GEMMA_NO_THINKING_GEN_KWARGS ?= {"temperature":0,"reasoning_effort":"none","chat_template_kwargs":{"enable_thinking":false}}
 LOCAL_GEN_KWARGS ?= {"temperature":0,"reasoning_effort":"none","chat_template_kwargs":{"enable_thinking":false}}
@@ -61,8 +54,7 @@ $(error VERSION must match vX.Y.Z format (e.g. v1.1.0); got: $(VERSION))
 endif
 endif
 
-.PHONY: build test clean-outputs language-id-model flores-corpus export-lm-eval eval eval-one eval-local-openai eval-summary all_ai_local_models publish-dataset
-.PHONY: $(CLOUD_EVAL_TARGETS) $(LOCAL_EVAL_TARGETS)
+.PHONY: build test clean-outputs language-id-model flores-corpus export-lm-eval eval eval-one eval-summary publish-dataset
 
 build:
 	$(PYTHON) scripts/build_dataset.py
@@ -100,13 +92,19 @@ export-lm-eval: build
 	$(PYTHON) scripts/catalan_drift_eval.py export-lm-eval --prompts $(PROMPTS) --output "$(EXPORT)"
 
 eval: clean-outputs language-id-model export-lm-eval
-	$(MAKE) -j2 SKIP_EXPORT=1 $(CLOUD_EVAL_TARGETS) & \
-	$(MAKE) SKIP_EXPORT=1 $(LOCAL_EVAL_TARGETS) & \
-	wait
+	@set -e; \
+	for model in $(EVAL_MODELS); do \
+		case " $(OPENAI_MODELS) " in \
+			*" $$model "*) \
+				$(MAKE) SKIP_EXPORT=1 eval-one LM_EVAL_MODEL=openai-chat-completions MODEL_ARGS="model=$$model,num_concurrent=$(OPENAI_NUM_CONCURRENT)" DISPLAY_MODEL="$$model" RUN_NAME="$$model" GEN_KWARGS='$(GPT_GEN_KWARGS)' ;; \
+			*) \
+				OPENAI_API_KEY=local $(MAKE) SKIP_EXPORT=1 eval-one LM_EVAL_MODEL=local-chat-completions MODEL_ARGS="model=$$model,base_url=$(LOCAL_OPENAI_BASE_URL),tokenized_requests=False,num_concurrent=$(LOCAL_NUM_CONCURRENT)" DISPLAY_MODEL="$$model" RUN_NAME="$$model" GEN_KWARGS='$(LOCAL_GEN_KWARGS)' ;; \
+		esac; \
+	done
 	$(MAKE) eval-summary
 
 eval-summary:
-	$(PYTHON) scripts/catalan_drift_eval.py summary-lm-eval --task "$(TASK)" --timeline "$(EVAL_TIMELINE)" --runs $(EVAL_RUNS)
+	$(PYTHON) scripts/catalan_drift_eval.py summary-lm-eval --task "$(TASK)" --timeline "$(EVAL_TIMELINE)" --runs $(EVAL_MODELS)
 
 eval-one:
 	@test -n "$(MODEL_ARGS)" || (echo "Set MODEL_ARGS" && exit 2)
@@ -122,24 +120,6 @@ eval-one:
 	printf '[%s] eval %s: %s (duration %ss)\n' "$(DISPLAY_MODEL)" "$$event" "$$end_iso" "$$elapsed"; \
 	printf '%s\t%s\t%s\t%s\t%s\n' "$(RUN_NAME)" "$(DISPLAY_MODEL)" "$$event" "$$end_iso" "$$elapsed" >> "$(EVAL_TIMELINE)"; \
 	exit $$status
-
-eval-local-openai: $(EVAL_EXPORT_PREREQ)
-	@test -n "$(DISPLAY_MODEL)" || (echo "Set DISPLAY_MODEL, for example: make eval-local-openai DISPLAY_MODEL=gemma-4-12b-it-Q4_K_M" && exit 2)
-	OPENAI_API_KEY=local $(MAKE) eval-one LM_EVAL_MODEL=local-chat-completions MODEL_ARGS="model=$(DISPLAY_MODEL),base_url=$(LOCAL_OPENAI_BASE_URL),tokenized_requests=False,num_concurrent=$(LOCAL_NUM_CONCURRENT)" DISPLAY_MODEL="$(DISPLAY_MODEL)" RUN_NAME="$(DISPLAY_MODEL)" GEN_KWARGS='$(GEN_KWARGS)'
-
-all_ai_local_models: $(EVAL_EXPORT_PREREQ)
-	@set -e; \
-	for model in $(AI_LOCAL_MODELS); do \
-		$(MAKE) SKIP_EXPORT=1 eval-local-openai DISPLAY_MODEL="$$model"; \
-	done
-
-eval-gpt56: $(EVAL_EXPORT_PREREQ)
-	$(MAKE) eval-one LM_EVAL_MODEL=openai-chat-completions MODEL_ARGS="model=gpt-5.6,num_concurrent=4" DISPLAY_MODEL=gpt-5.6 RUN_NAME=gpt-5.6 GEN_KWARGS='$(GPT_GEN_KWARGS)'
-
-eval-ministral3-8b:
-	$(MAKE) eval-local-openai DISPLAY_MODEL=Ministral-3-8B-Instruct-2512-Q4_K_M LOCAL_NUM_CONCURRENT=2 GEN_KWARGS='$(LOCAL_GEN_KWARGS)'
-eval-qwen3-14b:
-	$(MAKE) eval-local-openai DISPLAY_MODEL=Qwen_Qwen3-14B-Q4_K_M LOCAL_NUM_CONCURRENT=2
 
 publish-dataset:
 	@test -z "$$(git status --porcelain)" || { \

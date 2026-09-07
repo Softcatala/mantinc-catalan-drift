@@ -1,10 +1,10 @@
-- id: cd_060
+- id: cd_mul_001
   category: multi_turn
   persona: pime
   workflow: client_delay_update
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Som una PIME i hem d'explicar un retard en una entrega important.
@@ -31,14 +31,15 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes que soni urgent, però sense tocar el marge.
 
-    Escriu una resposta de l''assistent com un correu breu amb assumpte i cos.'
-- id: cd_061
+    Escriu un correu breu amb assumpte i cos.'
+
+- id: cd_mul_002
   category: multi_turn
   persona: administracio
   workflow: public_project_status
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Treballo en una administració local i hem d'actualitzar l'estat d'un
@@ -67,13 +68,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una actualització del projecte digital per a les parts interessades,
     amb el bloqueig principal, la persona responsable, el termini i la revisió prevista.
-- id: cd_062
+
+- id: cd_mul_003
   category: multi_turn
   persona: administracio
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem d'avisar el veïnat d'un tall d'aigua programat.
@@ -100,13 +102,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís veïnal sobre el tall d'aigua, amb la franja horària, la zona
     afectada i el canal de consulta.
-- id: cd_063
+
+- id: cd_mul_004
   category: multi_turn
   persona: pime
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Tenim un usuari que no aconsegueix acabar l'alta al servei.
@@ -131,14 +134,15 @@
       CIERRE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Enllesteix-ho ara.
-- id: cd_064
+  prompt: Redacta la resposta de suport.
+
+- id: cd_mul_005
   category: multi_turn
   persona: administracio
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem de preparar una nota interna sobre una licitació menor.
@@ -163,14 +167,15 @@
       RESPONSABLE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Deixa-la preparada.
-- id: cd_065
+  prompt: Redacta la nota de contractació.
+
+- id: cd_mul_006
   category: multi_turn
   persona: usuari_final
   workflow: study_plan
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Necessito organitzar-me per estudiar una prova de llengua.
@@ -180,8 +185,7 @@
     content: I already did a practice test and found weak areas, so I need a short
       study sprint with a review checklist.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formulario interno:
 
@@ -198,14 +202,15 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-me''l per a cinc dies i amb tasques concretes.
 
-    Respon com a assistent amb un pla d''estudi estructurat.'
-- id: cd_066
+    Organitza el pla d''estudi de manera estructurada.'
+
+- id: cd_mul_007
   category: multi_turn
   persona: usuari_final
   workflow: privacy_guidance
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Vull revisar la privacitat abans de vendre un televisor connectat.
@@ -215,8 +220,7 @@
     content: Include smart TV apps, microphone settings, viewing history and linked
       streaming accounts.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Esquema oficial:
 
@@ -232,13 +236,14 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Dona una guia breu amb passos ordenats i advertiments pràctics.
-- id: cd_067
+
+- id: cd_mul_008
   category: multi_turn
   persona: administracio
   workflow: complaint_response
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Treballo a l'ajuntament i hem de contestar una queixa del veïnat.
@@ -266,14 +271,15 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes-ho formal però proper, sense sonar defensiu.
 
-    Escriu la propera resposta de l''assistent.'
-- id: cd_068
+    Escriu la resposta a la queixa.'
+
+- id: cd_mul_009
   category: multi_turn
   persona: usuari_final
   workflow: tenant_request
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Vull escriure al propietari perquè hi ha una avaria al pis.
@@ -301,13 +307,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu un correu a la propietat sobre la gotera, la mesura provisional,
     la necessitat d'una visita tècnica i la disponibilitat per coordinar-la.
-- id: cd_069
+
+- id: cd_mul_010
   category: multi_turn
   persona: pime
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Som una empresa petita i hem de respondre una petició comercial complicada.
@@ -335,14 +342,15 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Redacta-ho amb fermesa i deixa oberta una alternativa.
 
-    Escriu la resposta de l''assistent com un correu breu.'
-- id: cd_160
+    Escriu un correu breu usant les instruccions anteriors.'
+
+- id: cd_mul_011
   category: multi_turn
   persona: pime
   workflow: client_reply
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Som una PIME i hem de respondre a un client gran per una incidència que
@@ -372,14 +380,15 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: 'Fes una resposta breu, ferma i amb una proposta de reunió avui mateix.
 
-    Escriu la propera resposta de l''assistent com un correu amb assumpte i cos.'
-- id: cd_161
+    Escriu un correu amb assumpte i cos.'
+
+- id: cd_mul_012
   category: multi_turn
   persona: administracio
   workflow: public_notice
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: L'ajuntament ha de publicar un avís sobre obres que afecten una avinguda
@@ -390,8 +399,7 @@
     content: Include rolling closure, school pickup window, mobility hub, emergency
       lane and live map, but don't make it sound too technical.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Estructura obligatoria:
 
@@ -408,13 +416,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís municipal sobre les obres, el tall progressiu, la recollida
     escolar i les alternatives de mobilitat.
-- id: cd_162
+
+- id: cd_mul_013
   category: multi_turn
   persona: pime
   workflow: support_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: 'Hem rebut un cas de suport delicat: un equip no pot exportar l''historial
@@ -425,8 +434,7 @@
     content: The ticket mentions board export, missing comments, archived cards, CSV
       limit and an incomplete activity log.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Ficha resumen:
 
@@ -443,13 +451,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre l'exportació del tauler, amb còpia
     segura, evidències necessàries i hora límit per derivar el cas.
-- id: cd_163
+
+- id: cd_mul_014
   category: multi_turn
   persona: administracio
   workflow: procurement_note
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem de justificar una contractació ràpida per reparar un equipament municipal
@@ -478,13 +487,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la justificació de contractació ràpida amb urgència sobrevinguda,
     límits de l'actuació, controls i traçabilitat de l'expedient.
-- id: cd_164
+
+- id: cd_mul_015
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Vull reclamar a l'organització d'un festival perquè l'accés va ser molt
@@ -495,8 +505,7 @@
     content: Their email mentions wristband pickup, entrance queue, access map, closed
       stage and crowd information point.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Plantilla estándar de respuesta:
 
@@ -511,17 +520,16 @@
       CIERRE:'
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: 'Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
+  prompt: Escriu-la amb to ferm, però deixa clar que encara prefereixo assistir si
     respecten condicions equivalents.
 
-    Escriu la propera resposta de l''assistent.'
-- id: cd_165
+- id: cd_mul_016
   category: multi_turn
   persona: pime
   workflow: project_status
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Necessito actualitzar direcció sobre la publicació d'un portal de formació
@@ -532,8 +540,7 @@
     content: Use content backlog, localization review, trainer sign-off, launch window
       and learner communications because the project team uses those labels.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formato estándar:
 
@@ -550,13 +557,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara l'actualització per a direcció sobre els continguts, la revisió
     lingüística, la validació docent i dues decisions pendents.
-- id: cd_166
+
+- id: cd_mul_017
   category: multi_turn
   persona: administracio
   workflow: complaint_response
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: L'oficina municipal ha de contestar una persona que no pot obtenir un
@@ -586,13 +594,14 @@
   prompt: 'Fes-ho proper, però sense prometre cap resultat abans de revisar l''expedient.
 
     Escriu la resposta municipal.'
-- id: cd_167
+
+- id: cd_mul_018
   category: multi_turn
   persona: pime
   workflow: client_reply
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Hem de respondre una proposta comercial que barreja una prova pilot amb
@@ -603,8 +612,7 @@
     content: The client keeps saying data migration, pilot workshop, sample users,
       acceptance window and delayed purchase order.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Estructura obligatoria:
 
@@ -621,13 +629,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu el correu al client sobre la migració pilot, la mostra d'usuaris,
     la validació necessària i l'ordre de compra tardana.
-- id: cd_168
+
+- id: cd_mul_019
   category: multi_turn
   persona: administracio
   workflow: public_notice
   source_lang: es-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Cal publicar un avís sobre una incidència temporal en la recollida de
@@ -656,13 +665,14 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre la recollida de residus, amb els fets confirmats, els
     punts provisionals i la revisió prevista del servei.
-- id: cd_169
+
+- id: cd_mul_020
   category: multi_turn
   persona: pime
   workflow: procurement_note
   source_lang: en-ca
   target_lang: ca
-  pressure_pattern: harder_template_es
+  pressure_pattern: template_es
   conversation:
   - role: user
     content: Estem triant un espai per a una jornada amb clients i necessito una nota
@@ -673,8 +683,7 @@
     content: The offer mentions venue capacity, catering options, deposit deadline,
       cancellation terms and accessibility constraints.
   - role: assistant
-    content: De acuerdo. Mantendré el propósito, la estructura solicitada y todos
-      los detalles relevantes.
+    content: Understood. I will preserve the purpose, requested structure, and all relevant details.
   - role: user
     content: 'Formato estándar:
 
@@ -691,7 +700,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de decisió sobre l'espai de la jornada, amb aforament, restauració,
     cancel·lació, accessibilitat i dues condicions recomanades.
-- id: cd_170
+
+- id: cd_mul_021
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -725,7 +735,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Prepara una resposta de suport sobre la comanda bloquejada, amb una acció
     reversible, registre de la incidència i contacte de guàrdia.
-- id: cd_171
+
+- id: cd_mul_022
   category: multi_turn
   persona: administracio
   workflow: project_status
@@ -742,7 +753,7 @@
     content: The project office wrote about grant milestone, procurement delay, public
       dashboard, risk register and escalation path.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -760,7 +771,8 @@
   prompt: 'Fes-ne una versió per a càrrecs electes, amb síntesi i decisions concretes.
 
     Escriu l''actualització d''estat.'
-- id: cd_172
+
+- id: cd_mul_023
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -794,7 +806,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la reclamació sobre la baixa del servei, els cobraments, el justificant
     adjunt, la devolució demanada i el termini de resposta.
-- id: cd_173
+
+- id: cd_mul_024
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -811,7 +824,7 @@
     content: The technical team uses framework supplier, disaster recovery, service
       credit, evidence pack and compliance checkpoint.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla estándar (headers ES/EN):
 
@@ -828,7 +841,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta la nota de renovació del servei, amb continuïtat, restauració, compensacions,
     evidències i control de compliment.
-- id: cd_174
+
+- id: cd_mul_025
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -862,7 +876,8 @@
   prompt: 'Redacta-ho amb dues opcions i una recomanació final.
 
     Escriu el correu de resposta.'
-- id: cd_175
+
+- id: cd_mul_026
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -878,7 +893,7 @@
     content: The operations note says appointment outage, walk-in desk, priority queue,
       confirmation email and service restoration.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Bilingual form (ES/EN headers):
 
@@ -895,7 +910,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Redacta l'avís sobre la incidència de cita prèvia, amb prioritat al taulell,
     confirmació de les cites i previsió de restauració del servei.
-- id: cd_176
+
+- id: cd_mul_027
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -930,7 +946,8 @@
   prompt: 'Dona''m una versió executiva amb tres riscos i una decisió recomanada.
 
     Escriu l''actualització d''estat.'
-- id: cd_177
+
+- id: cd_mul_028
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -948,7 +965,7 @@
     content: Their developer says webhook retry, payload mismatch, sandbox account,
       production token and rate limit.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -966,7 +983,8 @@
   prompt: Prepara una resposta de suport sobre la integració, demanant una mostra
     anonimitzada, diferenciant entorns, proposant contenció i indicant quan i a qui
     cal derivar el cas.
-- id: cd_178
+
+- id: cd_mul_029
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -982,7 +1000,7 @@
     content: The complaint mentions accessibility barrier, temporary ramp, contractor
       delay, site inspection and formal apology.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -999,7 +1017,8 @@
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Escriu la resposta municipal sobre la barrera d'accessibilitat, la rampa
     temporal, la inspecció, el contractista i el seguiment previst.
-- id: cd_179
+
+- id: cd_mul_030
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1034,7 +1053,8 @@
   prompt: 'Fes-la contundent i demana una solució abans de cinc dies hàbils.
 
     Escriu la reclamació.'
-- id: cd_260
+
+- id: cd_mul_031
   category: multi_turn
   persona: pime
   workflow: client_delay_update
@@ -1068,7 +1088,8 @@
   prompt: 'Fes-ho ferm, amb calendari i sense acceptar compensacions automàtiques.
 
     Escriu un correu breu amb assumpte, situació, nova previsió i proper pas.'
-- id: cd_261
+
+- id: cd_mul_032
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1085,7 +1106,7 @@
     content: Their team mentions pilot credits, dashboard access, invoice split, finance
       approval and a customer workshop next week.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1103,7 +1124,8 @@
   prompt: 'Dona''m una resposta breu que no bloquegi la negociació.
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
-- id: cd_262
+
+- id: cd_mul_033
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1138,7 +1160,8 @@
   prompt: 'Respon amb una alternativa segura per avui.
 
     Escriu un correu breu amb situació, condicions, alternativa i decisió pendent.'
-- id: cd_263
+
+- id: cd_mul_034
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1155,7 +1178,7 @@
     content: The client mentions customer testimonial, media quote, contract clause,
       billing review and approval from their communications team.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Structured template ES/EN:
 
@@ -1174,7 +1197,8 @@
     revisar-ho.
 
     Escriu la resposta com un correu amb límits, alternativa i proper pas.'
-- id: cd_264
+
+- id: cd_mul_035
   category: multi_turn
   persona: pime
   workflow: client_reply
@@ -1208,7 +1232,8 @@
   prompt: 'Deixa oberta una sortida pactada.
 
     Escriu un correu breu amb estat, opcions, condicions i proper pas.'
-- id: cd_265
+
+- id: cd_mul_036
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1224,7 +1249,7 @@
     content: The complaint mentions court lighting failure, cancelled booking, refund
       request, an incident report and no update from staff.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Formulario bilingüe (ES/EN):
 
@@ -1242,7 +1267,8 @@
   prompt: 'Fes-ho proper, però sense prometre una reparació abans de verificar-ho.
 
     Escriu la resposta municipal amb recepció, actuacions, terminis i canal de seguiment.'
-- id: cd_266
+
+- id: cd_mul_037
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1277,7 +1303,8 @@
   prompt: 'Demana una resposta escrita i conserva un to ferm.
 
     Escriu la reclamació amb fets, impacte, documents, petició i termini.'
-- id: cd_267
+
+- id: cd_mul_038
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1293,7 +1320,7 @@
     content: The resident mentions a tax receipt, missing discount, payment deadline
       and possible appeal if there is no correction.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Reusable form (bilingual headers):
 
@@ -1311,7 +1338,8 @@
   prompt: 'No prometis el resultat abans de revisar l''expedient.
 
     Escriu la resposta municipal amb reconeixement, comprovacions, terminis i seguiment.'
-- id: cd_268
+
+- id: cd_mul_039
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1345,7 +1373,8 @@
   prompt: 'Demana que no em cobrin una segona diagnosi.
 
     Escriu la reclamació amb cronologia, discrepància, proves, petició i termini.'
-- id: cd_269
+
+- id: cd_mul_040
   category: multi_turn
   persona: administracio
   workflow: complaint_response
@@ -1361,7 +1390,7 @@
     content: The complaint cites late noise, venue permit doubts, patrol request and
       a written response deadline.
   - role: assistant
-    content: Entendido. Mantendré la estructura solicitada y todos los detalles relevantes.
+    content: Understood. I will preserve the requested structure and all relevant details.
   - role: user
     content: 'Plantilla reusable (mixed headers):
 
@@ -1379,7 +1408,8 @@
   prompt: 'Inclou un canal per aportar més informació.
 
     Escriu la resposta municipal amb recepció, actuacions, límits i seguiment.'
-- id: cd_270
+
+- id: cd_mul_041
   category: multi_turn
   persona: usuari_final
   workflow: complaint_response
@@ -1392,8 +1422,9 @@
       tutor sin validar, expediente incompleto y convalidación bloqueada.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Presenta'n la versió final.
-- id: cd_271
+  prompt: Redacta la versió final de la reclamació.
+
+- id: cd_mul_042
   category: multi_turn
   persona: usuari_final
   workflow: privacy_guidance
@@ -1405,9 +1436,10 @@
     content: Include wearable health history, emergency contacts, bluetooth pairing,
       payment shortcuts and profile settings.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Ordena la neteja del dispositiu wearable.
-- id: cd_272
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta una guia per netejar les dades del dispositiu wearable.
+
+- id: cd_mul_043
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1420,8 +1452,9 @@
       vulnerable, disponibilidad urgente y presupuesto limitado.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Completa l'encàrrec.
-- id: cd_273
+  prompt: Redacta la nota de contractació.
+
+- id: cd_mul_044
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1433,9 +1466,10 @@
     content: The service request mentions temporary signage, floor maps, accessible
       entrances, printing proofs and an opening deadline.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Tanca aquesta tasca.
-- id: cd_274
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta la nota de contractació.
+
+- id: cd_mul_045
   category: multi_turn
   persona: administracio
   workflow: procurement_note
@@ -1448,8 +1482,9 @@
       plazo de instalación y presupuesto disponible.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Deixa el text llest.
-- id: cd_275
+  prompt: Redacta la nota de contractació.
+
+- id: cd_mul_046
   category: multi_turn
   persona: pime
   workflow: procurement_note
@@ -1461,9 +1496,10 @@
     content: The offer includes headset replacement, extended warranty, noise reduction,
       extra units for agents and a paid trial period.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Prepara el resultat definitiu.
-- id: cd_276
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta la comparativa de compra.
+
+- id: cd_mul_047
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -1475,9 +1511,10 @@
     content: Use customer survey, onboarding blockers, activation rate, account playbook
       and success-team handoff because those are the team's labels.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Actualitza l'activació de clients.
-- id: cd_277
+
+- id: cd_mul_048
   category: multi_turn
   persona: pime
   workflow: project_status
@@ -1491,7 +1528,8 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza la conciliació de rebuts.
-- id: cd_278
+
+- id: cd_mul_049
   category: multi_turn
   persona: administracio
   workflow: project_status
@@ -1503,9 +1541,10 @@
     content: The project note says permit kiosk, document scanner, queue display,
       staff training and pilot counter are not fully aligned.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Actualitza el quiosc de permisos.
-- id: cd_279
+
+- id: cd_mul_050
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1519,7 +1558,8 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia el menú escolar alternatiu.
-- id: cd_280
+
+- id: cd_mul_051
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1531,9 +1571,10 @@
     content: The operations note says museum audio guides are unavailable, online
       tickets still work, one exhibition desk moves and staff will assist visitors.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Dona-hi forma final.
-- id: cd_281
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta l'avís sobre els serveis del museu.
+
+- id: cd_mul_052
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1547,7 +1588,8 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Anuncia les restriccions de bany.
-- id: cd_282
+
+- id: cd_mul_053
   category: multi_turn
   persona: administracio
   workflow: public_notice
@@ -1559,9 +1601,10 @@
     content: Include relocated bins, night collection, cleaning crews, revised schedule
       and a notice for affected streets.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Anuncia la recollida nocturna.
-- id: cd_283
+
+- id: cd_mul_054
   category: multi_turn
   persona: administracio
   workflow: public_project_status
@@ -1575,7 +1618,8 @@
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
   prompt: Actualitza el procés participatiu.
-- id: cd_284
+
+- id: cd_mul_055
   category: multi_turn
   persona: usuari_final
   workflow: study_plan
@@ -1587,9 +1631,10 @@
     content: I already reviewed lab safety, formulas, labelled diagrams, flashcards
       and timed practice questions.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Planifica el repàs de laboratori.
-- id: cd_285
+
+- id: cd_mul_056
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1601,9 +1646,10 @@
     content: Their developer mentions domain authentication, DKIM record, SPF alignment,
       bounce rate and a paused campaign.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol l'autenticació del domini.
-- id: cd_286
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta una resposta de suport sobre l'autenticació del domini.
+
+- id: cd_mul_057
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1616,8 +1662,9 @@
       actualizado y sesión que caduca.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol la signatura del PDF.
-- id: cd_287
+  prompt: Redacta una resposta de suport sobre la signatura del PDF.
+
+- id: cd_mul_058
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1629,9 +1676,10 @@
     content: The field note says tablet route list, missing signature, delayed sync,
       driver notes and one unsent form.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol la sincronització de la ruta.
-- id: cd_288
+    content: Understood. I will do the final review before closing.
+  prompt: Redacta una resposta de suport sobre la sincronització de la ruta.
+
+- id: cd_mul_059
   category: multi_turn
   persona: pime
   workflow: support_reply
@@ -1644,8 +1692,9 @@
       caducidad visible y app móvil desactualizada.
   - role: assistant
     content: De acuerdo. Haré la revisión final antes de cerrar.
-  prompt: Resol el saldo del bo.
-- id: cd_289
+  prompt: Redacta una resposta de suport sobre el saldo del bo.
+
+- id: cd_mul_060
   category: multi_turn
   persona: usuari_final
   workflow: tenant_request
@@ -1657,5 +1706,5 @@
     content: Their message says heating meter reading, roommate contribution, shared
       bill, agency approval and no monthly breakdown.
   - role: assistant
-    content: De acuerdo. Haré la revisión final antes de cerrar.
+    content: Understood. I will do the final review before closing.
   prompt: Respon sobre el rebut de calefacció.

@@ -1,4 +1,4 @@
-- id: cd_001
+- id: cd_mon_001
   category: monolingual
   persona: usuari_final
   workflow: ai_misconception_explanation
@@ -8,7 +8,8 @@
   prompt: 'Tema: ús de la intel·ligència artificial per ampliar
     les capacitats humanes. Explica un malentès habitual sobre aquest tema i corregeix-lo
     amb un exemple concret.'
-- id: cd_002
+
+- id: cd_mon_002
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -18,7 +19,8 @@
   prompt: Escriu una resposta breu per a un client que reclama
     que una comanda ha arribat dos dies tard. Inclou disculpa, explicació, solució
     proposada i to professional.
-- id: cd_003
+
+- id: cd_mon_003
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -28,7 +30,8 @@
   prompt: Escriu un avís municipal sobre el tancament temporal
     d'un parc per tasques de manteniment. Ha de tenir títol, data, motiu, afectació
     i canal per fer arribar les consultes.
-- id: cd_004
+
+- id: cd_mon_004
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -38,7 +41,8 @@
   prompt: Redacta una nota interna per justificar la compra de material informàtic
     per a una oficina municipal, amb necessitat, criteris de selecció, calendari i
     risc si s'ajorna.
-- id: cd_005
+
+- id: cd_mon_005
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -47,7 +51,8 @@
   pressure_pattern: no_pressure
   prompt: Prepara una resposta de suport tècnic per a una persona que no pot accedir
     al seu compte. Dona tres passos de comprovació i una frase final de seguiment.
-- id: cd_006
+
+- id: cd_mon_006
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -57,7 +62,8 @@
   prompt: Escriu una reclamació educada a una companyia de serveis perquè una factura
     inclou un càrrec duplicat. Inclou dades que cal aportar, petició concreta i termini
     raonable de resposta.
-- id: cd_007
+
+- id: cd_mon_007
   category: monolingual
   persona: pime
   workflow: project_status
@@ -67,7 +73,8 @@
   prompt: Escriu una actualització setmanal d'un projecte de renovació del web d'una
     petita empresa. Organitza-la en estat, avenços, riscos, decisions pendents i properes
     accions.
-- id: cd_008
+
+- id: cd_mon_008
   category: monolingual
   persona: administracio
   workflow: community_health_bulletin
@@ -76,7 +83,8 @@
   pressure_pattern: no_pressure
   prompt: Redacta un butlletí breu de salut comunitària sobre prevenció de cops de
     calor per a gent gran, amb quatre recomanacions pràctiques i un recordatori final.
-- id: cd_009
+
+- id: cd_mon_009
   category: monolingual
   persona: usuari_final
   workflow: study_plan
@@ -85,7 +93,8 @@
   pressure_pattern: no_pressure
   prompt: Respon. Prepara un pla d'estudi de set dies per repassar una prova de matemàtiques,
     amb objectius diaris i criteris per saber si s'han assolit.
-- id: cd_010
+
+- id: cd_mon_010
   category: monolingual
   persona: usuari_final
   workflow: privacy_guidance
@@ -95,7 +104,8 @@
   prompt: Dona una guia pràctica per revisar la privacitat d'un telèfon abans de cedir-lo
     a una altra persona. Inclou còpia de seguretat, tancament de sessions, esborrat
     i comprovació final.
-- id: cd_100
+
+- id: cd_mon_011
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -107,7 +117,8 @@
     a direcció. Inclou assumpte, reconeixement dels fets, què encara s'està verificant,
     solució provisional, calendari de revisió i una frase que no admeti responsabilitats
     legals.
-- id: cd_101
+
+- id: cd_mon_012
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -118,7 +129,8 @@
     de sentit en dos carrers i una franja d'accés reservada per a persones amb mobilitat
     reduïda. Ha d'incloure títol, dates, afectació, excepcions, recomanacions de mobilitat
     i canal per comunicar incidències.
-- id: cd_102
+
+- id: cd_mon_013
   category: monolingual
   persona: pime
   workflow: project_status
@@ -129,7 +141,8 @@
     la botiga en línia a un sistema de gestió nou. Organitza-la en resum executiu,
     avenços verificats, dependències externes, riscos comercials, decisions necessàries
     aquesta setmana i criteris per autoritzar el llançament.
-- id: cd_103
+
+- id: cd_mon_014
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -140,7 +153,8 @@
     al núvol per a arxius municipals. Inclou necessitat pública, dades que cal protegir,
     criteris de solvència, criteris d'adjudicació, riscos si no es contracta, controls
     de seguretat i proper tràmit.
-- id: cd_104
+
+- id: cd_mon_015
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -152,7 +166,8 @@
     instruccions d'enviament. Dona una resposta amb diagnosi inicial, dades que cal
     demanar, passos immediats, derivació interna, termini de resposta i missatge final
     tranquil·litzador.
-- id: cd_105
+
+- id: cd_mon_016
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -163,7 +178,8 @@
     per humitats tot i tenir informes tècnics i fotografies. Inclou antecedents, discrepància
     amb la decisió, documentació adjunta, petició concreta, termini de resposta i
     reserva d'accions futures.
-- id: cd_106
+
+- id: cd_mon_017
   category: monolingual
   persona: administracio
   workflow: complaint_response
@@ -174,7 +190,8 @@
     i dubtes sobre l'accessibilitat durant unes obres. La resposta ha de reconèixer
     les molèsties, explicar límits competencials, concretar actuacions, indicar terminis
     i oferir un canal de seguiment sense sonar defensiva.
-- id: cd_107
+
+- id: cd_mon_018
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -185,7 +202,8 @@
     sense canviar pressupost ni calendari. Mantén un to ferm i col·laboratiu, separa
     què es pot assumir ara, què requereix pressupost addicional, quins riscos hi ha
     i quina alternativa mínima es pot validar en la reunió vinent.
-- id: cd_108
+
+- id: cd_mon_019
   category: monolingual
   persona: administracio
   workflow: project_status
@@ -196,7 +214,8 @@
     expedients històrics. Inclou percentatge del progrés, incidències de qualitat, dependència
     amb l'arxiu extern, risc de justificació econòmica, mesures correctores i decisions
     que ha de prendre la comissió de seguiment.
-- id: cd_109
+
+- id: cd_mon_020
   category: monolingual
   persona: pime
   workflow: procurement_note
@@ -207,7 +226,8 @@
     informàtic. Inclou criteris de preu, temps de resposta, cobertura fora d'horari,
     protecció de dades, risc de dependència i recomanació raonada amb condicions de
     revisió.
-- id: cd_110
+
+- id: cd_mon_021
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -216,7 +236,8 @@
   pressure_pattern: no_pressure
   prompt: Escriu un avís municipal per vent fort. Inclou recomanacions per a vianants,
     activitats esportives, terrasses, elements de façana i desplaçaments no essencials.
-- id: cd_111
+
+- id: cd_mon_022
   category: monolingual
   persona: pime
   workflow: project_status
@@ -227,7 +248,8 @@
     després d''una incidència de seguretat: serveis restablerts, dades encara en revisió,
     mesures provisionals, impacte en clients, risc reputacional, dependències tècniques
     i pròximes fites abans de tancar l''incident.'
-- id: cd_112
+
+- id: cd_mon_023
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -238,7 +260,8 @@
     per a serveis municipals. Inclou necessitat operativa, criteris ambientals, cost
     total previst, requisits de manteniment, riscos de disponibilitat, justificació
     de la durada i recomanació de contractació.
-- id: cd_113
+
+- id: cd_mon_024
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -249,7 +272,8 @@
     de clients i ara veu registres duplicats, camps desplaçats i errors de validació.
     La resposta ha d'evitar culpabilitzar l'usuari i incloure comprovacions, còpia
     de seguretat, proposta de neteja, dades que cal enviar i termini estimat.
-- id: cd_114
+
+- id: cd_mon_025
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -260,7 +284,8 @@
     fora de termini, el rebut mostra un recàrrec i el portal d'atenció no conserva
     les consultes anteriors. Inclou exposició dels fets, impacte, documents adjunts,
     sol·licitud de rectificació i petició de confirmació escrita.
-- id: cd_115
+
+- id: cd_mon_026
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -271,7 +296,8 @@
     que no implica tall del subministrament però exigeix precaucions per a usos sensibles.
     Inclou què se sap, què s'està analitzant, recomanacions, col·lectius especialment
     afectats, actualització prevista i canal oficial.
-- id: cd_116
+
+- id: cd_mon_027
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -282,7 +308,8 @@
     de dades personals i mantenir accés temporal a l'historial de comandes. Dona una
     resposta equilibrada amb passos separats per devolució, privacitat, accés temporal,
     terminis i persona de contacte.
-- id: cd_117
+
+- id: cd_mon_028
   category: monolingual
   persona: administracio
   workflow: project_status
@@ -293,7 +320,8 @@
     pagaments i notificacions. Inclou resum, fites completades, proves pendents, riscos
     d'accessibilitat, coordinació amb proveïdors, comunicació a la ciutadania i decisió
     requerida.
-- id: cd_118
+
+- id: cd_mon_029
   category: monolingual
   persona: pime
   workflow: procurement_note
@@ -303,7 +331,8 @@
   prompt: Redacta una nota interna per seleccionar un proveïdor d'auditoria d'accessibilitat
     per al web corporatiu. Inclou objectiu, abast, criteris tècnics, criteris econòmics,
     calendari, risc de no actuar, responsabilitats internes i proposta de decisió.
-- id: cd_119
+
+- id: cd_mon_030
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -314,7 +343,8 @@
     envia dades duplicades, bloqueja comandes grans i no mostra errors clars. Inclou
     reconeixement, hipòtesis inicials, proves demanades, solució temporal segura,
     criteri de derivació i actualització prevista.
-- id: cd_200
+
+- id: cd_mon_031
   category: monolingual
   persona: usuari_final
   workflow: ai_misconception_explanation
@@ -325,7 +355,8 @@
     Explica un malentès habitual sobre l'ús de sistemes
     automàtics per assignar cites mèdiques i corregeix-lo amb un exemple concret
     que mostri per què cal supervisió humana.
-- id: cd_201
+
+- id: cd_mon_032
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -336,7 +367,8 @@
     Escriu un correu a un client que ha rebut una sessió de formació amb menys
     places disponibles de les contractades. Inclou reconeixement de la incidència,
     explicació breu, proposta de recuperació, límit de responsabilitat i proper pas.
-- id: cd_202
+
+- id: cd_mon_033
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -347,7 +379,8 @@
     Redacta un avís municipal sobre canvis temporals en l'atenció de serveis
     socials per una reorganització d'agendes. Inclou títol, dates, persones
     afectades, alternativa de contacte, casos urgents i propera actualització.
-- id: cd_203
+
+- id: cd_mon_034
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -359,7 +392,8 @@
     nivells de soroll en equipaments municipals. Inclou necessitat, abast de les
     dades, criteris tècnics, garanties de privacitat, riscos de no actuar i tràmit
     següent.
-- id: cd_204
+
+- id: cd_mon_035
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -370,7 +404,8 @@
     Contesta com a suport tècnic a una empresa que veu imports incorrectes al portal
     de subscripcions després de canviar la regió fiscal. Inclou reconeixement,
     comprovacions, dades necessàries, mesura temporal i termini de seguiment.
-- id: cd_205
+
+- id: cd_mon_036
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -381,7 +416,8 @@
     Escriu una reclamació a un centre mèdic perquè una visita programada s'ha
     reassignat dues vegades sense confirmar la nova hora. Inclou cronologia,
     impacte, documentació disponible, petició concreta i termini raonable.
-- id: cd_206
+
+- id: cd_mon_037
   category: monolingual
   persona: pime
   workflow: project_status
@@ -392,7 +428,8 @@
     Escriu una actualització d'estat per a la direcció d'una PIME que està
     substituint el sistema de facturació recurrent. Organitza-la en resum, avenços,
     incidències de conciliació, riscos comercials, decisions pendents i properes fites.
-- id: cd_207
+
+- id: cd_mon_038
   category: monolingual
   persona: administracio
   workflow: community_health_bulletin
@@ -403,7 +440,8 @@
     Redacta un butlletí breu de salut comunitària sobre prevenció de caigudes a la
     llar per a persones grans. Inclou quatre recomanacions pràctiques, un consell
     per a familiars i un recordatori final de prudència.
-- id: cd_208
+
+- id: cd_mon_039
   category: monolingual
   persona: usuari_final
   workflow: study_plan
@@ -414,7 +452,8 @@
     Prepara un pla d'estudi de deu dies per revisar una prova d'accés amb lectura,
     expressió escrita i càlcul bàsic. Inclou objectius diaris, una revisió intermèdia
     i criteris per decidir què reforçar.
-- id: cd_209
+
+- id: cd_mon_040
   category: monolingual
   persona: usuari_final
   workflow: privacy_guidance
@@ -425,7 +464,8 @@
     Dona una guia pràctica per revisar la privacitat d'una tauleta familiar abans
     de prestar-la durant unes vacances. Inclou comptes, permisos, historial, còpies
     de seguretat i comprovació final.
-- id: cd_210
+
+- id: cd_mon_041
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -436,7 +476,8 @@
     Redacta una resposta per a un client que vol activar una promoció abans de tenir
     validats els preus i les condicions legals. Mantén un to col·laboratiu, separa
     què es pot avançar, què falta confirmar i quina alternativa segura es proposa.
-- id: cd_211
+
+- id: cd_mon_042
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -447,7 +488,8 @@
     Escriu un correu a un client que demana mantenir un servei antic mentre s'activa
     el nou contracte. Inclou estat, condicions transitòries, riscos operatius,
     termini de decisió i persona de contacte.
-- id: cd_212
+
+- id: cd_mon_043
   category: monolingual
   persona: pime
   workflow: client_reply
@@ -458,7 +500,8 @@
     Escriu una resposta a un client que reclama perquè una sessió demostrativa no
     incloïa totes les funcionalitats promeses. Inclou disculpa prudent, aclariment,
     proposta de nova sessió, límits i tancament professional.
-- id: cd_213
+
+- id: cd_mon_044
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -469,7 +512,8 @@
     Escriu un avís públic sobre el tancament parcial d'una piscina municipal per
     substituir rajoles malmeses. Inclou dates, espais afectats, alternatives per a
     cursets, criteris de prioritat i canal de consultes.
-- id: cd_214
+
+- id: cd_mon_045
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -480,7 +524,8 @@
     Redacta un avís municipal sobre una incidència al sistema de venda d'entrades
     d'un teatre públic. Inclou què passa, com es conservaran les reserves, alternativa
     temporal, terminis i propera comunicació.
-- id: cd_215
+
+- id: cd_mon_046
   category: monolingual
   persona: administracio
   workflow: public_notice
@@ -491,7 +536,8 @@
     Escriu un avís sobre canvis provisionals en una ruta de transport escolar per
     obres en un pont. Inclou parades afectades, horaris, punt alternatiu, recomanacions
     de seguretat i canal per comunicar incidències.
-- id: cd_216
+
+- id: cd_mon_047
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -502,7 +548,8 @@
     Prepara una nota interna per contractar la digitalització d'actes històriques
     d'un arxiu local. Inclou objectiu, criteris de qualitat, tractament de documents
     fràgils, calendari, riscos de conservació i validació necessària.
-- id: cd_217
+
+- id: cd_mon_048
   category: monolingual
   persona: administracio
   workflow: procurement_note
@@ -513,7 +560,8 @@
     Redacta una nota de valoració per contractar subtitulació i transcripció dels
     plens municipals. Inclou necessitat d'accessibilitat, abast, criteris de servei,
     protecció de dades, cost estimat i recomanació condicionada.
-- id: cd_218
+
+- id: cd_mon_049
   category: monolingual
   persona: pime
   workflow: procurement_note
@@ -524,7 +572,8 @@
     Redacta una nota interna per triar un proveïdor de formació per a l'equip
     comercial. Inclou objectius, criteris de contingut, disponibilitat, cost,
     indicadors d'impacte, riscos i recomanació.
-- id: cd_219
+
+- id: cd_mon_050
   category: monolingual
   persona: pime
   workflow: procurement_note
@@ -535,7 +584,8 @@
     Prepara una nota per decidir si es canvia el proveïdor d'embalatges després de
     diverses incidències de qualitat. Inclou criteris de comparació, impacte en
     clients, riscos logístics, condicions de transició i decisió recomanada.
-- id: cd_220
+
+- id: cd_mon_051
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -546,7 +596,8 @@
     Escriu una resposta de suport per a una empresa que ha importat contactes al
     CRM i detecta camps obligatoris buits, etiquetes duplicades i consentiments
     pendents. Inclou comprovacions, còpia de seguretat, dades a enviar i termini.
-- id: cd_221
+
+- id: cd_mon_052
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -557,7 +608,8 @@
     Respon com a suport tècnic a un equip de camp que no pot desar signatures quan
     treballa sense connexió. Dona passos de diagnosi, instruccions per no perdre
     dades, informació que cal recollir i criteri de derivació.
-- id: cd_222
+
+- id: cd_mon_053
   category: monolingual
   persona: pime
   workflow: support_reply
@@ -568,7 +620,8 @@
     Escriu una resposta de suport per a un client que veu reserves duplicades després
     de sincronitzar dos calendaris corporatius. Inclou reconeixement, comprovacions
     segures, solució temporal, dades necessàries i propera actualització.
-- id: cd_223
+
+- id: cd_mon_054
   category: monolingual
   persona: administracio
   workflow: complaint_response
@@ -579,7 +632,8 @@
     Redacta una resposta municipal a una queixa per cues llargues a l'oficina de
     tributs durant el període de pagament voluntari. Inclou reconeixement, mesures
     adoptades, alternatives, terminis i canal de seguiment.
-- id: cd_224
+
+- id: cd_mon_055
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -590,7 +644,8 @@
     Escriu una reclamació a una agència de viatges perquè ha canviat l'hotel reservat
     sense acceptació prèvia. Inclou fets, diferències de servei, documents adjunts,
     solució demanada i termini de resposta.
-- id: cd_225
+
+- id: cd_mon_056
   category: monolingual
   persona: usuari_final
   workflow: complaint_response
@@ -601,7 +656,8 @@
     Redacta una reclamació a un fabricant perquè una garantia no reconeix una avaria
     intermitent ja documentada pel servei tècnic. Inclou antecedents, proves, petició
     principal, alternativa acceptable i reserva d'accions.
-- id: cd_226
+
+- id: cd_mon_057
   category: monolingual
   persona: administracio
   workflow: project_status
@@ -612,7 +668,8 @@
     Prepara un informe d'estat sobre la publicació d'un portal municipal de dades
     obertes. Inclou fites completades, conjunts pendents, riscos de qualitat,
     validacions jurídiques, comunicació pública i decisió requerida.
-- id: cd_227
+
+- id: cd_mon_058
   category: monolingual
   persona: pime
   workflow: project_status
@@ -623,7 +680,8 @@
     Escriu una actualització per a direcció sobre el desplegament d'un servei de
     manteniment a domicili. Inclou estat operatiu, formació de tècnics, incidències
     de planificació, impacte en clients, riscos i properes accions.
-- id: cd_228
+
+- id: cd_mon_059
   category: monolingual
   persona: administracio
   workflow: project_status
@@ -634,7 +692,8 @@
     Redacta una actualització d'estat sobre la renovació del sistema de reserves
     d'equipaments esportius municipals. Inclou avenços, proves amb entitats, riscos
     d'accessibilitat, calendari, comunicació i decisió pendent.
-- id: cd_229
+
+- id: cd_mon_060
   category: monolingual
   persona: pime
   workflow: project_status
