@@ -1,14 +1,14 @@
 {
-  "catalan_token_ratio": 0.6868,
+  "catalan_token_ratio": 0.6918,
   "categories": {
     "crosslingual_advanced": {
-      "pass": 40,
-      "pass_rate": 0.6667,
+      "pass": 39,
+      "pass_rate": 0.65,
       "total": 60
     },
     "crosslingual_basic": {
-      "pass": 29,
-      "pass_rate": 0.4833,
+      "pass": 32,
+      "pass_rate": 0.5333,
       "total": 60
     },
     "monolingual": {
@@ -27,16 +27,16 @@
       "total": 60
     }
   },
-  "created_at": "2026-09-06T12:11:52+00:00",
-  "git_commit": "af4e90a4763ddd60d0790f6135d790960c1ddfc3",
-  "inference_seconds": 6244.469017404,
+  "created_at": "2026-09-06T21:36:02+00:00",
+  "git_commit": "593269d964620a0bdd032514860b8c817a1cd347",
+  "inference_seconds": 6249.890153410997,
   "model": "Ministral-3-8B-Instruct-2512-Q4_K_M",
   "n": 300,
   "n_api_or_empty_failures": 0,
-  "n_catalan_tokens": 113167,
-  "n_detected_language_tokens": 164781,
-  "n_failures": 103,
-  "n_language_failures": 103,
-  "n_passes": 197,
-  "pass_rate": 0.6567
+  "n_catalan_tokens": 115961,
+  "n_detected_language_tokens": 167626,
+  "n_failures": 101,
+  "n_language_failures": 101,
+  "n_passes": 199,
+  "pass_rate": 0.6633
 }

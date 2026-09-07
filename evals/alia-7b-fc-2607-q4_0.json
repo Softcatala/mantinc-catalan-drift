@@ -1,5 +1,5 @@
 {
-  "catalan_token_ratio": 0.875,
+  "catalan_token_ratio": 0.841,
   "categories": {
     "crosslingual_advanced": {
       "pass": 50,
@@ -7,36 +7,36 @@
       "total": 60
     },
     "crosslingual_basic": {
-      "pass": 44,
-      "pass_rate": 0.7333,
-      "total": 60
-    },
-    "monolingual": {
-      "pass": 60,
-      "pass_rate": 1.0,
-      "total": 60
-    },
-    "multi_turn": {
       "pass": 45,
       "pass_rate": 0.75,
       "total": 60
     },
+    "monolingual": {
+      "pass": 59,
+      "pass_rate": 0.9833,
+      "total": 60
+    },
+    "multi_turn": {
+      "pass": 46,
+      "pass_rate": 0.7667,
+      "total": 60
+    },
     "rag_context": {
-      "pass": 51,
-      "pass_rate": 0.85,
+      "pass": 53,
+      "pass_rate": 0.8833,
       "total": 60
     }
   },
-  "created_at": "2026-09-06T12:43:50+00:00",
-  "git_commit": "af4e90a4763ddd60d0790f6135d790960c1ddfc3",
-  "inference_seconds": 1824.0949997370008,
+  "created_at": "2026-09-06T21:57:59+00:00",
+  "git_commit": "593269d964620a0bdd032514860b8c817a1cd347",
+  "inference_seconds": 1242.0144669169968,
   "model": "ALIA-7b-fc-2607-Q4_0",
   "n": 300,
   "n_api_or_empty_failures": 0,
-  "n_catalan_tokens": 50805,
-  "n_detected_language_tokens": 58063,
-  "n_failures": 50,
-  "n_language_failures": 50,
-  "n_passes": 250,
-  "pass_rate": 0.8333
+  "n_catalan_tokens": 36279,
+  "n_detected_language_tokens": 43137,
+  "n_failures": 47,
+  "n_language_failures": 47,
+  "n_passes": 253,
+  "pass_rate": 0.8433
 }
