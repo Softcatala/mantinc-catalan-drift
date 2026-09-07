@@ -1,4 +1,4 @@
-version: "v1.0.1"
+version: "v1.0.2"
 file: "catalan_drift.jsonl"
-checksum_sha256: "5851b92666e93d0648d8d3ba241ec7ab0b2727b8515976a34a9d1467b3aba48f"
-created: "2026-09-06T09:27:15+02:00"
+checksum_sha256: "cf86332941303349dc14505b42b56937692a03b006f45e84fda9bb6a71a06208"
+created: "2026-09-07T18:14:15+02:00"
