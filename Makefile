@@ -122,9 +122,9 @@ eval-one:
 	exit $$status
 
 publish-dataset:
-	@test -z "$$(git status --porcelain)" || { \
-		echo "Working tree must be clean before preparing a release."; \
-		git status --short; \
+	@test -z "$$(git status --porcelain --untracked-files=no)" || { \
+		echo "Tracked files must be clean before preparing a release."; \
+		git status --short --untracked-files=no; \
 		exit 2; \
 	}
 	@git show-ref --verify --quiet "refs/tags/$(VERSION)" && { echo "Git tag already exists: $(VERSION)"; exit 2; } || status=$$?; \
@@ -143,7 +143,7 @@ publish-dataset:
 		case "$$answer" in y|Y) ;; *) echo "Release cancelled."; exit 2;; esac
 	git add -- $(HF_DATASET_FILES)
 	git commit -m "Release $(VERSION)"
-	@test -z "$$(git status --porcelain)" || { echo "Working tree is not clean after the release commit; stopping."; exit 2; }
+	@test -z "$$(git status --porcelain --untracked-files=no)" || { echo "Tracked files are not clean after the release commit; stopping."; exit 2; }
 	@for f in $(HF_DATASET_FILES); do \
 		echo "Uploading $$f to $(HF_DATASET_REPO)"; \
 		hf upload --repo-type dataset "$(HF_DATASET_REPO)" "$$f" "$$f" --commit-message "Release $(VERSION)" || exit $$?; \
