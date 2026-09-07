@@ -1,5 +1,5 @@
 {
-  "catalan_token_ratio": 0.8203,
+  "catalan_token_ratio": 0.8215,
   "categories": {
     "crosslingual_advanced": {
       "pass": 46,
@@ -27,14 +27,14 @@
       "total": 60
     }
   },
-  "created_at": "2026-09-06T18:14:54+00:00",
-  "git_commit": "af4e90a4763ddd60d0790f6135d790960c1ddfc3",
-  "inference_seconds": 2675.389174285003,
+  "created_at": "2026-09-07T10:06:17+00:00",
+  "git_commit": "593269d964620a0bdd032514860b8c817a1cd347",
+  "inference_seconds": 2776.815210900997,
   "model": "google_gemma-4-E4B-it-Q4_K_M",
   "n": 300,
   "n_api_or_empty_failures": 0,
-  "n_catalan_tokens": 83153,
-  "n_detected_language_tokens": 101368,
+  "n_catalan_tokens": 83230,
+  "n_detected_language_tokens": 101312,
   "n_failures": 83,
   "n_language_failures": 83,
   "n_passes": 217,
