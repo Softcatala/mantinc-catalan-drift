@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import sys
 import unittest
 from pathlib import Path
@@ -10,6 +11,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from lm_eval_tasks.catalan_drift.utils import (
+    _validate_language_id_model,
     catalan_token_ratio,
     lcb_line_language_result,
     process_results,
@@ -33,6 +35,18 @@ def one_bullet_false_positive(text: str) -> tuple[str, float]:
     if "cita confirmada" in text.casefold():
         return "es", 0.795
     return "ca", 0.99
+
+
+class LanguageIdModelValidationTest(unittest.TestCase):
+    def test_missing_model_fails_before_evaluation(self) -> None:
+        missing = "/tmp/mantinc-missing-lid.176.ftz"
+        with mock.patch.dict(os.environ, {"LANGUAGE_ID_MODEL": missing}):
+            with self.assertRaisesRegex(RuntimeError, "fastText language-ID model not found"):
+                _validate_language_id_model()
+
+    def test_environment_model_is_accepted(self) -> None:
+        with mock.patch.dict(os.environ, {"LANGUAGE_ID_MODEL": __file__}):
+            self.assertEqual(_validate_language_id_model(), Path(__file__))
 
 
 class CatalanDriftChecksTest(unittest.TestCase):

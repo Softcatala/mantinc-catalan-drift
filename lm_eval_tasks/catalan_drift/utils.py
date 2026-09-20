@@ -45,6 +45,7 @@ class CatalanDriftTask(ConfigurableTask):
     def __init__(self, config=None):
         if shutil.which(_fasttext_binary()) is None:
             raise RuntimeError("fastText executable not found; install fasttext before running evaluations")
+        _validate_language_id_model()
         if config:
             config = {key: value for key, value in config.items() if key != "class"}
             config["dataset_path"] = "json"
@@ -128,6 +129,16 @@ def _fasttext_binary() -> str:
     if Path(DEFAULT_FASTTEXT_BINARY).exists():
         return DEFAULT_FASTTEXT_BINARY
     return shutil.which("fasttext") or "fasttext"
+
+
+def _validate_language_id_model() -> Path:
+    model_path = Path(os.environ.get("LANGUAGE_ID_MODEL", DEFAULT_LANGUAGE_ID_MODEL))
+    if not model_path.is_file():
+        raise RuntimeError(
+            f"fastText language-ID model not found: {model_path}. "
+            "Set LANGUAGE_ID_MODEL to a valid lid.176.ftz file."
+        )
+    return model_path
 
 
 def _predict_fasttext(text: str) -> tuple[str, float]:
